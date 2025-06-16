@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ui.png">
+	<!-- Made using Maru Aseprite JSON to XML converter -->
+	<SubTexture name="00000" x="0" y="0" width="400" height="400"/>
+	<SubTexture name="00001" x="400" y="0" width="400" height="400"/>
+</TextureAtlas>

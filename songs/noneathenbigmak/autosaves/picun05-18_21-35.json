@@ -1,0 +1,177 @@
+{
+	"events": [
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 0
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 6000
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 6428.57142857143
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 6857.14285714286
+		}
+	],
+	"scrollSpeed": 2,
+	"strumLines": [
+		{
+			"notes": [],
+			"position": "dad",
+			"strumScale": 1,
+			"visible": false,
+			"type": 0,
+			"characters": [
+				"dad"
+			],
+			"strumPos": [
+				0,
+				50
+			],
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
+		},
+		{
+			"notes": [
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 6000,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 6107.14285714286,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 6214.28571428571,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 750,
+					"time": 6857.14285714286,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 107.142857142858,
+					"time": 7714.28571428571,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 107.142857142858,
+					"time": 8142.85714285714,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 8571.42857142857,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 8785.71428571429,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 8892.85714285714,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 9000,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 9214.28571428571,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 107.142857142859,
+					"time": 9428.57142857143,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 9428.57142857143,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 9857.14285714286,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 107.142857142857,
+					"time": 9857.14285714286,
+					"type": 0
+				}
+			],
+			"position": "boyfriend",
+			"strumScale": 0.7,
+			"visible": true,
+			"type": 1,
+			"characters": [
+				"bf"
+			],
+			"strumPos": [
+				0,
+				50
+			],
+			"strumLinePos": 0.5,
+			"vocalsSuffix": ""
+		},
+		{
+			"notes": [],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"visible": false,
+			"type": 2,
+			"characters": [
+				"gf"
+			],
+			"strumPos": [
+				0,
+				50
+			],
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
+		}
+	],
+	"codenameChart": true,
+	"stage": "stage",
+	"noteTypes": []
+}

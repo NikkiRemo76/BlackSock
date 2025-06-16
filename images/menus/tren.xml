@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tren.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="intro0000" x="11" y="11" width="737" height="415" frameX="-9" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0001" x="759" y="11" width="742" height="416" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0002" x="1512" y="11" width="742" height="416" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0003" x="2265" y="11" width="741" height="416" frameX="0" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0004" x="3017" y="11" width="764" height="416" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0005" x="11" y="438" width="764" height="416" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0006" x="786" y="438" width="739" height="415" frameX="0" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0007" x="1536" y="438" width="751" height="424" frameX="0" frameY="0" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0008" x="2298" y="438" width="751" height="424" frameX="0" frameY="0" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0009" x="3060" y="438" width="737" height="415" frameX="-15" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0010" x="11" y="873" width="737" height="415" frameX="-9" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0011" x="759" y="873" width="742" height="416" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0012" x="759" y="873" width="742" height="416" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0013" x="1512" y="873" width="741" height="416" frameX="0" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0014" x="2264" y="873" width="764" height="416" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0015" x="2264" y="873" width="764" height="416" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0016" x="3039" y="873" width="739" height="415" frameX="0" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0017" x="11" y="1300" width="751" height="424" frameX="0" frameY="0" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0018" x="11" y="1300" width="751" height="424" frameX="0" frameY="0" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0019" x="773" y="1300" width="768" height="415" frameX="0" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0020" x="1552" y="1300" width="753" height="415" frameX="-15" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0021" x="1552" y="1300" width="753" height="415" frameX="-15" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0022" x="2316" y="1300" width="744" height="415" frameX="-2" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="intro0023" x="3071" y="1300" width="739" height="416" frameX="-2" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0000" x="11" y="873" width="737" height="415" frameX="-9" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0001" x="11" y="1735" width="742" height="416" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0002" x="764" y="1735" width="742" height="416" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0003" x="1517" y="1735" width="741" height="416" frameX="0" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0004" x="11" y="438" width="764" height="416" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0005" x="3017" y="11" width="764" height="416" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0006" x="2269" y="1735" width="739" height="415" frameX="0" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0007" x="3019" y="1735" width="751" height="424" frameX="0" frameY="0" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0008" x="11" y="2170" width="751" height="424" frameX="0" frameY="0" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0009" x="11" y="11" width="737" height="415" frameX="-15" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0010" x="11" y="11" width="737" height="415" frameX="-9" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0011" x="11" y="11" width="737" height="415" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0012" x="11" y="11" width="737" height="415" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0013" x="11" y="11" width="737" height="415" frameX="0" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0014" x="11" y="11" width="737" height="415" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0015" x="11" y="11" width="737" height="415" frameX="-4" frameY="-8" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0016" x="11" y="11" width="737" height="415" frameX="0" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0017" x="11" y="11" width="737" height="415" frameX="0" frameY="0" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0018" x="11" y="11" width="737" height="415" frameX="0" frameY="0" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0019" x="11" y="11" width="737" height="415" frameX="0" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0020" x="11" y="11" width="737" height="415" frameX="-15" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0021" x="11" y="11" width="737" height="415" frameX="-15" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0022" x="11" y="11" width="737" height="415" frameX="-2" frameY="-9" frameWidth="768" frameHeight="424"/>
+	<SubTexture name="outro0023" x="11" y="11" width="737" height="415" frameX="-2" frameY="-8" frameWidth="768" frameHeight="424"/>
+</TextureAtlas>

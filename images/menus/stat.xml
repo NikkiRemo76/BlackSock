@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="stat.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="stutick0000" x="11" y="11" width="737" height="414" frameX="-9" frameY="-9" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0001" x="759" y="11" width="742" height="415" frameX="-4" frameY="-8" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0002" x="759" y="11" width="742" height="415" frameX="-4" frameY="-8" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0003" x="11" y="437" width="741" height="415" frameX="0" frameY="-8" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0004" x="763" y="437" width="764" height="415" frameX="-4" frameY="-8" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0005" x="763" y="437" width="764" height="415" frameX="-4" frameY="-8" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0006" x="11" y="863" width="739" height="414" frameX="0" frameY="-9" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0007" x="761" y="863" width="751" height="423" frameX="0" frameY="0" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0008" x="761" y="863" width="751" height="423" frameX="0" frameY="0" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0009" x="11" y="1297" width="768" height="414" frameX="0" frameY="-9" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0010" x="790" y="1297" width="753" height="414" frameX="-15" frameY="-9" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0011" x="790" y="1297" width="753" height="414" frameX="-15" frameY="-9" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0012" x="11" y="1722" width="744" height="414" frameX="-2" frameY="-9" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0013" x="766" y="1722" width="739" height="415" frameX="-2" frameY="-8" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0014" x="766" y="1722" width="739" height="415" frameX="-2" frameY="-8" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0015" x="11" y="2148" width="751" height="423" frameX="0" frameY="0" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0016" x="773" y="2148" width="754" height="423" frameX="-14" frameY="0" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0017" x="773" y="2148" width="754" height="423" frameX="-14" frameY="0" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0018" x="11" y="2582" width="739" height="414" frameX="0" frameY="-9" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0019" x="761" y="2582" width="751" height="423" frameX="0" frameY="0" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0020" x="761" y="2582" width="751" height="423" frameX="0" frameY="0" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0021" x="11" y="3016" width="752" height="414" frameX="0" frameY="-9" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0022" x="774" y="3016" width="737" height="414" frameX="-15" frameY="-9" frameWidth="768" frameHeight="423"/>
+	<SubTexture name="stutick0023" x="774" y="3016" width="737" height="414" frameX="-15" frameY="-9" frameWidth="768" frameHeight="423"/>
+</TextureAtlas>
