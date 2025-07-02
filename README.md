@@ -10,3 +10,4 @@
 ![Иван](бля/photo_2025-07-02_23-22-58.jpg)
 
 ![Боузер](бля/bowser-bowser-fart.gif)
+![аетос](бля/attachment.gif)
