@@ -50,7 +50,7 @@ function update(elapsed:Float) {
     //if (start){
     //    glitchA.am = CoolUtil.fpsLerp(glitchA.am, 1.5, 0.05);
     //}
-    GlitchShaderA.iTime = localTime;
+    glitchShaderA.iTime = localTime;
 	localTime += elapsed;
     glitchA.iTime = localTime;
     
