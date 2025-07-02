@@ -25,6 +25,24 @@
 		},
 		{
 			"params": [
+				false,
+				-1,
+				4,
+				"camGame"
+			],
+			"name": "Camera Flash",
+			"time": 6857.14285714286
+		},
+		{
+			"params": [
+				"part1",
+				""
+			],
+			"name": "HScript Call",
+			"time": 6857.14285714286
+		},
+		{
+			"params": [
 				0
 			],
 			"time": 10285.7142857143,
@@ -1636,7 +1654,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 53.5714285712747,
+					"sLen": 53.5714285712165,
 					"time": 136679.464285714,
 					"type": 0
 				},
@@ -4026,13 +4044,13 @@
 					"type": 0
 				}
 			],
-			"type": 2,
 			"characters": [
 				"gf"
 			],
-			"visible": false
+			"visible": false,
+			"type": 2
 		}
 	],
-	"stage": "stage",
+	"stage": "huila",
 	"noteTypes": []
 }

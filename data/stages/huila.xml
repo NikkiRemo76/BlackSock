@@ -1,0 +1,27 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.8" startCamPosX="0" startCamPosY="0" folder="stages/pidor/">
+    <sprite x="200" y="200" alpha="1" scale="3.0" type="loop" sprite="stat" name="stat" zoomfactor="0" scroll="0" antialiasing="false">
+        <!-- your sprites anims here (use the "Sprite Animation" Snippet) -->
+        <anim name="idle" anim="gli" loop="true"/>
+    </sprite>
+    <sprite x="0" y="0" alpha="1" scale="1" type="loop" sprite="runn" name="runn">
+        <!-- your sprites anims here (use the "Sprite Animation" Snippet) -->
+        <anim name="idle" anim="piz" loop="true"/>
+            
+    </sprite>
+    <sprite x="-150" y="-400" alpha="1" scale="1" sprite="flor" name="flor"/>
+    <sprite x="-1700" y="-100" alpha="1" scale="1" type="loop" sprite="slender" name="slender">
+        <!-- your sprites anims here (use the "Sprite Animation" Snippet) -->
+        <anim name="idle" anim="begun" loop="true"/>
+    </sprite>
+    <sprite x="-500" y="-1200" alpha="1" scale="1" type="loop" sprite="ded" name="ded">
+        <!-- your sprites anims here (use the "Sprite Animation" Snippet) -->
+        <anim name="idle" anim="idle" loop="true"/>
+            
+    </sprite>
+    <sprite x="0" y="0" alpha="1" scale="1" type="loop" sprite="babka" name="babka">
+        <!-- your sprites anims here (use the "Sprite Animation" Snippet) -->
+        <anim name="idle" anim="greny" loop="true"/>
+            
+    </sprite>
+</stage>

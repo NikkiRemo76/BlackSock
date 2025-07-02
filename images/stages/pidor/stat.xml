@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="stat.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gli0000" x="11" y="11" width="497" height="279"/>
+	<SubTexture name="gli0001" x="519" y="11" width="497" height="279"/>
+	<SubTexture name="gli0002" x="1027" y="11" width="497" height="279"/>
+	<SubTexture name="gli0003" x="1535" y="11" width="497" height="279"/>
+	<SubTexture name="gli0004" x="2043" y="11" width="497" height="279"/>
+	<SubTexture name="gli0005" x="2551" y="11" width="497" height="279"/>
+	<SubTexture name="gli0006" x="3059" y="11" width="497" height="279"/>
+	<SubTexture name="gli0007" x="3567" y="11" width="497" height="279"/>
+	<SubTexture name="gli0008" x="11" y="301" width="497" height="279"/>
+	<SubTexture name="gli0009" x="519" y="301" width="497" height="279"/>
+	<SubTexture name="gli0010" x="1027" y="301" width="497" height="279"/>
+	<SubTexture name="gli0011" x="1535" y="301" width="497" height="279"/>
+	<SubTexture name="gli0012" x="2043" y="301" width="497" height="279"/>
+	<SubTexture name="gli0013" x="2551" y="301" width="497" height="279"/>
+	<SubTexture name="gli0014" x="3059" y="301" width="497" height="279"/>
+	<SubTexture name="gli0015" x="3567" y="301" width="497" height="279"/>
+	<SubTexture name="gli0016" x="11" y="591" width="497" height="279"/>
+	<SubTexture name="gli0017" x="519" y="591" width="497" height="279"/>
+	<SubTexture name="gli0018" x="1027" y="591" width="497" height="279"/>
+	<SubTexture name="gli0019" x="1535" y="591" width="497" height="279"/>
+	<SubTexture name="gli0020" x="2043" y="591" width="497" height="279"/>
+	<SubTexture name="gli0021" x="2551" y="591" width="497" height="279"/>
+	<SubTexture name="gli0022" x="3059" y="591" width="497" height="279"/>
+	<SubTexture name="gli0023" x="3567" y="591" width="497" height="279"/>
+	<SubTexture name="gli0024" x="11" y="881" width="497" height="279"/>
+	<SubTexture name="gli0025" x="519" y="881" width="497" height="279"/>
+	<SubTexture name="gli0026" x="1027" y="881" width="497" height="279"/>
+	<SubTexture name="gli0027" x="1535" y="881" width="497" height="279"/>
+	<SubTexture name="gli0028" x="2043" y="881" width="497" height="279"/>
+	<SubTexture name="gli0029" x="2551" y="881" width="497" height="279"/>
+	<SubTexture name="gli0030" x="3059" y="881" width="497" height="279"/>
+	<SubTexture name="gli0031" x="3567" y="881" width="497" height="279"/>
+	<SubTexture name="gli0032" x="11" y="1171" width="497" height="279"/>
+	<SubTexture name="gli0033" x="519" y="1171" width="497" height="279"/>
+	<SubTexture name="gli0034" x="1027" y="1171" width="497" height="279"/>
+	<SubTexture name="gli0035" x="1535" y="1171" width="497" height="279"/>
+	<SubTexture name="gli0036" x="2043" y="1171" width="497" height="279"/>
+	<SubTexture name="gli0037" x="2551" y="1171" width="497" height="279"/>
+	<SubTexture name="gli0038" x="3059" y="1171" width="497" height="279"/>
+	<SubTexture name="gli0039" x="3567" y="1171" width="497" height="279"/>
+	<SubTexture name="gli0040" x="11" y="1461" width="497" height="279"/>
+	<SubTexture name="gli0041" x="519" y="1461" width="497" height="279"/>
+</TextureAtlas>

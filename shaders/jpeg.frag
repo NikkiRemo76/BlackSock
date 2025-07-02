@@ -3,93 +3,46 @@
 #pragma header
 
 #define iResolution vec3(openfl_TextureSize, 0.)
+uniform float iTime;
 #define iChannel0 bitmap
-#define round(a) floor(a+.5)
 #define texture flixel_texture2D
 
 // end of ShadertoyToFlixel header
 
-// Parameters to control compression quality and strength
-float uQuality = 0.75;   // Compression quality (higher is worse)
-float uStrength = 0.5;  // Compression strength (higher means more artifacts)
-
-// Helper functions for DCT and IDCT
-float dctCoefficient(int u, int v, float block[64]) {
-    float sum = 0.0;
-    for (int x = 0; x < 8; x++) {
-        for (int y = 0; y < 8; y++) {
-            float pixel = block[x * 8 + y];
-            sum += pixel * cos((2.0 * float(x) + 1.0) * float(u) * 3.14159 / 16.0) * cos((2.0 * float(y) + 1.0) * float(v) * 3.14159 / 16.0);
-        }
-    }
-    float Cu = u == 0 ? 0.7071 : 1.0;
-    float Cv = v == 0 ? 0.7071 : 1.0;
-    return 0.25 * Cu * Cv * sum;
+#define SS(a,b,c) smoothstep(a-b,a+b,c)
+#define gyr(p) dot(sin(p.xyz),cos(p.zxy))
+#define T iTime
+#define R iResolution
+float map(in vec3 p) {
+    return (1. + .2*sin(p.y*600.)) * 
+    gyr(( p*(10.) + .8*gyr(( p*8. )) )) *
+    (1.+sin(T+length(p.xy)*10.)) + 
+    .3 * sin(T*.15 + p.z * 5. + p.y) *
+    (2.+gyr(( p*(sin(T*.2+p.z*3.)*350.+250.) )));
 }
-
-float idctCoefficient(int x, int y, float block[64]) {
-    float sum = 0.0;
-    for (int u = 0; u < 8; u++) {
-        for (int v = 0; v < 8; v++) {
-            float coeff = block[u * 8 + v];
-            float Cu = u == 0 ? 0.7071 : 1.0;
-            float Cv = v == 0 ? 0.7071 : 1.0;
-            sum += Cu * Cv * coeff * cos((2.0 * float(x) + 1.0) * float(u) * 3.14159 / 16.0) * cos((2.0 * float(y) + 1.0) * float(v) * 3.14159 / 16.0);
-        }
-    }
-    return 0.25 * sum;
+vec3 norm(in vec3 p) {
+    float m = map(p);
+    vec2 d = vec2(.06+.06*sin(p.z),0.);
+    return map(p)-vec3(
+        map(p-d.xyy),map(p-d.yxy),map(p-d.yyx)
+    );
 }
-
-// Main shader function
-void mainImage(out vec4 fragColor, in vec2 fragCoord) {
-    // Convert to YCoCg color space
-    vec3 rgb = texture(iChannel0, fragCoord.xy / iResolution.xy).rgb;
-    float Y = 0.25 * rgb.r + 0.5 * rgb.g + 0.25 * rgb.b;
-    float Co = 0.5 * rgb.r - 0.5 * rgb.b;
-    float Cg = -0.25 * rgb.r + 0.5 * rgb.g - 0.25 * rgb.b;
-
-    // Block-based processing
-    vec2 blockCoord = floor(fragCoord.xy / 8.0) * 8.0;
-    float block[64];
-
-    // Load block
-    for (int i = 0; i < 8; i++) {
-        for (int j = 0; j < 8; j++) {
-            vec2 coord = blockCoord + vec2(float(i), float(j));
-            block[i * 8 + j] = texture(iChannel0, coord / iResolution.xy).r;
-        }
+void mainImage( out vec4 color, in vec2 coord ) {
+    vec2 uv = coord/R.xy;
+    vec2 uvc = (coord-R.xy/2.)/R.y;
+    float d = 0.;
+    float dd = 1.;
+    vec3 p = vec3(0.,0.,T/4.);
+    vec3 rd = normalize(vec3(uvc.xy,1.));
+    for (float i=0.;i<90. && dd>.001 && d < 2.;i++) {
+        d += dd;
+        p += rd*d;
+        dd = map(p)*.02;
     }
-
-    // Apply DCT and quantization
-    float dctBlock[64];
-    for (int u = 0; u < 8; u++) {
-        for (int v = 0; v < 8; v++) {
-            dctBlock[u * 8 + v] = dctCoefficient(u, v, block);
-            // Use uQuality to control the quantization level
-            dctBlock[u * 8 + v] = round(dctBlock[u * 8 + v] / uQuality) * uQuality;
-        }
-    }
-
-    // Apply IDCT
-    float reconstructedBlock[64];
-    for (int x = 0; x < 8; x++) {
-        for (int y = 0; y < 8; y++) {
-            reconstructedBlock[x * 8 + y] = idctCoefficient(x, y, dctBlock);
-        }
-    }
-
-    // Get the pixel value from the reconstructed block
-    vec2 localCoord = mod(fragCoord.xy, 8.0);
-    float reconstructedY = reconstructedBlock[int(localCoord.x) * 8 + int(localCoord.y)];
-
-    // Convert back to RGB
-    vec3 reconstructedRGB = vec3(reconstructedY + Co - Cg, reconstructedY + Cg, reconstructedY - Co - Cg);
-
-    // Apply uStrength to control the strength of the artifacts
-    reconstructedRGB = mix(rgb, reconstructedRGB, uStrength);
-
-    // Set the final pixel color
-    fragColor = vec4(reconstructedRGB, texture(iChannel0, fragCoord / iResolution.xy).a);
+    vec3 n = norm(p);
+    float bw = n.x+n.y;
+    bw *= SS(.9,.15,1./d);
+    color = vec4(vec3(bw), texture(iChannel0, coord / iResolution.xy).a);
 }
 
 void main() {

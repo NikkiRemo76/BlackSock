@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character camy="280" scale="1.7" camx="150" color="#A1A1A1">
+	<anim x="-81.7647058823529" name="idle" anim="idle" y="-117.647058823529"/>
+
+	<anim x="-11.7647058823529" name="singLEFT" anim="left" y="-94.1176470588235"/>
+
+	<anim x="-23.5294117647059" name="singDOWN" anim="down" y="-158.823529411765"/>
+
+	<anim x="-82.3529411764706" name="singUP" anim="up" y="-82.3529411764706"/>
+
+	<anim x="-64.7058823529412" name="singRIGHT" anim="right" y="-135.294117647059"/>
+</character>

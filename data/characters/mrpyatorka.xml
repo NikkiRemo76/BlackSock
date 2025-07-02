@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" icon="mrpyatorka" camx="230" y="10" camy="340" scale="1.6" color="#A1A1A1" isPlayer="true" flipX="true" sprite="mrpyatorka">
+	<anim loop="false" x="-84.37" fps="24" y="-216.87" anim="idle" name="idle"/>
+
+	<anim loop="false" x="-68.75" fps="24" y="-237.5" anim="down" name="singDOWN"/>
+
+	<anim loop="false" x="-68.75" fps="24" y="-137.5" anim="up" name="singUP"/>
+
+	<anim loop="false" x="-50" fps="24" y="-206.25" anim="right" name="singLEFT"/>
+
+	<anim loop="false" x="-56.25" fps="24" y="-200" anim="left" name="singRIGHT"/>
+</character>
