@@ -4,24 +4,24 @@
 			"params": [
 				1
 			],
-			"time": 0,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 0
 		},
 		{
 			"params": [
 				9999,
 				0.1
 			],
-			"time": 0,
-			"name": "Camera Modulo Change"
+			"name": "Camera Modulo Change",
+			"time": 0
 		},
 		{
 			"params": [
 				32,
 				1
 			],
-			"time": 6857.14285714286,
-			"name": "Camera Modulo Change"
+			"name": "Camera Modulo Change",
+			"time": 6857.14285714286
 		},
 		{
 			"params": [
@@ -30,129 +30,129 @@
 				4,
 				"camGame"
 			],
-			"name": "Camera Flash",
-			"time": 6857.14285714286
+			"time": 6857.14285714286,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
 				"part1",
 				""
 			],
-			"name": "HScript Call",
-			"time": 6857.14285714286
+			"time": 6857.14285714286,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 10285.7142857143,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 10285.7142857143
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 13714.2857142857,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 13714.2857142857
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 17142.8571428571,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 17142.8571428571
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 20571.4285714286,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 20571.4285714286
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 24000,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 24000
 		},
 		{
 			"params": [
 				4,
 				1
 			],
-			"time": 24000,
-			"name": "Camera Modulo Change"
+			"name": "Camera Modulo Change",
+			"time": 24000
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 30857.1428571429,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 30857.1428571429
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 44571.4285714286,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 44571.4285714286
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 51428.5714285715,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 51428.5714285715
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 58285.7142857143,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 58285.7142857143
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 61714.2857142858,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 61714.2857142858
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 66857.1428571429,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 66857.1428571429
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 73714.2857142858,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 73714.2857142858
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 80571.4285714286,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 80571.4285714286
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 87428.5714285714,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 87428.5714285714
 		},
 		{
 			"params": [
 				180
 			],
-			"time": 94285.7142857143,
-			"name": "BPM Change"
+			"name": "BPM Change",
+			"time": 94285.7142857143
 		},
 		{
 			"params": [
@@ -162,109 +162,106 @@
 				"elastic",
 				"InOut"
 			],
-			"time": 94285.7142857143,
-			"name": "Scroll Speed Change"
+			"name": "Scroll Speed Change",
+			"time": 94285.7142857143
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 95619.0476190476,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 95619.0476190476
 		},
 		{
 			"params": [
 				1,
 				1.5
 			],
-			"name": "Camera Modulo Change",
-			"time": 95619.0476190476
+			"time": 95619.0476190476,
+			"name": "Camera Modulo Change"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 100952.380952381,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 100952.380952381
 		},
 		{
 			"params": [
 				2
 			],
-			"name": "Camera Movement",
-			"time": 106285.714285714
+			"time": 106285.714285714,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 118285.714285714
+			"time": 118285.714285714,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 124952.380952381,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 124952.380952381
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 127619.047619047,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 127619.047619047
 		},
 		{
 			"params": [
 				999,
 				0.1
 			],
-			"name": "Camera Modulo Change",
-			"time": 129285.714285714
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 130285.714285714,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 134285.714285714,
-			"name": "Camera Movement"
+			"time": 129285.714285714,
+			"name": "Camera Modulo Change"
 		},
 		{
 			"params": [
 				0
 			],
 			"name": "Camera Movement",
-			"time": 136619.047619048
+			"time": 130285.714285714
 		},
 		{
 			"params": [
 				1
 			],
 			"name": "Camera Movement",
-			"time": 139452.380952381
+			"time": 134285.714285714
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 142285.714285714
+			"time": 136619.047619048,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 139452.380952381,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 142285.714285714,
+			"name": "Camera Movement"
 		}
 	],
 	"scrollSpeed": 2.5,
-	"codenameChart": true,
 	"strumLines": [
 		{
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 1,
@@ -1654,7 +1651,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 53.5714285712165,
+					"sLen": 53.5714285711874,
 					"time": 136679.464285714,
 					"type": 0
 				},
@@ -1791,21 +1788,21 @@
 					"type": 0
 				}
 			],
-			"characters": [
-				"dad"
-			],
-			"type": 0,
 			"visible": false,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "dad",
+			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"type": 0,
+			"characters": [
+				"ivan"
+			]
 		},
 		{
-			"strumScale": 0.9,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -3482,20 +3479,21 @@
 					"type": 0
 				}
 			],
-			"characters": [
-				"opkaStick"
-			],
-			"type": 1,
 			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "boyfriend",
+			"strumScale": 0.9,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.5
+			"strumLinePos": 0.5,
+			"type": 1,
+			"characters": [
+				"mrpyatorka"
+			]
 		},
 		{
-			"position": "girlfriend",
 			"notes": [
 				{
 					"id": 0,
@@ -4044,13 +4042,20 @@
 					"type": 0
 				}
 			],
-			"characters": [
-				"gf"
-			],
 			"visible": false,
-			"type": 2
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25,
+			"type": 2,
+			"characters": []
 		}
 	],
+	"codenameChart": true,
 	"stage": "huila",
 	"noteTypes": []
 }

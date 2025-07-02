@@ -75,8 +75,8 @@ function cutsene() {
     camCut.alpha = 1;
     video.bitmap.time = 0;
     ratioThing(1920, 1080, false);
-    video.play();
     video.resume();
+    video.play();
 }
 var camCut:FlxCamera = new FlxCamera();
 var gravity:Float = 600; // Сила гравитации
@@ -102,6 +102,8 @@ function create() {
     //video.screenCenter();
     video.scale.set(0.7, 0.7);
     add(video);
+    video.play();
+    video.pause();
     video.camera = camCut;
     camCut.alpha = 0;
 
