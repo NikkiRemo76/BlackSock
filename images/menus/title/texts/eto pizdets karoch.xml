@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="eto pizdets karoch.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="eto pizdets karoch0000" x="0" y="0" width="665" height="99"/>
+	<SubTexture name="eto pizdets karoch0001" x="0" y="0" width="665" height="99"/>
+	<SubTexture name="eto pizdets karoch0002" x="0" y="99" width="665" height="99"/>
+	<SubTexture name="eto pizdets karoch0003" x="0" y="99" width="665" height="99"/>
+	<SubTexture name="eto pizdets karoch0004" x="0" y="198" width="665" height="99"/>
+	<SubTexture name="eto pizdets karoch0005" x="0" y="198" width="665" height="99"/>
+	<SubTexture name="eto pizdets karoch0006" x="0" y="297" width="665" height="99"/>
+	<SubTexture name="eto pizdets karoch0007" x="0" y="297" width="665" height="99"/>
+	<SubTexture name="eto pizdets karoch0008" x="0" y="396" width="665" height="99"/>
+	<SubTexture name="eto pizdets karoch0009" x="0" y="396" width="665" height="99"/>
+</TextureAtlas>

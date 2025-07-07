@@ -19,7 +19,7 @@
         <anim name="idle" anim="idle" loop="true"/>
             
     </sprite>
-    <sprite x="0" y="0" alpha="1" scale="1" type="loop" sprite="babka" name="babka">
+    <sprite x="550" y="100" alpha="1" scale="1" type="loop" sprite="babka" name="babka">
         <!-- your sprites anims here (use the "Sprite Animation" Snippet) -->
         <anim name="idle" anim="greny" loop="true"/>
             

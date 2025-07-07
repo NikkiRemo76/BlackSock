@@ -65,6 +65,7 @@ function part2() {
 }
 function end() {
     FlxTween.tween(camCut, {alpha: 0}, 20);
+    FlxTween.tween(camHUD, {alpha: 1}, 20);
 }
 function cutsene() {
     FlxG.autoPause = false;
@@ -75,15 +76,29 @@ function cutsene() {
     camCut.alpha = 1;
     video.bitmap.time = 0;
     ratioThing(1920, 1080, false);
-    video.resume();
+    video.load(Assets.getPath(Paths.video('кастсцена')), [':no-audio']);
+    video.antialiasing = Options.antialiasing;
+    //video.screenCenter();
+    video.scale.set(0.7, 0.7);
+    add(video);
     video.play();
+    video.camera = camCut;
 }
 var camCut:FlxCamera = new FlxCamera();
 var gravity:Float = 600; // Сила гравитации
 var platforms:Array<FlxSprite> = [];
 function onSongStart() {
+    babka();
     camGame.visible = true;
     //camGame.addShader(aura);
+}
+var babkaScreamer:FlxSound;
+babkaScreamer = FlxG.sound.load(Paths.sound("scream"));
+function babkaScreamer() {
+    babkaScreamer.play();
+    trace('black');
+    babka.alpha = 1;
+    FlxTween.tween(babka, {alpha: 0}, 3);
 }
 
 function create() {
@@ -93,7 +108,13 @@ function create() {
     slender.visible = false;
     ded.visible = false;
     camGame.visible = false;
-    babka.visible = false;
+    babka.camera = camHUD;
+    babka.scale.set(3, 1.2);
+    babka.x -= 500;
+    babka.y -= 100;
+    babka.updateHitbox();
+    //babka.screenCenter();
+    babka.alpha = 0;
     FlxG.autoPause = true;
     FlxG.cameras.add(camCut, false);
     camCut.bgColor = new FlxColor(0x00000000);
@@ -103,7 +124,6 @@ function create() {
     video.scale.set(0.7, 0.7);
     add(video);
     video.play();
-    video.pause();
     video.camera = camCut;
     camCut.alpha = 0;
 

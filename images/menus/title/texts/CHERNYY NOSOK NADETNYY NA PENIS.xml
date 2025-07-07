@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CHERNYY NOSOK NADETNYY NA PENIS.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="CHERNYY NOSOK NADETNYY NA PENIS0000" x="0" y="0" width="1264" height="120"/>
+	<SubTexture name="CHERNYY NOSOK NADETNYY NA PENIS0001" x="0" y="0" width="1264" height="120"/>
+	<SubTexture name="CHERNYY NOSOK NADETNYY NA PENIS0002" x="0" y="120" width="1264" height="120"/>
+	<SubTexture name="CHERNYY NOSOK NADETNYY NA PENIS0003" x="0" y="120" width="1264" height="120"/>
+	<SubTexture name="CHERNYY NOSOK NADETNYY NA PENIS0004" x="0" y="240" width="1264" height="120"/>
+	<SubTexture name="CHERNYY NOSOK NADETNYY NA PENIS0005" x="0" y="240" width="1264" height="120"/>
+	<SubTexture name="CHERNYY NOSOK NADETNYY NA PENIS0006" x="0" y="360" width="1264" height="120"/>
+	<SubTexture name="CHERNYY NOSOK NADETNYY NA PENIS0007" x="0" y="360" width="1264" height="120"/>
+	<SubTexture name="CHERNYY NOSOK NADETNYY NA PENIS0008" x="0" y="480" width="1264" height="120"/>
+	<SubTexture name="CHERNYY NOSOK NADETNYY NA PENIS0009" x="0" y="480" width="1264" height="120"/>
+</TextureAtlas>

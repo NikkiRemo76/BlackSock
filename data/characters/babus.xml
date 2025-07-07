@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="450" sprite="babka" icon="sprite-icon" y="60" camx="90" camy="-80">
+	<anim x="-380" loop="true" anim="greny" y="-35" fps="24" name="idle"/>
+</character>

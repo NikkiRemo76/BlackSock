@@ -5,7 +5,7 @@ glitchShaderA = new CustomShader('GlitchShaderA');
 camGame.addShader(glitchA);
 camGame.addShader(redpal);
 camGame.addShader(glitchShaderA);
-//camHUD.addShader(redpal);
+//camHUD.addShader(glitchShaderA);
 glitchShaderA.glitchAmount = 0.0001;
 //jpeg.u_alpha = 0;
 //glitchA.dist = 5;
@@ -35,7 +35,7 @@ function stepHit() {
             FlxTween.tween(redpal, {bitch: 1}, 1);
             FlxTween.tween(redpal, {desaturationAmount: 1}, 1);
         case 2416:
-            FlxTween.tween(glitchShaderA, {glitchAmount: 100}, 5);
+            FlxTween.tween(glitchShaderA, {glitchAmount: 100}, 10);
         case 2640:
             FlxTween.tween(glitchShaderA, {glitchAmount: 0.0001}, 1);
         case 2592:
