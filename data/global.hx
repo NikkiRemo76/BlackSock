@@ -22,7 +22,7 @@ static var curOptionMenuSelected:Int = 0;
 static var optionsSelectedSomethin:Bool = false;
 
 static var redirectStates:Map<FlxState, String> = [
-    //BetaWarningState => "rom/TitleState",
+    BetaWarningState => "rom/warn",
     TitleState => "rom/TitleState",
     MainMenuState => "rom/TitleState",
     StoryMenuState => "rom/TitleState",

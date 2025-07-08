@@ -50,5 +50,5 @@ function update(elapsed:Float) {
 
 function destroy(){
 	FlxG.autoPause = true;
-    ratioThing(1280, 720, false);
+    ratioThing(1280, 720, true);
 }

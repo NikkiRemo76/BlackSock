@@ -4,6 +4,7 @@ import openfl.display.BlendMode;
 import flixel.math.FlxRandom;
 import flixel.addons.display.FlxBackdrop;
 import flixel.effects.particles.FlxEmitter.FlxTypedEmitter;
+import funkin.options.OptionsMenu;
 
 var camBG:FlxCamera = new FlxCamera();
 var camMenu:FlxCamera = new FlxCamera();
@@ -14,9 +15,7 @@ var random:FlxRandom = new FlxRandom();
 var curWacky:Array<String> = [];
 var transitioning:Bool = true;
 function create() {
-    FlxG.sound.music = null;
-    if (FlxG.sound.music == null)
-		FlxG.sound.playMusic(Paths.music('freakyMenu'), 0, true);
+    FlxG.sound.playMusic(Paths.music('freakyMenu'), 0, true);
 
 	if (FlxG.sound.music != null && FlxG.sound.music.volume == 0) {
 		FlxG.sound.music.fadeIn(5, 0, 0.7);
@@ -108,6 +107,9 @@ function create() {
 
     new FlxTimer().start(2, (_) -> 
     [FlxTween.tween(introText, {alpha:0}, 1.4, {ease: FlxEase.quintOut})
+        if(FlxG.save.data.songFinished100){
+            onSongFinished();
+        }
     transitioning = false
     FlxTween.tween(title, {alpha:1}, 1.4, {ease: FlxEase.quintOut})]);
 
@@ -171,9 +173,17 @@ function create() {
 var localTime:Float = 0;
 
 function postCreate() {
-    if(FlxG.save.data.songFinished100){
-        onSongFinished();
-    }
+    options = new FlxSprite(1200,640);
+	options.loadGraphic(Paths.image('menus/title/opti'));
+	
+    //options.screenCenter();
+    options.scale.set(0.2, 0.2);
+    options.updateHitbox();
+	//options.antialiasing = Options.antialiasing;
+	//options.scrollFactor.set(0.3, 0.3);
+	options.alpha = 1;
+    //play.shader = glitchA;
+    uiAssets.add(options);
 
     trace(FlxG.save.data.songFinished100);
 }
@@ -198,6 +208,15 @@ function update(elapsed:Float) {
 	}
     var pressedEnter:Bool = FlxG.keys.justPressed.ENTER;
 	var pressedSpace:Bool = FlxG.keys.justPressed.SPACE;
+
+    if(FlxG.mouse.overlaps(options)){
+        if(FlxG.mouse.justPressed){
+            press= false;
+            FlxG.switchState(new OptionsMenu());
+        }
+
+    }
+
     if (pressedEnter || pressedSpace) {
 		if (!transitioning){
             
@@ -219,8 +238,8 @@ function update(elapsed:Float) {
 		    	songs: [],
 		    	difficulties: ['burger']
 		    }
-            FlxG.switchState(new ModState('rom/Loader'))]);
-            //FlxG.switchState(new PlayState())]);
+            //FlxG.switchState(new ModState('rom/Loader'))]);
+            FlxG.switchState(new PlayState())]);
 		};
 	}
 }
