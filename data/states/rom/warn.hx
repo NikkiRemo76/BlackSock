@@ -30,7 +30,7 @@ function create() {
     txt3.y = txt2.y + 120;
     add(txt3);
 
-    txt4 = new FlxText(0,0,FlxG.height + 400, "либо нажми энтр если ты не педик", 32);
+    txt4 = new FlxText(0,0,FlxG.height + 400, "либо нажми энтр если ты педик", 32);
     txt4.setFormat(Paths.font("1papyrus.ttf"), 30, FlxColor.white, 'center');
     txt4.screenCenter();
     txt4.y = txt3.y + 80;

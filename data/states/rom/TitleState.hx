@@ -5,6 +5,7 @@ import flixel.math.FlxRandom;
 import flixel.addons.display.FlxBackdrop;
 import flixel.effects.particles.FlxEmitter.FlxTypedEmitter;
 import funkin.options.OptionsMenu;
+import funkin.savedata.FunkinSave;
 
 var camBG:FlxCamera = new FlxCamera();
 var camMenu:FlxCamera = new FlxCamera();
@@ -14,8 +15,12 @@ var random:FlxRandom = new FlxRandom();
 
 var curWacky:Array<String> = [];
 var transitioning:Bool = true;
+
+var code:Int = 0;
+
 function create() {
     FlxG.sound.playMusic(Paths.music('freakyMenu'), 0, true);
+    Conductor.changeBPM(166);
 
 	if (FlxG.sound.music != null && FlxG.sound.music.volume == 0) {
 		FlxG.sound.music.fadeIn(5, 0, 0.7);
@@ -93,7 +98,7 @@ function create() {
 
     curWacky = FlxG.random.getObject(CoolUtil.coolTextFile(Paths.txt("logoTexts")));
 
-    //trace(curWacky);
+    trace(curWacky);
     introText = new FlxSprite(149, 23);
     introText.frames = Paths.getSparrowAtlas('menus/title/texts/' + curWacky);
     introText.animation.addByPrefix('idle', curWacky, 24, true);
@@ -135,6 +140,9 @@ function create() {
     backDrop.scale.set(1, 1);
     backDrop.velocity.x = -100;
     uiAssets.add(backDrop);
+    if(FunkinSave.getSongHighscore('burger', 'burger').score == 0){
+        backDrop.y = 9999999999;
+    }
 
     particles = new FlxTypedEmitter(-300, 1280);
     particles.loadParticles(Paths.image("menus/title/texture"), 500);
@@ -185,7 +193,7 @@ function postCreate() {
     //play.shader = glitchA;
     uiAssets.add(options);
 
-    trace(FlxG.save.data.songFinished100);
+    //trace(FlxG.save.data.songFinished100);
 }
 
 function update(elapsed:Float) {
@@ -216,6 +224,56 @@ function update(elapsed:Float) {
         }
 
     }
+
+    if (FlxG.keys.justPressed.S)
+			if (code == 0){
+				code = 1;
+                FlxG.sound.play(Paths.sound('buk/s'));
+                }
+			else{
+				code == 0;}
+
+		if (FlxG.keys.justPressed.A)
+			if (code == 1){
+				code = 2;
+                FlxG.sound.play(Paths.sound('buk/a'));
+                }
+			else{
+				code == 0;}
+
+		if (FlxG.keys.justPressed.T)
+			if (code == 2){
+				code = 3;
+                FlxG.sound.play(Paths.sound('buk/t'));
+                }
+			else{
+				code == 0;}
+
+		if (FlxG.keys.justPressed.R)
+			if (code == 3){
+				code = 4;
+                FlxG.sound.play(Paths.sound('buk/r'));
+                }
+	    	else{
+	    		code == 0;}
+		if (FlxG.keys.justPressed.O)
+			if (code == 4){
+				code = 5;
+                FlxG.sound.play(Paths.sound('buk/o'));
+                }
+			else{
+				code == 0;
+            }
+			else if (code == 5)
+				{
+                    FlxG.sound.play(Paths.sound('buk/satro'));
+					new FlxTimer().start(1.6, function(tmr:FlxTimer)
+					{
+				    	transitioning = true;
+				    	FlxG.switchState(new ModState('rom/satro9mins'));
+					});
+    
+				}
 
     if (pressedEnter || pressedSpace) {
 		if (!transitioning){

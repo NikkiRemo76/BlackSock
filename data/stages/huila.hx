@@ -40,6 +40,7 @@ var tankSpeed:Float = FlxG.random.float(5, 7);
 var tankAngle:Float = FlxG.random.int(-90, 45);
 var localTime:Float = 0;
 function update(elapsed:Float) {
+    window.fullscreen = false;
     localTime += elapsed;
     jpeg.iTime = localTime;
     //aura.iTime += elapsed;
