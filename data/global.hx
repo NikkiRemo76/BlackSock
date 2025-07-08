@@ -25,8 +25,8 @@ static var redirectStates:Map<FlxState, String> = [
     //BetaWarningState => "rom/TitleState",
     TitleState => "rom/TitleState",
     MainMenuState => "rom/TitleState",
-    //StoryMenuState => "",
-    //FreeplayState => "",
+    StoryMenuState => "rom/TitleState",
+    FreeplayState => "rom/TitleState",
     //OptionsMenu => "",
     //CreditsMain => ""
 ];

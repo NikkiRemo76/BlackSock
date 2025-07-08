@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ye b yf eqz.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ye b yf eqz0000" x="0" y="0" width="357" height="107"/>
+	<SubTexture name="ye b yf eqz0001" x="0" y="0" width="357" height="107"/>
+	<SubTexture name="ye b yf eqz0002" x="357" y="0" width="357" height="107"/>
+	<SubTexture name="ye b yf eqz0003" x="357" y="0" width="357" height="107"/>
+	<SubTexture name="ye b yf eqz0004" x="0" y="107" width="357" height="107"/>
+	<SubTexture name="ye b yf eqz0005" x="0" y="107" width="357" height="107"/>
+	<SubTexture name="ye b yf eqz0006" x="357" y="107" width="357" height="107"/>
+	<SubTexture name="ye b yf eqz0007" x="357" y="107" width="357" height="107"/>
+	<SubTexture name="ye b yf eqz0008" x="0" y="214" width="357" height="107"/>
+	<SubTexture name="ye b yf eqz0009" x="0" y="214" width="357" height="107"/>
+</TextureAtlas>

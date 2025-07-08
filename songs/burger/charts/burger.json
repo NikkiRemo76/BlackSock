@@ -9,16 +9,18 @@
 		},
 		{
 			"params": [
-				true,
-				5,
-				"camGame",
-				1,
-				"linear",
-				"In",
-				"stage",
-				false
+				100,
+				0.1
 			],
-			"name": "Camera Zoom",
+			"time": 0,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				"zoom",
+				"5"
+			],
+			"name": "HScript Call",
 			"time": 0
 		},
 		{
@@ -26,9 +28,9 @@
 				true,
 				0.8,
 				"camGame",
-				128,
-				"circ",
-				"Out",
+				124,
+				"quart",
+				"InOut",
 				"stage",
 				false
 			],
@@ -48,6 +50,14 @@
 			],
 			"time": 58500,
 			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				4,
+				1.5
+			],
+			"time": 59625,
+			"name": "Camera Modulo Change"
 		},
 		{
 			"params": [
@@ -14284,19 +14294,19 @@
 					"type": 0
 				}
 			],
+			"position": "girlfriend",
+			"strumScale": 1,
 			"visible": false,
+			"type": 2,
+			"characters": [
+				"nikto"
+			],
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "girlfriend",
-			"strumScale": 1,
-			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"type": 2,
-			"characters": [
-				"nikto"
-			]
+			"vocalsSuffix": ""
 		}
 	],
 	"codenameChart": true,

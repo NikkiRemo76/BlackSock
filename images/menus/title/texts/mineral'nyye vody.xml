@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mineral'nyye vody.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="mineral'nyye vody0000" x="0" y="0" width="727" height="99"/>
+	<SubTexture name="mineral'nyye vody0001" x="0" y="0" width="727" height="99"/>
+	<SubTexture name="mineral'nyye vody0002" x="0" y="99" width="727" height="99"/>
+	<SubTexture name="mineral'nyye vody0003" x="0" y="99" width="727" height="99"/>
+	<SubTexture name="mineral'nyye vody0004" x="0" y="198" width="727" height="99"/>
+	<SubTexture name="mineral'nyye vody0005" x="0" y="198" width="727" height="99"/>
+	<SubTexture name="mineral'nyye vody0006" x="0" y="297" width="727" height="99"/>
+	<SubTexture name="mineral'nyye vody0007" x="0" y="297" width="727" height="99"/>
+	<SubTexture name="mineral'nyye vody0008" x="0" y="396" width="727" height="99"/>
+	<SubTexture name="mineral'nyye vody0009" x="0" y="396" width="727" height="99"/>
+</TextureAtlas>

@@ -11,7 +11,9 @@ var video = new FlxVideoSprite(-320, -180);
 
 //var aura = new CustomShader("Aura");
 
-
+function onSongEnd() {
+    FlxG.save.data.songFinished100 = true;
+}
 function zoom(camZoomValue:String)
 {
     defaultCamZoom = Std.parseFloat(camZoomValue);
@@ -89,13 +91,14 @@ var gravity:Float = 600; // Сила гравитации
 var platforms:Array<FlxSprite> = [];
 function onSongStart() {
     babka();
+    //PlayState.resyncVocals();
     camGame.visible = true;
     //camGame.addShader(aura);
 }
-var babkaScreamer:FlxSound;
-babkaScreamer = FlxG.sound.load(Paths.sound("scream"));
+var babkaScreamersound:FlxSound;
+babkaScreamersound = FlxG.sound.load(Paths.sound("scream"));
 function babkaScreamer() {
-    babkaScreamer.play();
+    babkaScreamersound.play();
     trace('black');
     babka.alpha = 1;
     FlxTween.tween(babka, {alpha: 0}, 3);
@@ -134,3 +137,4 @@ function create() {
     //FlxG.worldBounds.set(0, 0, 2000, 2000); // Установка границ мира
     //FlxG.physics.gravity.y = 500; // Гравитация вниз (положительное значение)
 }
+

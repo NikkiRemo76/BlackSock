@@ -2,6 +2,8 @@ import funkin.menus.ModSwitchMenu;
 import funkin.editors.EditorPicker;
 import openfl.display.BlendMode;
 import flixel.math.FlxRandom;
+import flixel.addons.display.FlxBackdrop;
+import flixel.effects.particles.FlxEmitter.FlxTypedEmitter;
 
 var camBG:FlxCamera = new FlxCamera();
 var camMenu:FlxCamera = new FlxCamera();
@@ -12,7 +14,7 @@ var random:FlxRandom = new FlxRandom();
 var curWacky:Array<String> = [];
 var transitioning:Bool = true;
 function create() {
-
+    FlxG.sound.music = null;
     if (FlxG.sound.music == null)
 		FlxG.sound.playMusic(Paths.music('freakyMenu'), 0, true);
 
@@ -42,6 +44,8 @@ function create() {
 	add(uiAssets);
     uiAssets.cameras = [camUI];
 
+    FlxG.camera = camBG;
+
     heatShader = new CustomShader('heatShader');
     camBG.addShader(heatShader);
     camMenu.addShader(heatShader);
@@ -69,7 +73,7 @@ function create() {
     title.loadGraphic(Paths.image('menus/title/image'), false, 100, 100); // Замените на свой спрайт
     title.scale.set(0.6, 0.2);
     title.updateHitbox();
-    title.y += 425;
+    title.y += 415;
     title.x -= 600;
     title.visible = true;
     title.antialiasing = false;
@@ -99,15 +103,80 @@ function create() {
     introText.screenCenter();
     introText.scale.x = Math.min(1, 980 / introText.width);
     introText.antialiasing = false;
+    //introText.blend = BlendMode.LIGHTEN;
     uiAssets.add(introText);
 
     new FlxTimer().start(2, (_) -> 
     [FlxTween.tween(introText, {alpha:0}, 1.4, {ease: FlxEase.quintOut})
     transitioning = false
     FlxTween.tween(title, {alpha:1}, 1.4, {ease: FlxEase.quintOut})]);
+
+    if(curWacky =='masteeeeerd'){
+        mas = new FlxSprite(FlxG.width / 2 - 50, FlxG.height / 2 - 100);
+        mas.loadGraphic(Paths.image('masteeeeerd'), false, 100, 100); // Замените на свой спрайт
+        mas.scale.set(1, 1);
+        mas.updateHitbox();
+        mas.screenCenter();
+        mas.visible = true;
+        menuAssets.add(mas);
+        FlxTween.tween(mas, {alpha:0}, 5, {ease: FlxEase.quintOut});
+        FlxG.sound.play(Paths.sound("masteeeeerd"), 0.7);
+    }
+
+    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi), sani4ka_ya_punkul, B3br1z, NikkiRemo, Ерих, ', 60, true);
+    textCre.font = Paths.font("1papyrus.ttf");
+    textCre.updateHitbox();
+    textCre.visible = false;
+	uiAssets.add(textCre);
+
+    backDrop = new FlxBackdrop(textCre.pixels, 1,0);
+    backDrop.scale.set(1, 1);
+    backDrop.velocity.x = -100;
+    uiAssets.add(backDrop);
+
+    particles = new FlxTypedEmitter(-300, 1280);
+    particles.loadParticles(Paths.image("menus/title/texture"), 500);
+	particles.scale.set(0.2, 0.2);
+	particles.speed.set(250, 250);
+	particles.launchAngle.set(-90, -90);
+	particles.alpha.set(1, 1, 0, 0);
+	particles.angle.set(-180, 30);
+	particles.width = FlxG.camera.width * 3;
+	particles.lifespan.set(5, 5);
+    particles.blend = BlendMode.LIGHTEN;
+	menuAssets.add(particles);
+	particles.start(false, 0.03);
+
+    particles.color.set(
+            0xff0000,   // Начальный цвет (красный)
+            0xffae00    // Конечный цвет (желтый)
+        );
+
+    fg = new FlxSprite(149, 23);
+	fg.frames = Paths.getSparrowAtlas('menus/title/firefg');
+	fg.animation.addByPrefix('idle', "firefg", 24, true);
+    fg.animation.play('idle');
+    fg.updateHitbox();
+    fg.screenCenter();
+	fg.alpha = 0.5;
+    fg.scale.set(5,5);
+    fg.scrollFactor.set(0.5, 0.5);
+    fg.blend = BlendMode.LIGHTEN;
+    menuAssets.add(fg);
+
+    
+
 }
 
 var localTime:Float = 0;
+
+function postCreate() {
+    if(FlxG.save.data.songFinished100){
+        onSongFinished();
+    }
+
+    trace(FlxG.save.data.songFinished100);
+}
 
 function update(elapsed:Float) {
     //Shaders
@@ -132,15 +201,30 @@ function update(elapsed:Float) {
     if (pressedEnter || pressedSpace) {
 		if (!transitioning){
             
-	        FlxTween.tween(statmenu, {alpha:1}, 1.4, {ease: FlxEase.quintOut});
             FlxG.sound.music.fadeIn(0.1, 0, 0);
+	        FlxTween.tween(statmenu, {alpha:1}, 5, {ease: FlxEase.quintOut});
             transitioning = true;
 			//trace("m,dms,hdsjklljhvkdlhvgjkfdlvnjkfdojn");
 			FlxG.sound.play(Paths.sound("menu/enter"), 0.7);
 			//CoolUtil.playMenuSFX("menu/confirm");
 			new FlxTimer().start(1.4, (_) -> [
+            
             PlayState.loadSong('burger', 'burger')
-            FlxG.switchState(new PlayState())]);
-		}
+            PlayState.isStoryMode = true
+		    PlayState.storyWeek = {
+		    	name: 'burger',
+		    	id: '',
+		    	sprite: null,
+		    	chars: [null, null, null],
+		    	songs: [],
+		    	difficulties: ['burger']
+		    }
+            FlxG.switchState(new ModState('rom/Loader'))]);
+            //FlxG.switchState(new PlayState())]);
+		};
 	}
+}
+
+function onSongFinished() {
+    FlxG.switchState(new ModState('rom/cutsene'));
 }

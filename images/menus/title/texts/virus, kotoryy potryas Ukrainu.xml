@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="virus, kotoryy potryas Ukrainu.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="virus, kotoryy potryas Ukrainu0000" x="0" y="0" width="1179" height="112"/>
+	<SubTexture name="virus, kotoryy potryas Ukrainu0001" x="0" y="0" width="1179" height="112"/>
+	<SubTexture name="virus, kotoryy potryas Ukrainu0002" x="0" y="112" width="1179" height="112"/>
+	<SubTexture name="virus, kotoryy potryas Ukrainu0003" x="0" y="112" width="1179" height="112"/>
+	<SubTexture name="virus, kotoryy potryas Ukrainu0004" x="0" y="224" width="1179" height="112"/>
+	<SubTexture name="virus, kotoryy potryas Ukrainu0005" x="0" y="224" width="1179" height="112"/>
+	<SubTexture name="virus, kotoryy potryas Ukrainu0006" x="0" y="336" width="1179" height="112"/>
+	<SubTexture name="virus, kotoryy potryas Ukrainu0007" x="0" y="336" width="1179" height="112"/>
+	<SubTexture name="virus, kotoryy potryas Ukrainu0008" x="0" y="448" width="1179" height="112"/>
+	<SubTexture name="virus, kotoryy potryas Ukrainu0009" x="0" y="448" width="1179" height="112"/>
+</TextureAtlas>

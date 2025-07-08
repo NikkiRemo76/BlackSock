@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ya lyublyu lizat' potnyye pyatochki glagola.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ya lyublyu lizat' potnyye pyatochki glagolaya lyublyu lizat' potnyye pyatochki glagola0000" x="0" y="0" width="1536" height="100"/>
+	<SubTexture name="ya lyublyu lizat' potnyye pyatochki glagolaya lyublyu lizat' potnyye pyatochki glagola0001" x="0" y="0" width="1536" height="100"/>
+	<SubTexture name="ya lyublyu lizat' potnyye pyatochki glagolaya lyublyu lizat' potnyye pyatochki glagola0002" x="0" y="100" width="1536" height="100"/>
+	<SubTexture name="ya lyublyu lizat' potnyye pyatochki glagolaya lyublyu lizat' potnyye pyatochki glagola0003" x="0" y="100" width="1536" height="100"/>
+	<SubTexture name="ya lyublyu lizat' potnyye pyatochki glagolaya lyublyu lizat' potnyye pyatochki glagola0004" x="0" y="200" width="1536" height="100"/>
+	<SubTexture name="ya lyublyu lizat' potnyye pyatochki glagolaya lyublyu lizat' potnyye pyatochki glagola0005" x="0" y="200" width="1536" height="100"/>
+	<SubTexture name="ya lyublyu lizat' potnyye pyatochki glagolaya lyublyu lizat' potnyye pyatochki glagola0006" x="0" y="300" width="1536" height="100"/>
+	<SubTexture name="ya lyublyu lizat' potnyye pyatochki glagolaya lyublyu lizat' potnyye pyatochki glagola0007" x="0" y="300" width="1536" height="100"/>
+	<SubTexture name="ya lyublyu lizat' potnyye pyatochki glagolaya lyublyu lizat' potnyye pyatochki glagola0008" x="0" y="400" width="1536" height="100"/>
+	<SubTexture name="ya lyublyu lizat' potnyye pyatochki glagolaya lyublyu lizat' potnyye pyatochki glagola0009" x="0" y="400" width="1536" height="100"/>
+</TextureAtlas>

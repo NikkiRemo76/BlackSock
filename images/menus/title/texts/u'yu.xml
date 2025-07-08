@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="u'yu.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="u'yu0000" x="0" y="0" width="163" height="98"/>
+	<SubTexture name="u'yu0001" x="0" y="0" width="163" height="98"/>
+	<SubTexture name="u'yu0002" x="163" y="0" width="163" height="98"/>
+	<SubTexture name="u'yu0003" x="163" y="0" width="163" height="98"/>
+	<SubTexture name="u'yu0004" x="326" y="0" width="163" height="98"/>
+	<SubTexture name="u'yu0005" x="326" y="0" width="163" height="98"/>
+	<SubTexture name="u'yu0006" x="0" y="98" width="163" height="98"/>
+	<SubTexture name="u'yu0007" x="0" y="98" width="163" height="98"/>
+	<SubTexture name="u'yu0008" x="163" y="98" width="163" height="98"/>
+	<SubTexture name="u'yu0009" x="163" y="98" width="163" height="98"/>
+</TextureAtlas>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="masteeeeerd.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="masteeeeerd0000" x="0" y="0" width="552" height="98"/>
+	<SubTexture name="masteeeeerd0001" x="0" y="0" width="552" height="98"/>
+	<SubTexture name="masteeeeerd0002" x="0" y="98" width="552" height="98"/>
+	<SubTexture name="masteeeeerd0003" x="0" y="98" width="552" height="98"/>
+	<SubTexture name="masteeeeerd0004" x="0" y="196" width="552" height="98"/>
+	<SubTexture name="masteeeeerd0005" x="0" y="196" width="552" height="98"/>
+	<SubTexture name="masteeeeerd0006" x="0" y="294" width="552" height="98"/>
+	<SubTexture name="masteeeeerd0007" x="0" y="294" width="552" height="98"/>
+	<SubTexture name="masteeeeerd0008" x="0" y="392" width="552" height="98"/>
+	<SubTexture name="masteeeeerd0009" x="0" y="392" width="552" height="98"/>
+</TextureAtlas>

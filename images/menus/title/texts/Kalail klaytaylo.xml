@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Kalail klaytaylo.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Kalail klaytaylo0000" x="0" y="0" width="701" height="100"/>
+	<SubTexture name="Kalail klaytaylo0001" x="0" y="0" width="701" height="100"/>
+	<SubTexture name="Kalail klaytaylo0002" x="0" y="100" width="701" height="100"/>
+	<SubTexture name="Kalail klaytaylo0003" x="0" y="100" width="701" height="100"/>
+	<SubTexture name="Kalail klaytaylo0004" x="0" y="200" width="701" height="100"/>
+	<SubTexture name="Kalail klaytaylo0005" x="0" y="200" width="701" height="100"/>
+	<SubTexture name="Kalail klaytaylo0006" x="0" y="300" width="701" height="100"/>
+	<SubTexture name="Kalail klaytaylo0007" x="0" y="300" width="701" height="100"/>
+	<SubTexture name="Kalail klaytaylo0008" x="0" y="400" width="701" height="100"/>
+	<SubTexture name="Kalail klaytaylo0009" x="0" y="400" width="701" height="100"/>
+</TextureAtlas>
