@@ -73,6 +73,19 @@ function create() {
     logo.visible = true;
     menuAssets.add(logo);
 
+    demo = new FlxSprite(149, 23);
+    demo.frames = Paths.getSparrowAtlas('menus/title/texts/demo');
+    demo.animation.addByPrefix('idle', 'demo', 24, true);
+    demo.animation.play('idle');
+    demo.updateHitbox();
+    demo.screenCenter();
+    demo.y += 250;
+    demo.scale.set(0.8, 0.8);
+    demo.antialiasing = false;
+    demo.blend = BlendMode.LIGHTEN;
+    demo.scrollFactor.set(0.8, 0.8);
+    menuAssets.add(demo);
+
     title = new FlxSprite(FlxG.width / 2 - 50, FlxG.height / 2 - 100);
     title.loadGraphic(Paths.image('menus/title/image'), false, 100, 100); // Замените на свой спрайт
     title.scale.set(0.6, 0.2);
@@ -130,7 +143,7 @@ function create() {
         FlxG.sound.play(Paths.sound("masteeeeerd"), 0.7);
     }
 
-    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi), sani4ka_ya_punkul, B3br1z, NikkiRemo, Ерих, ', 60, true);
+    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi), sani4ka_ya_punkul, B3br1z, NikkiRemo, Ерих, AhelichFB, ', 60, true);
     textCre.font = Paths.font("1papyrus.ttf");
     textCre.updateHitbox();
     textCre.visible = false;
