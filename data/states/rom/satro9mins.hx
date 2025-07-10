@@ -2,13 +2,38 @@ import hxvlc.flixel.FlxVideoSprite;
 
 var start = true;
 var video = new FlxVideoSprite(400, 200);
-function create() {
-    
+
+
+function getIntroTextShit():Array<Array<String>>
+{
+	var fullText:String = Paths.getFolderContent('videos/fun/', false);
+	var firstArray:Array<String> = fullText;
+	var swagGoodArray:Array<Array<String>> = [];
+	for (i in firstArray)
+	{
+		swagGoodArray.push(i.split('.mp4'));
+	}
+	return swagGoodArray;
+}
+
+var videos:Array<String> = FlxG.random.getObject(getIntroTextShit());
+
+function postCreate() {
+    trace(videos);
+    //trace(getIntroTextShit());
 	FlxG.sound.play(Paths.sound('satro 9mins'));
-    video.load(Assets.getPath(Paths.video('Untitled')), ['audio']);
+    video.load(Assets.getPath(Paths.video('fun/' + FlxG.random.getObject(videos))), ['audio']);
+    video.load(Assets.getPath(Paths.video('fun/' + FlxG.random.getObject(videos))), ['audio']);
+    video.load(Assets.getPath(Paths.video('fun/' + FlxG.random.getObject(videos))), ['audio']);
+    video.load(Assets.getPath(Paths.video('fun/' + FlxG.random.getObject(videos))), ['audio']);
+    video.load(Assets.getPath(Paths.video('fun/' + FlxG.random.getObject(videos))), ['audio']);
+    video.load(Assets.getPath(Paths.video('fun/' + FlxG.random.getObject(videos))), ['audio']);
+    video.load(Assets.getPath(Paths.video('fun/' + FlxG.random.getObject(videos))), ['audio']);
+    video.load(Assets.getPath(Paths.video('fun/' + FlxG.random.getObject(videos))), ['audio']);
     video.play();
     video.scale.set(2.5, 2.5);
     add(video);
+    //не удивляйтесь, я долбаеб - NikkiRemo
     
 }
 function collFunk() {

@@ -143,16 +143,25 @@ function create() {
         FlxG.sound.play(Paths.sound("masteeeeerd"), 0.7);
     }
 
-    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi), sani4ka_ya_punkul, B3br1z, NikkiRemo, Ерих, AhelichFB, ', 60, true);
+    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi), Sani4ka ya Punkul, B3br1z, NikkiRemo, Ерих, ', 60, true);
     textCre.font = Paths.font("1papyrus.ttf");
     textCre.updateHitbox();
     textCre.visible = false;
 	uiAssets.add(textCre);
 
+    backDrop2 = new FlxBackdrop(textCre.pixels, 1,0);
+    backDrop2.scale.set(0.8, 0.8);
+    backDrop2.velocity.x = 50;
+    backDrop2.color = 0x7a7a7a;
+    bgAssets.add(backDrop2);
+    if(FunkinSave.getSongHighscore('burger', 'burger').score == 0){
+        backDrop2.y = 9999999999;
+    }
+
     backDrop = new FlxBackdrop(textCre.pixels, 1,0);
     backDrop.scale.set(1, 1);
     backDrop.velocity.x = -100;
-    uiAssets.add(backDrop);
+    menuAssets.add(backDrop);
     if(FunkinSave.getSongHighscore('burger', 'burger').score == 0){
         backDrop.y = 9999999999;
     }
@@ -186,8 +195,6 @@ function create() {
     fg.scrollFactor.set(0.5, 0.5);
     fg.blend = BlendMode.LIGHTEN;
     menuAssets.add(fg);
-
-    
 
 }
 
@@ -230,11 +237,39 @@ function update(elapsed:Float) {
     var pressedEnter:Bool = FlxG.keys.justPressed.ENTER;
 	var pressedSpace:Bool = FlxG.keys.justPressed.SPACE;
 
-    if(FlxG.mouse.overlaps(options)){
-        if(FlxG.mouse.justPressed){
-            press= false;
-            FlxG.switchState(new OptionsMenu());
-        }
+        if (!transitioning){
+            if(FlxG.mouse.overlaps(options)){
+                if(FlxG.mouse.justPressed){
+                    transitioning = true;
+                    FlxG.switchState(new OptionsMenu());
+                }
+            
+            }
+        
+            if(FlxG.mouse.overlaps(title)){
+                if(FlxG.mouse.justPressed){
+                    FlxG.sound.music.fadeIn(0.1, 0, 0);
+	                FlxTween.tween(statmenu, {alpha:1}, 5, {ease: FlxEase.quintOut});
+                    transitioning = true;
+	        		//trace("m,dms,hdsjklljhvkdlhvgjkfdlvnjkfdojn");
+	        		FlxG.sound.play(Paths.sound("menu/enter"), 0.7);
+	        		//CoolUtil.playMenuSFX("menu/confirm");
+	        		new FlxTimer().start(1.4, (_) -> [
+                    
+                    PlayState.loadSong('burger', 'burger')
+                    PlayState.isStoryMode = true
+	        	    PlayState.storyWeek = {
+	        	    	name: 'burger',
+	        	    	id: '',
+	        	    	sprite: null,
+	        	    	chars: [null, null, null],
+	        	    	songs: [],
+	        	    	difficulties: ['burger']
+	        	    }
+                    //FlxG.switchState(new ModState('rom/Loader'))]);
+                    FlxG.switchState(new PlayState())]);
+                }
+            }
 
     }
 

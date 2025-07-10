@@ -4,24 +4,24 @@
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 0
+			"time": 0,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				100,
 				0.1
 			],
-			"time": 0,
-			"name": "Camera Modulo Change"
+			"name": "Camera Modulo Change",
+			"time": 0
 		},
 		{
 			"params": [
 				"zoom",
 				"5"
 			],
-			"name": "HScript Call",
-			"time": 0
+			"time": 0,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -34,8 +34,8 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 36000
+			"time": 36000,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -48,24 +48,24 @@
 				"stage",
 				false
 			],
-			"time": 58500,
-			"name": "Camera Zoom"
+			"name": "Camera Zoom",
+			"time": 58500
 		},
 		{
 			"params": [
 				4,
 				1.5
 			],
-			"time": 59625,
-			"name": "Camera Modulo Change"
+			"name": "Camera Modulo Change",
+			"time": 59625
 		},
 		{
 			"params": [
 				"zoom",
 				"0.6"
 			],
-			"name": "HScript Call",
-			"time": 60000
+			"time": 60000,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -75,8 +75,8 @@
 				"back",
 				"Out"
 			],
-			"name": "Camera Movement",
-			"time": 60000
+			"time": 60000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -85,8 +85,8 @@
 				16,
 				"camHUD"
 			],
-			"time": 60000,
-			"name": "Camera Flash"
+			"name": "Camera Flash",
+			"time": 60000
 		},
 		{
 			"params": [
@@ -97,16 +97,16 @@
 				"InOut",
 				false
 			],
-			"name": "Scroll Speed Change",
-			"time": 60000
+			"time": 60000,
+			"name": "Scroll Speed Change"
 		},
 		{
 			"params": [
 				"part1",
 				""
 			],
-			"time": 60000,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 60000
 		},
 		{
 			"params": [
@@ -116,8 +116,8 @@
 				"expo",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 66000
+			"time": 66000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -127,8 +127,8 @@
 				"quart",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 72000
+			"time": 72000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -138,8 +138,8 @@
 				"circ",
 				"Out"
 			],
-			"name": "Camera Movement",
-			"time": 78000
+			"time": 78000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -148,16 +148,16 @@
 				4,
 				"sine"
 			],
-			"name": "Camera Movement",
-			"time": 84000
+			"time": 84000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"zoom",
 				"0.8"
 			],
-			"time": 84000,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 84000
 		},
 		{
 			"params": [
@@ -167,8 +167,8 @@
 				"cube",
 				"Out"
 			],
-			"name": "Camera Movement",
-			"time": 90000
+			"time": 90000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -178,8 +178,8 @@
 				"bounce",
 				"Out"
 			],
-			"name": "Camera Movement",
-			"time": 96000
+			"time": 96000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -192,8 +192,8 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 96000
+			"time": 96000,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -202,8 +202,8 @@
 				16,
 				"camGame"
 			],
-			"name": "Camera Flash",
-			"time": 96375
+			"time": 96375,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
@@ -216,8 +216,8 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 96375
+			"time": 96375,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -227,8 +227,16 @@
 				"quart",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 102000
+			"time": 102000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				2
+			],
+			"name": "Camera Modulo Change",
+			"time": 106312.5
 		},
 		{
 			"params": [
@@ -238,16 +246,16 @@
 				"back",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 108000
+			"time": 108000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"zoom",
 				"1"
 			],
-			"time": 108000,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 108000
 		},
 		{
 			"params": [
@@ -257,40 +265,40 @@
 				"quad",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 109500
+			"time": 109500,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"zoom",
 				"1.2"
 			],
-			"time": 110250,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 110250
 		},
 		{
 			"params": [
 				"zoom",
 				"1.4"
 			],
-			"name": "HScript Call",
-			"time": 110437.5
+			"time": 110437.5,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"zoom",
 				"1.8"
 			],
-			"time": 110625,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 110625
 		},
 		{
 			"params": [
 				"zoom",
 				"2"
 			],
-			"name": "HScript Call",
-			"time": 110812.5
+			"time": 110812.5,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -300,16 +308,16 @@
 				"elastic",
 				"InOut"
 			],
-			"time": 111000,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 111000
 		},
 		{
 			"params": [
 				"zoom",
 				"1"
 			],
-			"name": "HScript Call",
-			"time": 111000
+			"time": 111000,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -319,40 +327,40 @@
 				"sine",
 				"InOut"
 			],
-			"time": 112500,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 112500
 		},
 		{
 			"params": [
 				"zoom",
 				"0.8"
 			],
-			"time": 113250,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 113250
 		},
 		{
 			"params": [
 				"zoom",
 				"0.6"
 			],
-			"name": "HScript Call",
-			"time": 113437.5
+			"time": 113437.5,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"zoom",
 				"0.4"
 			],
-			"time": 113625,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 113625
 		},
 		{
 			"params": [
 				"zoom",
 				"0.2"
 			],
-			"name": "HScript Call",
-			"time": 113812.5
+			"time": 113812.5,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -362,16 +370,16 @@
 				"circ",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 114000
+			"time": 114000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"zoom",
 				"1"
 			],
-			"time": 114000,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 114000
 		},
 		{
 			"params": [
@@ -381,8 +389,8 @@
 				"quart",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 115500
+			"time": 115500,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -392,8 +400,8 @@
 				"expo",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 117000
+			"time": 117000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -403,8 +411,8 @@
 				"cube",
 				"InOut"
 			],
-			"time": 117750,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 117750
 		},
 		{
 			"params": [
@@ -414,8 +422,8 @@
 				"sine",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 118500
+			"time": 118500,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -428,8 +436,8 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 118500
+			"time": 118500,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -442,8 +450,8 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 118875
+			"time": 118875,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -453,40 +461,48 @@
 				"sine",
 				"InOut"
 			],
-			"time": 119250,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 119250
 		},
 		{
 			"params": [
 				"zoom",
 				"1.2"
 			],
-			"name": "HScript Call",
-			"time": 119250
+			"time": 119250,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"zoom",
 				"1.4"
 			],
-			"time": 119437.5,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 119437.5
 		},
 		{
 			"params": [
 				"zoom",
 				"1.8"
 			],
-			"name": "HScript Call",
-			"time": 119625
+			"time": 119625,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"zoom",
 				"2"
 			],
-			"time": 119812.5,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 119812.5
+		},
+		{
+			"params": [
+				4,
+				1.2
+			],
+			"name": "Camera Modulo Change",
+			"time": 119906.25
 		},
 		{
 			"params": [
@@ -495,16 +511,16 @@
 				4,
 				"expo"
 			],
-			"name": "Camera Movement",
-			"time": 120000
+			"time": 120000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"zoom",
 				"0.7"
 			],
-			"name": "HScript Call",
-			"time": 120000
+			"time": 120000,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -514,8 +530,8 @@
 				"quart",
 				"Out"
 			],
-			"name": "Camera Movement",
-			"time": 126000
+			"time": 126000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -525,8 +541,8 @@
 				"sine",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 132000
+			"time": 132000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -535,8 +551,8 @@
 				16,
 				"camGame"
 			],
-			"name": "Camera Flash",
-			"time": 132375
+			"time": 132375,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
@@ -549,8 +565,8 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 132375
+			"time": 132375,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -560,40 +576,26 @@
 				"elastic",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 138000
-		},
-		{
-			"params": [
-				0,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"name": "Camera Movement",
-			"time": 142781.25
-		},
-		{
-			"params": [
-				1,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"time": 142875,
+			"time": 138000,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
+				1,
+				2
+			],
+			"time": 142312.5,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
 				0,
 				true,
 				1,
 				"sine",
 				"InOut"
 			],
-			"time": 143156.25,
+			"time": 142781.25,
 			"name": "Camera Movement"
 		},
 		{
@@ -605,7 +607,7 @@
 				"InOut"
 			],
 			"name": "Camera Movement",
-			"time": 143437.5
+			"time": 142875
 		},
 		{
 			"params": [
@@ -615,8 +617,8 @@
 				"sine",
 				"InOut"
 			],
-			"time": 143531.25,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 143156.25
 		},
 		{
 			"params": [
@@ -626,7 +628,7 @@
 				"sine",
 				"InOut"
 			],
-			"time": 143625,
+			"time": 143437.5,
 			"name": "Camera Movement"
 		},
 		{
@@ -638,7 +640,29 @@
 				"InOut"
 			],
 			"name": "Camera Movement",
-			"time": 144000
+			"time": 143531.25
+		},
+		{
+			"params": [
+				1,
+				true,
+				1,
+				"sine",
+				"InOut"
+			],
+			"name": "Camera Movement",
+			"time": 143625
+		},
+		{
+			"params": [
+				0,
+				true,
+				1,
+				"sine",
+				"InOut"
+			],
+			"time": 144000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -647,7 +671,650 @@
 				4,
 				"camGame"
 			],
+			"name": "Camera Flash",
+			"time": 144000
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"smoothStep",
+				"Out",
+				"stage",
+				false
+			],
 			"time": 144000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 144000
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 144375
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"time": 144750,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 145125
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"time": 145500,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"time": 145875,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 146250
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 146625
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"time": 147000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"time": 147375,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 147750
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 148125
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"time": 148500,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"elastic"
+			],
+			"time": 148500,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"elastic"
+			],
+			"time": 148875,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"elastic"
+			],
+			"name": "Camera Movement",
+			"time": 149250
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"elastic"
+			],
+			"name": "Camera Movement",
+			"time": 149625
+		},
+		{
+			"params": [
+				1,
+				true,
+				1,
+				"sine",
+				"InOut"
+			],
+			"time": 150000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"quart",
+				"InOut",
+				"stage",
+				false
+			],
+			"time": 150000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				0,
+				true,
+				1,
+				"sine",
+				"InOut"
+			],
+			"name": "Camera Movement",
+			"time": 154781.25
+		},
+		{
+			"params": [
+				1,
+				true,
+				1,
+				"sine",
+				"InOut"
+			],
+			"name": "Camera Movement",
+			"time": 154875
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"quart",
+				"InOut",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 154875
+		},
+		{
+			"params": [
+				0,
+				true,
+				1,
+				"sine",
+				"InOut"
+			],
+			"time": 155156.25,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				true,
+				1,
+				"sine",
+				"InOut"
+			],
+			"name": "Camera Movement",
+			"time": 155437.5
+		},
+		{
+			"params": [
+				0,
+				true,
+				1,
+				"sine",
+				"InOut"
+			],
+			"time": 155531.25,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				true,
+				1,
+				"sine",
+				"InOut"
+			],
+			"time": 155625,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				4,
+				1.2
+			],
+			"name": "Camera Modulo Change",
+			"time": 155812.5
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"circ",
+				"Out"
+			],
+			"time": 156000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"elastic",
+				"Out"
+			],
+			"time": 162000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"quad",
+				"Out"
+			],
+			"time": 168000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"back"
+			],
+			"time": 174000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				4,
+				2
+			],
+			"time": 179812.5,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				0,
+				true,
+				1,
+				"sine",
+				"InOut"
+			],
+			"time": 180000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				false,
+				-327680,
+				18,
+				"camGame"
+			],
+			"time": 180000,
+			"name": "Camera Flash"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				5,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"time": 180000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1.5,
+				"camGame",
+				5,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"time": 180750,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				5,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 181500
+		},
+		{
+			"params": [
+				true,
+				1.5,
+				"camGame",
+				5,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 183750
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				5,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"time": 184500,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1.5,
+				"camGame",
+				5,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"time": 185250,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"elastic",
+				"InOut"
+			],
+			"time": 186000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				5,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 186000
+		},
+		{
+			"params": [
+				true,
+				1.5,
+				"camGame",
+				5,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 186750
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				5,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"time": 187500,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1.5,
+				"camGame",
+				5,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"time": 188250,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				5,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 189000
+		},
+		{
+			"params": [
+				true,
+				1.5,
+				"camGame",
+				5,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 189750
+		},
+		{
+			"params": [
+				1,
+				2
+			],
+			"name": "Camera Modulo Change",
+			"time": 190031.25
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				5,
+				"quint",
+				"In",
+				"stage",
+				false
+			],
+			"time": 190500,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				0,
+				true,
+				1,
+				"sine",
+				"InOut"
+			],
+			"name": "Camera Movement",
+			"time": 192000
+		},
+		{
+			"params": [
+				false,
+				-65536,
+				4,
+				"camGame"
+			],
+			"time": 192000,
 			"name": "Camera Flash"
 		},
 		{
@@ -662,606 +1329,16 @@
 				false
 			],
 			"name": "Camera Zoom",
-			"time": 144000
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 144000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 144375,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 144750
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 145125,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 145500
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 145875
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 146250,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 146625,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 147000
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 147375
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 147750,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 148125,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 148500
-		},
-		{
-			"params": [
-				1,
-				true,
-				4,
-				"elastic"
-			],
-			"name": "Camera Movement",
-			"time": 148500
-		},
-		{
-			"params": [
-				0,
-				true,
-				4,
-				"elastic"
-			],
-			"name": "Camera Movement",
-			"time": 148875
-		},
-		{
-			"params": [
-				1,
-				true,
-				4,
-				"elastic"
-			],
-			"time": 149250,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0,
-				true,
-				4,
-				"elastic"
-			],
-			"time": 149625,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"name": "Camera Movement",
-			"time": 150000
-		},
-		{
-			"params": [
-				true,
-				0.8,
-				"camGame",
-				4,
-				"quart",
-				"InOut",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 150000
-		},
-		{
-			"params": [
-				0,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"time": 154781.25,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"time": 154875,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				true,
-				0.8,
-				"camGame",
-				4,
-				"quart",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 154875,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				0,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"name": "Camera Movement",
-			"time": 155156.25
-		},
-		{
-			"params": [
-				1,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"time": 155437.5,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"name": "Camera Movement",
-			"time": 155531.25
-		},
-		{
-			"params": [
-				1,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"name": "Camera Movement",
-			"time": 155625
-		},
-		{
-			"params": [
-				0,
-				true,
-				4,
-				"circ",
-				"Out"
-			],
-			"name": "Camera Movement",
-			"time": 156000
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 162000
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
-			"time": 168000
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 174000
-		},
-		{
-			"params": [
-				0,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"name": "Camera Movement",
-			"time": 180000
-		},
-		{
-			"params": [
-				false,
-				-327680,
-				18,
-				"camGame"
-			],
-			"name": "Camera Flash",
-			"time": 180000
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				5,
-				"quint",
-				"In",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 180000
-		},
-		{
-			"params": [
-				true,
-				1.5,
-				"camGame",
-				5,
-				"quint",
-				"In",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 180750
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				5,
-				"quint",
-				"In",
-				"stage",
-				false
-			],
-			"time": 181500,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				1.5,
-				"camGame",
-				5,
-				"quint",
-				"In",
-				"stage",
-				false
-			],
-			"time": 183750,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				5,
-				"quint",
-				"In",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 184500
-		},
-		{
-			"params": [
-				true,
-				1.5,
-				"camGame",
-				5,
-				"quint",
-				"In",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 185250
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 186000
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				5,
-				"quint",
-				"In",
-				"stage",
-				false
-			],
-			"time": 186000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				1.5,
-				"camGame",
-				5,
-				"quint",
-				"In",
-				"stage",
-				false
-			],
-			"time": 186750,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				5,
-				"quint",
-				"In",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 187500
-		},
-		{
-			"params": [
-				true,
-				1.5,
-				"camGame",
-				5,
-				"quint",
-				"In",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 188250
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				5,
-				"quint",
-				"In",
-				"stage",
-				false
-			],
-			"time": 189000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				1.5,
-				"camGame",
-				5,
-				"quint",
-				"In",
-				"stage",
-				false
-			],
-			"time": 189750,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				5,
-				"quint",
-				"In",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 190500
-		},
-		{
-			"params": [
-				0,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"time": 192000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				false,
-				-65536,
-				4,
-				"camGame"
-			],
-			"name": "Camera Flash",
 			"time": 192000
 		},
 		{
 			"params": [
 				true,
-				0.8,
+				0.9,
 				"camGame",
-				4,
-				"smoothStep",
-				"Out",
+				2,
+				"sine",
+				"InOut",
 				"stage",
 				false
 			],
@@ -1271,20 +1348,6 @@
 		{
 			"params": [
 				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 192000
-		},
-		{
-			"params": [
-				true,
 				0.7,
 				"camGame",
 				2,
@@ -1293,63 +1356,7 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 192375
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 192750,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 193125
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 193500,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 193875,
+			"time": 192375,
 			"name": "Camera Zoom"
 		},
 		{
@@ -1364,7 +1371,7 @@
 				false
 			],
 			"name": "Camera Zoom",
-			"time": 194250
+			"time": 192750
 		},
 		{
 			"params": [
@@ -1377,35 +1384,7 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 194625
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 195000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				2,
-				"sine",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 195375,
+			"time": 193125,
 			"name": "Camera Zoom"
 		},
 		{
@@ -1420,7 +1399,7 @@
 				false
 			],
 			"name": "Camera Zoom",
-			"time": 195750
+			"time": 193500
 		},
 		{
 			"params": [
@@ -1434,7 +1413,7 @@
 				false
 			],
 			"name": "Camera Zoom",
-			"time": 196125
+			"time": 193875
 		},
 		{
 			"params": [
@@ -1447,28 +1426,92 @@
 				"stage",
 				false
 			],
-			"time": 196500,
+			"time": 194250,
 			"name": "Camera Zoom"
 		},
 		{
 			"params": [
-				1,
 				true,
-				4,
-				"elastic"
+				0.7,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
 			],
-			"time": 196500,
-			"name": "Camera Movement"
+			"time": 194625,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
-				0,
 				true,
-				4,
-				"elastic"
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
 			],
-			"time": 196875,
-			"name": "Camera Movement"
+			"name": "Camera Zoom",
+			"time": 195000
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 195375
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"time": 195750,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"time": 196125,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"InOut",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 196500
 		},
 		{
 			"params": [
@@ -1478,7 +1521,7 @@
 				"elastic"
 			],
 			"name": "Camera Movement",
-			"time": 197250
+			"time": 196500
 		},
 		{
 			"params": [
@@ -1488,7 +1531,27 @@
 				"elastic"
 			],
 			"name": "Camera Movement",
-			"time": 197625
+			"time": 196875
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"elastic"
+			],
+			"time": 197250,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"elastic"
+			],
+			"time": 197625,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -1497,76 +1560,76 @@
 				1,
 				"sine",
 				"InOut"
-			],
-			"time": 198000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				true,
-				0.8,
-				"camGame",
-				4,
-				"quart",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 198000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				1
 			],
 			"name": "Camera Movement",
 			"time": 198000
 		},
 		{
 			"params": [
-				0
+				true,
+				0.8,
+				"camGame",
+				4,
+				"quart",
+				"InOut",
+				"stage",
+				false
 			],
-			"name": "Camera Movement",
-			"time": 204000
+			"name": "Camera Zoom",
+			"time": 198000
 		},
 		{
 			"params": [
-				1
+				0,
+				true,
+				1,
+				"expo",
+				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 205500
+			"time": 204000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				true,
+				1,
+				"quart"
+			],
+			"time": 205500,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"zoom",
 				"1.2"
 			],
-			"name": "HScript Call",
-			"time": 206250
+			"time": 206250,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"zoom",
 				"1.4"
 			],
-			"time": 206437.5,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 206437.5
 		},
 		{
 			"params": [
 				"zoom",
 				"1.8"
 			],
-			"name": "HScript Call",
-			"time": 206625
+			"time": 206625,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"zoom",
 				"2"
 			],
-			"time": 206812.5,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 206812.5
 		},
 		{
 			"params": [
@@ -1576,22 +1639,15 @@
 				"elastic",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 207000
+			"time": 207000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"zoom",
 				"1"
 			],
-			"time": 207000,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
+			"name": "HScript Call",
 			"time": 207000
 		},
 		{
@@ -1602,47 +1658,40 @@
 				"sine",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 208500
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 208500
+			"time": 208500,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"zoom",
 				"0.8"
 			],
-			"name": "HScript Call",
-			"time": 209250
+			"time": 209250,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"zoom",
 				"0.6"
 			],
-			"time": 209437.5,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 209437.5
 		},
 		{
 			"params": [
 				"zoom",
 				"0.4"
 			],
-			"name": "HScript Call",
-			"time": 209625
+			"time": 209625,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"zoom",
 				"0.2"
 			],
-			"time": 209812.5,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 209812.5
 		},
 		{
 			"params": [
@@ -1652,23 +1701,16 @@
 				"circ",
 				"InOut"
 			],
-			"time": 210000,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 210000
 		},
 		{
 			"params": [
 				"zoom",
 				"1"
 			],
-			"name": "HScript Call",
-			"time": 210000
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
-			"time": 210000
+			"time": 210000,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -1677,13 +1719,6 @@
 				1,
 				"quart",
 				"InOut"
-			],
-			"time": 211500,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
 			],
 			"name": "Camera Movement",
 			"time": 211500
@@ -1696,8 +1731,8 @@
 				"expo",
 				"InOut"
 			],
-			"time": 213000,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 213000
 		},
 		{
 			"params": [
@@ -1707,8 +1742,8 @@
 				"cube",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 213750
+			"time": 213750,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -1718,8 +1753,8 @@
 				"sine",
 				"InOut"
 			],
-			"time": 214500,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 214500
 		},
 		{
 			"params": [
@@ -1732,8 +1767,8 @@
 				"stage",
 				false
 			],
-			"time": 214500,
-			"name": "Camera Zoom"
+			"name": "Camera Zoom",
+			"time": 214500
 		},
 		{
 			"params": [
@@ -1746,8 +1781,8 @@
 				"stage",
 				false
 			],
-			"time": 214875,
-			"name": "Camera Zoom"
+			"name": "Camera Zoom",
+			"time": 214875
 		},
 		{
 			"params": [
@@ -1757,40 +1792,40 @@
 				"sine",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 215250
+			"time": 215250,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"zoom",
 				"1.2"
 			],
-			"time": 215250,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 215250
 		},
 		{
 			"params": [
 				"zoom",
 				"1.4"
 			],
-			"name": "HScript Call",
-			"time": 215437.5
+			"time": 215437.5,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"zoom",
 				"1.8"
 			],
-			"time": 215625,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 215625
 		},
 		{
 			"params": [
 				"zoom",
 				"2"
 			],
-			"name": "HScript Call",
-			"time": 215812.5
+			"time": 215812.5,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -1799,16 +1834,16 @@
 				4,
 				"expo"
 			],
-			"time": 216000,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 216000
 		},
 		{
 			"params": [
 				"zoom",
 				"0.7"
 			],
-			"time": 216000,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 216000
 		},
 		{
 			"params": [
@@ -1817,15 +1852,8 @@
 				16,
 				"camGame"
 			],
-			"name": "Camera Flash",
-			"time": 216000
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
-			"time": 216000
+			"time": 216000,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
@@ -1838,63 +1866,7 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 216375
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 216750,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 217125
-		},
-		{
-			"params": [
-				true,
-				0.8,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 217500,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 217687.5,
+			"time": 216375,
 			"name": "Camera Zoom"
 		},
 		{
@@ -1909,21 +1881,7 @@
 				false
 			],
 			"name": "Camera Zoom",
-			"time": 217875
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 218062.5,
-			"name": "Camera Zoom"
+			"time": 216750
 		},
 		{
 			"params": [
@@ -1936,21 +1894,7 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 218250
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 218437.5,
+			"time": 217125,
 			"name": "Camera Zoom"
 		},
 		{
@@ -1965,7 +1909,35 @@
 				false
 			],
 			"name": "Camera Zoom",
-			"time": 218625
+			"time": 217500
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 217687.5
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 217875,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -1979,7 +1951,63 @@
 				false
 			],
 			"name": "Camera Zoom",
-			"time": 218812.5
+			"time": 218062.5
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 218250,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 218437.5
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 218625,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 218812.5,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -1992,8 +2020,162 @@
 				"stage",
 				false
 			],
+			"time": 219000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
 			"name": "Camera Zoom",
-			"time": 219000
+			"time": 219375
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 219750,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 220125
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 220500,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 220687.5,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 220875
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 221062.5,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 221250
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 221437.5,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 221625
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 221812.5
 		},
 		{
 			"params": [
@@ -2002,167 +2184,6 @@
 				1,
 				"sine",
 				"InOut"
-			],
-			"name": "Camera Movement",
-			"time": 219000
-		},
-		{
-			"params": [
-				true,
-				0.8,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 219375,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 219750
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 220125,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.8,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 220500
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 220687.5
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 220875,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 221062.5
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 221250,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 221437.5
-		},
-		{
-			"params": [
-				true,
-				0.8,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 221625,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 221812.5,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				0
 			],
 			"name": "Camera Movement",
 			"time": 222000
@@ -2178,8 +2199,8 @@
 				"stage",
 				false
 			],
-			"time": 222000,
-			"name": "Camera Zoom"
+			"name": "Camera Zoom",
+			"time": 222000
 		},
 		{
 			"params": [
@@ -2192,8 +2213,8 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 222375
+			"time": 222375,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -2206,8 +2227,8 @@
 				"stage",
 				false
 			],
-			"time": 222750,
-			"name": "Camera Zoom"
+			"name": "Camera Zoom",
+			"time": 222750
 		},
 		{
 			"params": [
@@ -2220,8 +2241,8 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 223125
+			"time": 223125,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -2234,49 +2255,7 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 223500
-		},
-		{
-			"params": [
-				true,
-				0.8,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 223875,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 224250
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 224625,
+			"time": 223500,
 			"name": "Camera Zoom"
 		},
 		{
@@ -2291,7 +2270,21 @@
 				false
 			],
 			"name": "Camera Zoom",
-			"time": 225000
+			"time": 223875
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 224250,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -2305,7 +2298,35 @@
 				false
 			],
 			"name": "Camera Zoom",
-			"time": 225187.5
+			"time": 224625
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 225000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 225187.5,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -2318,8 +2339,64 @@
 				"stage",
 				false
 			],
-			"time": 225375,
+			"name": "Camera Zoom",
+			"time": 225375
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 225562.5,
 			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 225750
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 225937.5,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				2,
+				"sine",
+				"Out",
+				"stage",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 226125
 		},
 		{
 			"params": [
@@ -2333,63 +2410,15 @@
 				false
 			],
 			"name": "Camera Zoom",
-			"time": 225562.5
+			"time": 226312.5
 		},
 		{
 			"params": [
-				true,
-				1,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
+				50,
+				0.1
 			],
-			"time": 225750,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.9,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 225937.5
-		},
-		{
-			"params": [
-				true,
-				0.8,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 226125,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				0.7,
-				"camGame",
-				2,
-				"sine",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 226312.5,
-			"name": "Camera Zoom"
+			"name": "Camera Modulo Change",
+			"time": 226406.25
 		},
 		{
 			"params": [
@@ -2402,15 +2431,15 @@
 				"stage",
 				false
 			],
-			"time": 226500,
-			"name": "Camera Zoom"
+			"name": "Camera Zoom",
+			"time": 226500
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 228000
+			"time": 228000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -2423,8 +2452,8 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 228375
+			"time": 228375,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -2434,8 +2463,8 @@
 				"expo",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 240000
+			"time": 240000,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -2448,8 +2477,8 @@
 				"stage",
 				true
 			],
-			"time": 241500,
-			"name": "Camera Zoom"
+			"name": "Camera Zoom",
+			"time": 241500
 		},
 		{
 			"params": [
@@ -2458,21 +2487,8 @@
 				16,
 				"camGame"
 			],
-			"name": "Camera Flash",
-			"time": 241500
-		},
-		{
-			"params": [
-				500,
-				500,
-				true,
-				1,
-				"quart",
-				"InOut",
-				true
-			],
-			"name": "Camera Position",
-			"time": 245625
+			"time": 241500,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
@@ -2482,16 +2498,16 @@
 				"sine",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 245812.5
+			"time": 245812.5,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1,
 				2
 			],
-			"time": 245906.25,
-			"name": "Camera Modulo Change"
+			"name": "Camera Modulo Change",
+			"time": 245906.25
 		},
 		{
 			"params": [
@@ -2504,24 +2520,24 @@
 				"stage",
 				false
 			],
-			"name": "Camera Zoom",
-			"time": 246000
+			"time": 246000,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
 				"part2",
 				""
 			],
-			"time": 247500,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 247500
 		},
 		{
 			"params": [
 				"zoom",
 				"0.6"
 			],
-			"name": "HScript Call",
-			"time": 247500
+			"time": 247500,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -2530,14 +2546,7 @@
 				16,
 				"camGame"
 			],
-			"time": 247500,
-			"name": "Camera Flash"
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
+			"name": "Camera Flash",
 			"time": 247500
 		},
 		{
@@ -2545,29 +2554,56 @@
 				0,
 				0
 			],
-			"name": "Camera Position",
-			"time": 247500
+			"time": 247500,
+			"name": "Camera Position"
 		},
 		{
 			"params": [
+				1,
+				true,
+				4,
+				"elastic",
+				"InOut"
+			],
+			"time": 253500,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"quint",
+				"InOut"
+			],
+			"time": 259500,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"smoothStep",
+				"InOut"
+			],
+			"time": 265500,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				50,
 				1
 			],
-			"name": "Camera Movement",
-			"time": 253500
+			"name": "Camera Modulo Change",
+			"time": 271312.5
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 259500
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 265500
+			"time": 271500,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -2577,16 +2613,16 @@
 				"sine",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 272250
+			"time": 272250,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"name": "HScript Call",
-			"time": 272250
+			"time": 272250,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -2595,8 +2631,16 @@
 				0,
 				true
 			],
-			"time": 272250,
-			"name": "Change Character"
+			"name": "Change Character",
+			"time": 272250
+		},
+		{
+			"params": [
+				1,
+				2
+			],
+			"name": "Camera Modulo Change",
+			"time": 272906.25
 		},
 		{
 			"params": [
@@ -2606,73 +2650,35 @@
 				"sine",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 273000
-		},
-		{
-			"params": [
-				"zoom",
-				"1"
-			],
-			"name": "HScript Call",
-			"time": 273000
-		},
-		{
-			"params": [
-				1,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"name": "Camera Movement",
-			"time": 276000
-		},
-		{
-			"params": [
-				"zoom",
-				"0.6"
-			],
-			"name": "HScript Call",
-			"time": 276000
-		},
-		{
-			"params": [
-				0,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"name": "Camera Movement",
-			"time": 279000
-		},
-		{
-			"params": [
-				"zoom",
-				"1"
-			],
-			"name": "HScript Call",
-			"time": 279000
-		},
-		{
-			"params": [
-				1,
-				true,
-				1,
-				"sine",
-				"InOut"
-			],
-			"time": 282000,
+			"time": 273000,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"zoom",
+				"1"
+			],
+			"time": 273000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"zoom",
 				"0.6"
 			],
-			"time": 282000,
+			"time": 279000,
 			"name": "HScript Call"
+		},
+		{
+			"params": [
+				1,
+				true,
+				1,
+				"smootherStep",
+				"Out"
+			],
+			"name": "Camera Movement",
+			"time": 279000
 		},
 		{
 			"params": [
@@ -2682,8 +2688,16 @@
 				"sine",
 				"InOut"
 			],
-			"name": "Camera Movement",
-			"time": 285000
+			"time": 285000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"zoom",
+				"1"
+			],
+			"time": 285000,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -2698,56 +2712,55 @@
 		},
 		{
 			"params": [
+				"zoom",
+				"0.6"
+			],
+			"name": "HScript Call",
+			"time": 291000
+		},
+		{
+			"params": [
 				1,
 				0.1
 			],
-			"name": "Camera Modulo Change",
-			"time": 297000
+			"time": 297000,
+			"name": "Camera Modulo Change"
 		},
 		{
 			"params": [
 				"cutsene",
 				""
 			],
-			"name": "HScript Call",
-			"time": 297750
+			"time": 297750,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				0
 			],
-			"name": "Camera Movement",
-			"time": 301500
+			"time": 301500,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 328500
+			"time": 328500,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 328500,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				"end",
 				""
 			],
-			"name": "HScript Call",
-			"time": 351000
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"name": "HScript Call",
-			"time": 379875
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 379915.79312066,
+			"time": 351000,
 			"name": "HScript Call"
 		},
 		{
@@ -2755,7 +2768,7 @@
 				"babkaScreamer",
 				""
 			],
-			"time": 379968.75,
+			"time": 379875,
 			"name": "HScript Call"
 		},
 		{
@@ -2764,14 +2777,22 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 380009.54312066
+			"time": 379915.79312066
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 380062.5,
+			"name": "HScript Call",
+			"time": 379968.75
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 380009.54312066,
 			"name": "HScript Call"
 		},
 		{
@@ -2780,22 +2801,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 380103.29312066
+			"time": 380062.5
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"name": "HScript Call",
-			"time": 380156.25
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 380197.04312066,
+			"time": 380103.29312066,
 			"name": "HScript Call"
 		},
 		{
@@ -2803,7 +2816,7 @@
 				"babkaScreamer",
 				""
 			],
-			"time": 380241.896009227,
+			"time": 380156.25,
 			"name": "HScript Call"
 		},
 		{
@@ -2812,7 +2825,7 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 380282.689129887
+			"time": 380197.04312066
 		},
 		{
 			"params": [
@@ -2820,14 +2833,22 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 380335.646009227
+			"time": 380241.896009227
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 380376.439129887,
+			"time": 380282.689129887,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 380335.646009227,
 			"name": "HScript Call"
 		},
 		{
@@ -2836,22 +2857,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 380429.396009227
+			"time": 380376.439129887
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 380470.189129887,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 380523.146009227,
+			"time": 380429.396009227,
 			"name": "HScript Call"
 		},
 		{
@@ -2860,14 +2873,22 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 380563.939129887
+			"time": 380470.189129887
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 381018.75,
+			"name": "HScript Call",
+			"time": 380523.146009227
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 380563.939129887,
 			"name": "HScript Call"
 		},
 		{
@@ -2876,22 +2897,22 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 381059.54312066
+			"time": 381018.75
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"name": "HScript Call",
-			"time": 381112.5
+			"time": 381059.54312066,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 381153.29312066,
+			"time": 381112.5,
 			"name": "HScript Call"
 		},
 		{
@@ -2900,22 +2921,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 381206.25
+			"time": 381153.29312066
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 381247.04312066,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 381300,
+			"time": 381206.25,
 			"name": "HScript Call"
 		},
 		{
@@ -2924,7 +2937,7 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 381340.79312066
+			"time": 381247.04312066
 		},
 		{
 			"params": [
@@ -2932,14 +2945,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 381385.646009227
+			"time": 381300
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 381426.439129887,
+			"time": 381340.79312066,
 			"name": "HScript Call"
 		},
 		{
@@ -2947,23 +2960,7 @@
 				"babkaScreamer",
 				""
 			],
-			"time": 381479.396009227,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"name": "HScript Call",
-			"time": 381520.189129887
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 381573.146009227,
+			"time": 381385.646009227,
 			"name": "HScript Call"
 		},
 		{
@@ -2972,7 +2969,7 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 381613.939129887
+			"time": 381426.439129887
 		},
 		{
 			"params": [
@@ -2980,22 +2977,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 381666.896009227
+			"time": 381479.396009227
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 381707.689129887,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 382593.75,
+			"time": 381520.189129887,
 			"name": "HScript Call"
 		},
 		{
@@ -3004,22 +2993,22 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 382634.54312066
+			"time": 381573.146009227
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"name": "HScript Call",
-			"time": 382687.5
+			"time": 381613.939129887,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 382728.29312066,
+			"time": 381666.896009227,
 			"name": "HScript Call"
 		},
 		{
@@ -3028,14 +3017,22 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 382781.25
+			"time": 381707.689129887
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 382822.04312066,
+			"name": "HScript Call",
+			"time": 382593.75
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 382634.54312066,
 			"name": "HScript Call"
 		},
 		{
@@ -3043,7 +3040,7 @@
 				"babkaScreamer",
 				""
 			],
-			"time": 382875,
+			"time": 382687.5,
 			"name": "HScript Call"
 		},
 		{
@@ -3052,30 +3049,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 382915.79312066
+			"time": 382728.29312066
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"name": "HScript Call",
-			"time": 382960.646009227
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 383001.439129887,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 383054.396009227,
+			"time": 382781.25,
 			"name": "HScript Call"
 		},
 		{
@@ -3084,14 +3065,30 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 383095.189129887
+			"time": 382822.04312066
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 383148.146009227,
+			"name": "HScript Call",
+			"time": 382875
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 382915.79312066,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 382960.646009227,
 			"name": "HScript Call"
 		},
 		{
@@ -3100,7 +3097,7 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 383188.939129887
+			"time": 383001.439129887
 		},
 		{
 			"params": [
@@ -3108,14 +3105,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 383241.896009227
+			"time": 383054.396009227
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 383282.689129887,
+			"time": 383095.189129887,
 			"name": "HScript Call"
 		},
 		{
@@ -3124,14 +3121,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 383737.5
+			"time": 383148.146009227
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 383778.29312066,
+			"time": 383188.939129887,
 			"name": "HScript Call"
 		},
 		{
@@ -3139,23 +3136,7 @@
 				"babkaScreamer",
 				""
 			],
-			"time": 383831.25,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"name": "HScript Call",
-			"time": 383872.04312066
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 383925,
+			"time": 383241.896009227,
 			"name": "HScript Call"
 		},
 		{
@@ -3164,30 +3145,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 383965.79312066
+			"time": 383282.689129887
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"name": "HScript Call",
-			"time": 384018.75
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 384059.54312066,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 384104.396009227,
+			"time": 383737.5,
 			"name": "HScript Call"
 		},
 		{
@@ -3196,7 +3161,7 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 384145.189129887
+			"time": 383778.29312066
 		},
 		{
 			"params": [
@@ -3204,14 +3169,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 384198.146009227
+			"time": 383831.25
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 384238.939129887,
+			"time": 383872.04312066,
 			"name": "HScript Call"
 		},
 		{
@@ -3220,14 +3185,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 384291.896009227
+			"time": 383925
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 384332.689129887,
+			"time": 383965.79312066,
 			"name": "HScript Call"
 		},
 		{
@@ -3235,39 +3200,7 @@
 				"babkaScreamer",
 				""
 			],
-			"time": 384385.646009227,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"name": "HScript Call",
-			"time": 384426.439129887
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"name": "HScript Call",
-			"time": 385593.75
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 385634.54312066,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 385687.5,
+			"time": 384018.75,
 			"name": "HScript Call"
 		},
 		{
@@ -3276,14 +3209,30 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 385728.29312066
+			"time": 384059.54312066
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 385781.25,
+			"name": "HScript Call",
+			"time": 384104.396009227
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 384145.189129887,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 384198.146009227,
 			"name": "HScript Call"
 		},
 		{
@@ -3292,30 +3241,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 385822.04312066
+			"time": 384238.939129887
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"name": "HScript Call",
-			"time": 385875
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 385915.79312066,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 385960.646009227,
+			"time": 384291.896009227,
 			"name": "HScript Call"
 		},
 		{
@@ -3324,7 +3257,7 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 386001.439129887
+			"time": 384332.689129887
 		},
 		{
 			"params": [
@@ -3332,14 +3265,22 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 386054.396009227
+			"time": 384385.646009227
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 386095.189129887,
+			"time": 384426.439129887,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 385593.75,
 			"name": "HScript Call"
 		},
 		{
@@ -3348,22 +3289,22 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 386148.146009227
+			"time": 385634.54312066
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 386188.939129887,
-			"name": "HScript Call"
+			"name": "HScript Call",
+			"time": 385687.5
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 386241.896009227,
+			"time": 385728.29312066,
 			"name": "HScript Call"
 		},
 		{
@@ -3372,14 +3313,22 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 386282.689129887
+			"time": 385781.25
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 386737.5,
+			"time": 385822.04312066,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 385875,
 			"name": "HScript Call"
 		},
 		{
@@ -3388,7 +3337,7 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 386778.29312066
+			"time": 385915.79312066
 		},
 		{
 			"params": [
@@ -3396,14 +3345,22 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 386831.25
+			"time": 385960.646009227
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 386872.04312066,
+			"time": 386001.439129887,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 386054.396009227,
 			"name": "HScript Call"
 		},
 		{
@@ -3412,22 +3369,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 386925
+			"time": 386095.189129887
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 386965.79312066,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 387018.75,
+			"time": 386148.146009227,
 			"name": "HScript Call"
 		},
 		{
@@ -3436,7 +3385,7 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 387059.54312066
+			"time": 386188.939129887
 		},
 		{
 			"params": [
@@ -3444,22 +3393,14 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 387104.396009227
+			"time": 386241.896009227
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 387145.189129887,
-			"name": "HScript Call"
-		},
-		{
-			"params": [
-				"babkaScreamer",
-				""
-			],
-			"time": 387198.146009227,
+			"time": 386282.689129887,
 			"name": "HScript Call"
 		},
 		{
@@ -3468,14 +3409,22 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 387238.939129887
+			"time": 386737.5
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 387291.896009227,
+			"time": 386778.29312066,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 386831.25,
 			"name": "HScript Call"
 		},
 		{
@@ -3484,7 +3433,15 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 387332.689129887
+			"time": 386872.04312066
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 386925,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -3492,21 +3449,114 @@
 				""
 			],
 			"name": "HScript Call",
-			"time": 387385.646009227
+			"time": 386965.79312066
 		},
 		{
 			"params": [
 				"babkaScreamer",
 				""
 			],
-			"time": 387426.439129887,
+			"name": "HScript Call",
+			"time": 387018.75
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 387059.54312066,
 			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 387104.396009227,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"name": "HScript Call",
+			"time": 387145.189129887
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"name": "HScript Call",
+			"time": 387198.146009227
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 387238.939129887,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"name": "HScript Call",
+			"time": 387291.896009227
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 387332.689129887,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"time": 387385.646009227,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"babkaScreamer",
+				""
+			],
+			"name": "HScript Call",
+			"time": 387426.439129887
 		}
 	],
 	"scrollSpeed": 2,
+	"codenameChart": true,
 	"strumLines": [
 		{
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 58898.4375,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 59062.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 234.375,
+					"time": 59250,
+					"type": 0
+				},
 				{
 					"id": 1,
 					"sLen": 93.75,
@@ -4210,7 +4260,7 @@
 					"type": 0
 				},
 				{
-					"id": 1,
+					"id": 2,
 					"sLen": 281.25,
 					"time": 88500,
 					"type": 0
@@ -8076,25 +8126,43 @@
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 216000,
+					"time": 216187.5,
 					"type": 0
 				},
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 216375,
+					"time": 216289.0625,
 					"type": 0
 				},
 				{
 					"id": 1,
 					"sLen": 0,
+					"time": 216289.0625,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
 					"time": 216375,
 					"type": 0
 				},
 				{
+					"id": 0,
+					"sLen": 0,
+					"time": 216468.75,
+					"type": 0
+				},
+				{
 					"id": 2,
-					"sLen": 93.75,
-					"time": 216375,
+					"sLen": 0,
+					"time": 216562.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 216656.25,
 					"type": 0
 				},
 				{
@@ -8116,21 +8184,63 @@
 					"type": 0
 				},
 				{
+					"id": 3,
+					"sLen": 0,
+					"time": 216937.5,
+					"type": 0
+				},
+				{
 					"id": 0,
-					"sLen": 93.75,
+					"sLen": 0,
 					"time": 217125,
 					"type": 0
 				},
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 217125,
+					"time": 217129.6875,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 217207.03125,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 217218.75,
 					"type": 0
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 217125,
+					"time": 217218.75,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 217312.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
+					"time": 217312.5,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 217312.5,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 217312.5,
 					"type": 0
 				},
 				{
@@ -8140,51 +8250,45 @@
 					"type": 0
 				},
 				{
-					"id": 3,
+					"id": 1,
 					"sLen": 0,
 					"time": 217687.5,
 					"type": 0
 				},
 				{
-					"id": 3,
+					"id": 1,
 					"sLen": 0,
 					"time": 217781.25,
 					"type": 0
 				},
 				{
-					"id": 1,
+					"id": 2,
 					"sLen": 0,
 					"time": 217875,
 					"type": 0
 				},
 				{
-					"id": 2,
+					"id": 0,
 					"sLen": 0,
 					"time": 217968.75,
 					"type": 0
 				},
 				{
-					"id": 0,
+					"id": 1,
 					"sLen": 0,
 					"time": 218062.5,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 0,
+					"sLen": 93.75,
 					"time": 218156.25,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 0,
+					"sLen": 46.875,
 					"time": 218343.75,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 218531.25,
 					"type": 0
 				},
 				{
@@ -8230,249 +8334,501 @@
 					"type": 0
 				},
 				{
-					"id": 1,
+					"id": 2,
 					"sLen": 0,
-					"time": 222000,
+					"time": 219000,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 93.75,
-					"time": 222000,
-					"type": 0
-				},
-				{
-					"id": 3,
 					"sLen": 0,
-					"time": 222000,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 222375,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 222375,
+					"time": 219187.5,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 93.75,
-					"time": 222375,
-					"type": 0
-				},
-				{
-					"id": 0,
 					"sLen": 0,
-					"time": 222750,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 93.75,
-					"time": 222750,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 222750,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 223125,
+					"time": 219281.25,
 					"type": 0
 				},
 				{
 					"id": 1,
 					"sLen": 93.75,
-					"time": 223125,
+					"time": 219375,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 219562.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
+					"time": 219656.25,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 219843.75,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 220125,
 					"type": 0
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 223125,
+					"time": 220125,
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 93.75,
-					"time": 225375,
+					"id": 0,
+					"sLen": 0,
+					"time": 220218.75,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 220218.75,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 220312.5,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 0,
+					"time": 220312.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
+					"time": 220500,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 220687.5,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 220781.25,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 220875,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 220968.75,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 221062.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 221156.25,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 221250,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 221348.4375,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 221367.1875,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 221378.90625,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 221402.34375,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 221423.4375,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 221437.5,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 221477.34375,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 221505.46875,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 221542.96875,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 221557.03125,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 221625,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 221812.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 247481.25,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 281.25,
 					"time": 247500,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 247687.5,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 247781.25,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 93.75,
 					"time": 247875,
 					"type": 0
 				},
 				{
-					"id": 1,
-					"sLen": 93.75,
+					"id": 2,
+					"sLen": 281.25,
 					"time": 248062.5,
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 93.75,
-					"time": 248250,
-					"type": 0
-				},
-				{
 					"id": 1,
-					"sLen": 0,
+					"sLen": 281.25,
 					"time": 248437.5,
 					"type": 0
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 248775,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 281.25,
 					"time": 248812.5,
 					"type": 0
 				},
 				{
-					"id": 3,
-					"sLen": 93.75,
-					"time": 249187.5,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 93.75,
-					"time": 249375,
-					"type": 0
-				},
-				{
 					"id": 1,
+					"sLen": 281.25,
+					"time": 249000,
+					"type": 0
+				},
+				{
+					"id": 3,
 					"sLen": 93.75,
 					"time": 249562.5,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 281.25,
+					"sLen": 0,
 					"time": 249750,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 281.25,
+					"sLen": 0,
+					"time": 249892.96875,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 249953.125,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
 					"time": 250125,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 250500,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 250593.75,
+					"time": 250218.75,
 					"type": 0
 				},
 				{
 					"id": 3,
 					"sLen": 93.75,
-					"time": 250687.5,
+					"time": 250320.3125,
 					"type": 0
 				},
 				{
 					"id": 1,
+					"sLen": 93.75,
+					"time": 250500,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 250687.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 250781.25,
+					"type": 0
+				},
+				{
+					"id": 3,
 					"sLen": 93.75,
 					"time": 250875,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 281.25,
+					"sLen": 0,
 					"time": 251062.5,
 					"type": 0
 				},
 				{
-					"id": 0,
-					"sLen": 187.5,
-					"time": 251437.5,
+					"id": 1,
+					"sLen": 93.75,
+					"time": 251250,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 375,
-					"time": 251812.5,
+					"sLen": 0,
+					"time": 251437.5,
 					"type": 0
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 252529.6875,
+					"time": 251625,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 93.75,
+					"time": 251812.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 252000,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 281.25,
+					"sLen": 0,
+					"time": 252093.75,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 252187.5,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 252281.25,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 252375,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 252468.75,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
 					"time": 252562.5,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 93.75,
+					"sLen": 0,
+					"time": 252656.25,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 252750,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 252843.75,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 252937.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 253031.25,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
 					"time": 253125,
 					"type": 0
 				},
 				{
-					"id": 0,
-					"sLen": 93.75,
+					"id": 1,
+					"sLen": 0,
+					"time": 253218.75,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
 					"time": 253312.5,
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 1406.25,
+					"id": 0,
+					"sLen": 0,
+					"time": 253406.25,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 1359.375,
 					"time": 253500,
 					"type": 0
 				},
 				{
-					"id": 0,
-					"sLen": 281.25,
-					"time": 256125,
+					"id": 2,
+					"sLen": 656.25,
+					"time": 256500,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 1406.25,
-					"time": 256500,
+					"sLen": 0,
+					"time": 257437.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 93.75,
+					"time": 257625,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 257812.5,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 656.25,
+					"time": 258000,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 258937.5,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 259125,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 259218.75,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 259312.5,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 259406.25,
 					"type": 0
 				},
 				{
@@ -8668,7 +9024,7 @@
 					"type": 0
 				},
 				{
-					"id": 2,
+					"id": 3,
 					"sLen": 0,
 					"time": 262500,
 					"type": 0
@@ -8676,35 +9032,11 @@
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 262593.75,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 262687.5,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 262781.25,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
 					"time": 262875,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 0,
-					"time": 262968.75,
-					"type": 0
-				},
-				{
-					"id": 1,
 					"sLen": 0,
 					"time": 263062.5,
 					"type": 0
@@ -8716,51 +9048,15 @@
 					"type": 0
 				},
 				{
-					"id": 0,
+					"id": 1,
 					"sLen": 0,
 					"time": 263250,
 					"type": 0
 				},
 				{
-					"id": 1,
-					"sLen": 0,
-					"time": 263343.75,
-					"type": 0
-				},
-				{
 					"id": 2,
-					"sLen": 0,
-					"time": 263437.5,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 263531.25,
-					"type": 0
-				},
-				{
-					"id": 0,
 					"sLen": 0,
 					"time": 263625,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 263718.75,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 263812.5,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 263906.25,
 					"type": 0
 				},
 				{
@@ -8770,13 +9066,7 @@
 					"type": 0
 				},
 				{
-					"id": 0,
-					"sLen": 0,
-					"time": 264093.75,
-					"type": 0
-				},
-				{
-					"id": 3,
+					"id": 1,
 					"sLen": 0,
 					"time": 264187.5,
 					"type": 0
@@ -8784,23 +9074,11 @@
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 264281.25,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
 					"time": 264375,
 					"type": 0
 				},
 				{
-					"id": 3,
-					"sLen": 0,
-					"time": 264468.75,
-					"type": 0
-				},
-				{
-					"id": 2,
+					"id": 1,
 					"sLen": 0,
 					"time": 264562.5,
 					"type": 0
@@ -8808,31 +9086,13 @@
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 264656.25,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
 					"time": 264750,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 264843.75,
 					"type": 0
 				},
 				{
 					"id": 3,
 					"sLen": 0,
 					"time": 264937.5,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 265031.25,
 					"type": 0
 				},
 				{
@@ -8844,79 +9104,55 @@
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 265218.75,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
 					"time": 265312.5,
 					"type": 0
 				},
 				{
 					"id": 0,
-					"sLen": 0,
-					"time": 265406.25,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 268500,
+					"sLen": 1265.625,
+					"time": 265500,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 0,
-					"time": 268593.75,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 268687.5,
+					"sLen": 1265.625,
+					"time": 265500,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 0,
-					"time": 268781.25,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 268875,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 268968.75,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 269062.5,
+					"sLen": 234.375,
+					"time": 266632.8125,
 					"type": 0
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 269156.25,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 269250,
+					"time": 267757.8125,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 269343.75,
+					"time": 267937.5,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 268125,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 268312.5,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 656.25,
+					"time": 268507.8125,
 					"type": 0
 				},
 				{
@@ -8926,129 +9162,33 @@
 					"type": 0
 				},
 				{
-					"id": 3,
-					"sLen": 0,
-					"time": 269531.25,
-					"type": 0
-				},
-				{
 					"id": 1,
 					"sLen": 0,
 					"time": 269625,
 					"type": 0
 				},
 				{
-					"id": 0,
-					"sLen": 0,
-					"time": 269718.75,
-					"type": 0
-				},
-				{
-					"id": 2,
+					"id": 3,
 					"sLen": 0,
 					"time": 269812.5,
 					"type": 0
 				},
 				{
-					"id": 1,
-					"sLen": 0,
-					"time": 269906.25,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
+					"id": 0,
+					"sLen": 187.5,
 					"time": 270000,
 					"type": 0
 				},
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 270093.75,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 270187.5,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
 					"time": 270281.25,
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 0,
+					"id": 0,
+					"sLen": 1031.25,
 					"time": 270375,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 270468.75,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 270562.5,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 270656.25,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 270750,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 270843.75,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 270937.5,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 271031.25,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 271125,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 271218.75,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 271312.5,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 271406.25,
 					"type": 0
 				},
 				{
@@ -9059,7 +9199,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 0,
+					"sLen": 93.75,
 					"time": 273000,
 					"type": 0
 				},
@@ -9070,158 +9210,284 @@
 					"type": 0
 				},
 				{
-					"id": 1,
-					"sLen": 0,
-					"time": 273281.25,
-					"type": 0
-				},
-				{
 					"id": 2,
 					"sLen": 0,
 					"time": 273375,
 					"type": 0
 				},
 				{
-					"id": 1,
+					"id": 3,
 					"sLen": 0,
 					"time": 273562.5,
 					"type": 0
 				},
 				{
-					"id": 0,
+					"id": 2,
 					"sLen": 0,
 					"time": 273750,
 					"type": 0
 				},
 				{
-					"id": 3,
-					"sLen": 0,
+					"id": 0,
+					"sLen": 93.75,
 					"time": 273937.5,
 					"type": 0
 				},
 				{
-					"id": 1,
+					"id": 2,
+					"sLen": 0,
+					"time": 274312.5,
+					"type": 0
+				},
+				{
+					"id": 2,
 					"sLen": 281.25,
-					"time": 274125,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 274687.5,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 274875,
+					"time": 274500,
 					"type": 0
 				},
 				{
 					"id": 3,
+					"sLen": 93.75,
+					"time": 274875,
+					"type": 0
+				},
+				{
+					"id": 0,
 					"sLen": 0,
 					"time": 275062.5,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 281.25,
+					"sLen": 0,
 					"time": 275250,
 					"type": 0
 				},
 				{
+					"id": 1,
+					"sLen": 0,
+					"time": 275343.75,
+					"type": 0
+				},
+				{
 					"id": 3,
+					"sLen": 0,
+					"time": 275437.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 275531.25,
+					"type": 0
+				},
+				{
+					"id": 2,
 					"sLen": 281.25,
 					"time": 275625,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 562.5,
+					"sLen": 93.75,
 					"time": 276000,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 276000,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 276187.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 276281.25,
 					"type": 0
 				},
 				{
 					"id": 1,
 					"sLen": 93.75,
+					"time": 276281.25,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 276468.75,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
+					"time": 276562.5,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 276562.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 93.75,
+					"time": 276750,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 93.75,
+					"time": 276937.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
+					"time": 277125,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
+					"time": 277312.5,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 93.75,
+					"time": 277500,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 277687.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 277781.25,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 93.75,
+					"time": 277875,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 278062.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 93.75,
+					"time": 278250,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 278437.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
+					"time": 278625,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 93.75,
+					"time": 278812.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 1031.25,
 					"time": 279000,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 0,
-					"time": 279187.5,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 93.75,
-					"time": 279375,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 279562.5,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 281.25,
-					"time": 279750,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 281.25,
-					"time": 280125,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 93.75,
+					"sLen": 562.5,
 					"time": 280500,
 					"type": 0
 				},
 				{
-					"id": 2,
+					"id": 0,
 					"sLen": 0,
-					"time": 280687.5,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 93.75,
-					"time": 280875,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 281062.5,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 281.25,
 					"time": 281250,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 281.25,
-					"time": 281625,
+					"sLen": 0,
+					"time": 281250,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 93.75,
+					"sLen": 0,
+					"time": 281531.25,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 281531.25,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 281812.5,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 281812.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
 					"time": 285000,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 0,
+					"time": 285093.75,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 285187.5,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 285281.25,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
 					"time": 285375,
 					"type": 0
 				},
@@ -9232,134 +9498,206 @@
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 0,
-					"time": 285656.25,
-					"type": 0
-				},
-				{
 					"id": 1,
 					"sLen": 93.75,
 					"time": 285750,
 					"type": 0
 				},
 				{
-					"id": 0,
-					"sLen": 93.75,
+					"id": 3,
+					"sLen": 0,
 					"time": 285937.5,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 281.25,
+					"sLen": 0,
+					"time": 286125,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
 					"time": 286312.5,
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 93.75,
+					"id": 3,
+					"sLen": 0,
+					"time": 286500,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
 					"time": 286687.5,
 					"type": 0
 				},
 				{
 					"id": 3,
+					"sLen": 0,
+					"time": 286781.25,
+					"type": 0
+				},
+				{
+					"id": 2,
 					"sLen": 93.75,
 					"time": 286875,
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 93.75,
+					"id": 1,
+					"sLen": 0,
 					"time": 287062.5,
 					"type": 0
 				},
 				{
-					"id": 1,
-					"sLen": 187.5,
-					"time": 287437.5,
+					"id": 0,
+					"sLen": 281.25,
+					"time": 287250,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 0,
-					"time": 287812.5,
+					"sLen": 281.25,
+					"time": 287625,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 187.5,
+					"sLen": 93.75,
 					"time": 288000,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 93.75,
+					"sLen": 0,
+					"time": 288187.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 288281.25,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
 					"time": 288375,
 					"type": 0
 				},
 				{
-					"id": 3,
+					"id": 2,
 					"sLen": 0,
 					"time": 288562.5,
 					"type": 0
 				},
 				{
-					"id": 1,
-					"sLen": 281.25,
-					"time": 288937.5,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 656.25,
-					"time": 289312.5,
+					"id": 0,
+					"sLen": 0,
+					"time": 288656.25,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 843.75,
+					"sLen": 281.25,
+					"time": 288750,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 281.25,
+					"time": 289125,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 93.75,
+					"time": 289500,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 289687.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 289781.25,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 93.75,
+					"time": 289875,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
 					"time": 290062.5,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 562.5,
+					"sLen": 0,
+					"time": 290156.25,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 93.75,
+					"time": 290250,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 290437.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
+					"time": 290625,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 290812.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 290906.25,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 1218.75,
 					"time": 291000,
 					"type": 0
 				},
 				{
-					"id": 1,
-					"sLen": 281.25,
-					"time": 294937.5,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 562.5,
-					"time": 295312.5,
-					"type": 0
-				},
-				{
 					"id": 2,
-					"sLen": 843.75,
-					"time": 296062.5,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 2203.125,
+					"sLen": 2250,
 					"time": 301500,
 					"type": 0
 				},
 				{
-					"id": 3,
+					"id": 1,
 					"sLen": 281.25,
 					"time": 304125,
 					"type": 0
 				},
 				{
-					"id": 0,
-					"sLen": 2062.5,
+					"id": 3,
+					"sLen": 1875,
 					"time": 304500,
 					"type": 0
 				},
@@ -9442,21 +9780,21 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"visible": false,
-			"type": 0,
 			"characters": [
 				"ivan"
 			],
+			"type": 0,
+			"visible": false,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.5,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.5
 		},
 		{
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -12621,27 +12959,51 @@
 					"type": 0
 				},
 				{
+					"id": 2,
+					"sLen": 0,
+					"time": 202726.5625,
+					"type": 0
+				},
+				{
 					"id": 0,
 					"sLen": 0,
 					"time": 202875,
 					"type": 0
 				},
 				{
+					"id": 1,
+					"sLen": 0,
+					"time": 203062.5,
+					"type": 0
+				},
+				{
 					"id": 2,
 					"sLen": 46.875,
-					"time": 202875,
+					"time": 203062.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 203328.125,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 203328.125,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 203382.8125,
 					"type": 0
 				},
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 203250,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 46.875,
-					"time": 203250,
+					"time": 203429.6875,
 					"type": 0
 				},
 				{
@@ -13065,145 +13427,109 @@
 					"type": 0
 				},
 				{
-					"id": 1,
+					"id": 0,
 					"sLen": 93.75,
-					"time": 219000,
+					"time": 222000,
 					"type": 0
 				},
 				{
-					"id": 3,
+					"id": 1,
 					"sLen": 0,
-					"time": 219000,
+					"time": 222000,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 93.75,
-					"time": 219375,
+					"sLen": 0,
+					"time": 222187.5,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 219375,
+					"time": 222281.25,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 222281.25,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 222375,
 					"type": 0
 				},
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 219750,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 93.75,
-					"time": 219750,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 93.75,
-					"time": 220125,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 220125,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 220500,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 220687.5,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 220781.25,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 220875,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 220947.65625,
+					"time": 222468.75,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 221022.65625,
+					"time": 222487.5,
 					"type": 0
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 221062.5,
+					"time": 222562.5,
 					"type": 0
 				},
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 221156.25,
+					"time": 222656.25,
 					"type": 0
 				},
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 221343.75,
+					"time": 222750,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 187.5,
+					"time": 222843.75,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 223125,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 223218.75,
 					"type": 0
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 221531.25,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 221625,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 221718.75,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 221812.5,
+					"time": 223218.75,
 					"type": 0
 				},
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 221906.25,
+					"time": 223312.5,
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 93.75,
-					"time": 223500,
+					"id": 1,
+					"sLen": 0,
+					"time": 223312.5,
 					"type": 0
 				},
 				{
-					"id": 3,
+					"id": 0,
 					"sLen": 0,
 					"time": 223500,
 					"type": 0
@@ -13211,37 +13537,67 @@
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 223875,
+					"time": 223687.5,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 93.75,
-					"time": 223875,
+					"sLen": 0,
+					"time": 223687.5,
 					"type": 0
 				},
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 224250,
+					"time": 223781.25,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 93.75,
-					"time": 224250,
+					"sLen": 0,
+					"time": 223781.25,
 					"type": 0
 				},
 				{
 					"id": 2,
+					"sLen": 0,
+					"time": 223875,
+					"type": 0
+				},
+				{
+					"id": 3,
 					"sLen": 93.75,
-					"time": 224625,
+					"time": 223875,
 					"type": 0
 				},
 				{
 					"id": 3,
 					"sLen": 0,
+					"time": 224062.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 224156.25,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 140.625,
+					"time": 224343.75,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
 					"time": 224625,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 224812.5,
 					"type": 0
 				},
 				{
@@ -13275,33 +13631,15 @@
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 0,
-					"time": 225750,
-					"type": 0
-				},
-				{
 					"id": 3,
 					"sLen": 0,
-					"time": 225843.75,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 225897.65625,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 225937.5,
+					"time": 225656.25,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 0,
-					"time": 226031.25,
+					"sLen": 187.5,
+					"time": 225843.75,
 					"type": 0
 				},
 				{
@@ -13313,7 +13651,13 @@
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 226312.5,
+					"time": 226242.1875,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 226398.4375,
 					"type": 0
 				},
 				{
@@ -13419,81 +13763,81 @@
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 0,
+					"id": 0,
+					"sLen": 281.25,
 					"time": 253500,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 0,
-					"time": 253687.5,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 253781.25,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
+					"sLen": 93.75,
 					"time": 253875,
 					"type": 0
 				},
 				{
-					"id": 1,
-					"sLen": 93.75,
+					"id": 3,
+					"sLen": 281.25,
 					"time": 254062.5,
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 93.75,
-					"time": 254250,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 93.75,
+					"id": 1,
+					"sLen": 281.25,
 					"time": 254437.5,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 281.25,
+					"sLen": 0,
 					"time": 254812.5,
 					"type": 0
 				},
 				{
-					"id": 3,
-					"sLen": 93.75,
-					"time": 255187.5,
-					"type": 0
-				},
-				{
 					"id": 1,
-					"sLen": 93.75,
-					"time": 255375,
+					"sLen": 281.25,
+					"time": 255007.8125,
 					"type": 0
 				},
 				{
-					"id": 0,
-					"sLen": 93.75,
+					"id": 3,
+					"sLen": 0,
 					"time": 255562.5,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 187.5,
+					"sLen": 0,
 					"time": 255750,
 					"type": 0
 				},
 				{
-					"id": 3,
-					"sLen": 281.25,
+					"id": 1,
+					"sLen": 0,
+					"time": 255895.3125,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 255937.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
 					"time": 256125,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 256218.75,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 93.75,
+					"time": 256312.5,
 					"type": 0
 				},
 				{
@@ -13510,68 +13854,242 @@
 				},
 				{
 					"id": 0,
-					"sLen": 93.75,
-					"time": 256687.5,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 93.75,
-					"time": 256875,
+					"sLen": 0,
+					"time": 256695.3125,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 281.25,
+					"sLen": 0,
+					"time": 256781.25,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 256875,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 256968.75,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
 					"time": 257062.5,
 					"type": 0
 				},
 				{
 					"id": 0,
-					"sLen": 281.25,
+					"sLen": 0,
+					"time": 257250,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
 					"time": 257437.5,
 					"type": 0
 				},
 				{
+					"id": 0,
+					"sLen": 0,
+					"time": 257625,
+					"type": 0
+				},
+				{
 					"id": 2,
-					"sLen": 375,
+					"sLen": 93.75,
+					"time": 257625,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 93.75,
 					"time": 257812.5,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 468.75,
-					"time": 258562.5,
+					"sLen": 0,
+					"time": 257812.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 258000,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 93.75,
+					"sLen": 0,
+					"time": 258093.75,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 258187.5,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 258281.25,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 258375,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 258468.75,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 258562.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 258656.25,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 258750,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 258843.75,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 258937.5,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 259031.25,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
 					"time": 259125,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 93.75,
+					"sLen": 0,
+					"time": 259218.75,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
 					"time": 259312.5,
 					"type": 0
 				},
 				{
-					"id": 2,
+					"id": 0,
+					"sLen": 0,
+					"time": 259406.25,
+					"type": 0
+				},
+				{
+					"id": 3,
 					"sLen": 1406.25,
 					"time": 259500,
 					"type": 0
 				},
 				{
+					"id": 2,
+					"sLen": 0,
+					"time": 261750,
+					"type": 0
+				},
+				{
 					"id": 0,
-					"sLen": 281.25,
-					"time": 262125,
+					"sLen": 0,
+					"time": 261937.5,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 1406.25,
+					"sLen": 0,
+					"time": 262125,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 262312.5,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 562.5,
 					"time": 262500,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 263437.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
+					"time": 263625,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 263812.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 562.5,
+					"time": 264000,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 264937.5,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
+					"time": 265125,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 265312.5,
 					"type": 0
 				},
 				{
@@ -13767,121 +14285,61 @@
 					"type": 0
 				},
 				{
-					"id": 1,
-					"sLen": 0,
+					"id": 3,
+					"sLen": 281.25,
 					"time": 268500,
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 0,
-					"time": 268593.75,
-					"type": 0
-				},
-				{
 					"id": 0,
-					"sLen": 0,
-					"time": 268687.5,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 268781.25,
-					"type": 0
-				},
-				{
-					"id": 1,
 					"sLen": 0,
 					"time": 268875,
 					"type": 0
 				},
 				{
-					"id": 3,
+					"id": 2,
 					"sLen": 0,
 					"time": 268968.75,
 					"type": 0
 				},
 				{
-					"id": 2,
+					"id": 1,
 					"sLen": 0,
 					"time": 269062.5,
 					"type": 0
 				},
 				{
-					"id": 0,
+					"id": 3,
 					"sLen": 0,
 					"time": 269156.25,
 					"type": 0
 				},
 				{
-					"id": 3,
-					"sLen": 0,
+					"id": 1,
+					"sLen": 187.5,
 					"time": 269250,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 0,
-					"time": 269343.75,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 269437.5,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 269531.25,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
+					"sLen": 281.25,
 					"time": 269625,
 					"type": 0
 				},
 				{
-					"id": 1,
-					"sLen": 0,
-					"time": 269718.75,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 269812.5,
-					"type": 0
-				},
-				{
 					"id": 2,
-					"sLen": 0,
-					"time": 269906.25,
-					"type": 0
-				},
-				{
-					"id": 1,
 					"sLen": 0,
 					"time": 270000,
 					"type": 0
 				},
 				{
-					"id": 3,
-					"sLen": 0,
-					"time": 270093.75,
-					"type": 0
-				},
-				{
-					"id": 2,
+					"id": 0,
 					"sLen": 0,
 					"time": 270187.5,
 					"type": 0
 				},
 				{
-					"id": 0,
+					"id": 3,
 					"sLen": 0,
 					"time": 270281.25,
 					"type": 0
@@ -13893,19 +14351,13 @@
 					"type": 0
 				},
 				{
-					"id": 1,
-					"sLen": 0,
-					"time": 270468.75,
-					"type": 0
-				},
-				{
-					"id": 3,
+					"id": 0,
 					"sLen": 0,
 					"time": 270562.5,
 					"type": 0
 				},
 				{
-					"id": 2,
+					"id": 3,
 					"sLen": 0,
 					"time": 270656.25,
 					"type": 0
@@ -13913,25 +14365,13 @@
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 270750,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
 					"time": 270843.75,
 					"type": 0
 				},
 				{
-					"id": 1,
-					"sLen": 0,
-					"time": 270937.5,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 271031.25,
+					"id": 3,
+					"sLen": 93.75,
+					"time": 270921.09375,
 					"type": 0
 				},
 				{
@@ -13941,176 +14381,170 @@
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 0,
-					"time": 271218.75,
-					"type": 0
-				},
-				{
-					"id": 0,
+					"id": 1,
 					"sLen": 0,
 					"time": 271312.5,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 1453.125,
-					"time": 271406.25,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 93.75,
-					"time": 271687.5,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 276000,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 276187.5,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 276281.25,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 276375,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 276513.28125,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 276656.25,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 276750,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 276937.5,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 281.25,
-					"time": 277125,
+					"sLen": 1406.25,
+					"time": 271500,
 					"type": 0
 				},
 				{
 					"id": 1,
 					"sLen": 93.75,
-					"time": 277687.5,
+					"time": 279000,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 279187.5,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 93.75,
+					"time": 279375,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 279562.5,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 93.75,
+					"time": 279750,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 93.75,
+					"time": 279937.5,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 93.75,
+					"time": 280312.5,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 277875,
+					"time": 280593.75,
 					"type": 0
 				},
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 278062.5,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 278156.25,
+					"time": 280687.5,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 281.25,
-					"time": 278250,
+					"sLen": 0,
+					"time": 280781.25,
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 281.25,
-					"time": 278625,
+					"id": 1,
+					"sLen": 0,
+					"time": 280875,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 0,
-					"time": 278625,
+					"sLen": 93.75,
+					"time": 280875,
 					"type": 0
 				},
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 279000,
+					"time": 281062.5,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 656.25,
-					"time": 279000,
+					"sLen": 93.75,
+					"time": 281250,
 					"type": 0
 				},
 				{
 					"id": 3,
 					"sLen": 0,
+					"time": 281437.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 281531.25,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 281.25,
+					"time": 281625,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 93.75,
 					"time": 282000,
 					"type": 0
 				},
 				{
-					"id": 1,
+					"id": 2,
 					"sLen": 0,
 					"time": 282187.5,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 0,
-					"time": 282375,
+					"sLen": 93.75,
+					"time": 282281.25,
 					"type": 0
 				},
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 282562.5,
+					"time": 282468.75,
 					"type": 0
 				},
 				{
 					"id": 0,
+					"sLen": 93.75,
+					"time": 282562.5,
+					"type": 0
+				},
+				{
+					"id": 1,
 					"sLen": 281.25,
 					"time": 282750,
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 281.25,
+					"id": 1,
+					"sLen": 93.75,
 					"time": 283125,
 					"type": 0
 				},
 				{
+					"id": 1,
+					"sLen": 93.75,
+					"time": 283312.5,
+					"type": 0
+				},
+				{
 					"id": 3,
-					"sLen": 0,
+					"sLen": 93.75,
 					"time": 283500,
 					"type": 0
 				},
@@ -14121,8 +14555,14 @@
 					"type": 0
 				},
 				{
-					"id": 3,
+					"id": 2,
 					"sLen": 0,
+					"time": 283781.25,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 93.75,
 					"time": 283875,
 					"type": 0
 				},
@@ -14133,9 +14573,21 @@
 					"type": 0
 				},
 				{
+					"id": 2,
+					"sLen": 93.75,
+					"time": 284156.25,
+					"type": 0
+				},
+				{
 					"id": 3,
-					"sLen": 234.375,
-					"time": 284250,
+					"sLen": 0,
+					"time": 284343.75,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 93.75,
+					"time": 284437.5,
 					"type": 0
 				},
 				{
@@ -14145,15 +14597,15 @@
 					"type": 0
 				},
 				{
-					"id": 0,
-					"sLen": 0,
-					"time": 285375,
+					"id": 1,
+					"sLen": 93.75,
+					"time": 284812.5,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 1031.25,
-					"time": 285375,
+					"sLen": 843.75,
+					"time": 285000,
 					"type": 0
 				},
 				{
@@ -14163,21 +14615,27 @@
 					"type": 0
 				},
 				{
-					"id": 1,
+					"id": 3,
 					"sLen": 0,
+					"time": 291187.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 291281.25,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
 					"time": 291375,
 					"type": 0
 				},
 				{
-					"id": 1,
+					"id": 2,
 					"sLen": 0,
 					"time": 291562.5,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 291656.25,
 					"type": 0
 				},
 				{
@@ -14188,128 +14646,202 @@
 				},
 				{
 					"id": 0,
-					"sLen": 93.75,
+					"sLen": 0,
 					"time": 291937.5,
 					"type": 0
 				},
 				{
+					"id": 0,
+					"sLen": 0,
+					"time": 292125,
+					"type": 0
+				},
+				{
 					"id": 2,
-					"sLen": 281.25,
+					"sLen": 93.75,
 					"time": 292312.5,
 					"type": 0
 				},
 				{
-					"id": 3,
+					"id": 1,
 					"sLen": 93.75,
+					"time": 292500,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
 					"time": 292687.5,
 					"type": 0
 				},
 				{
 					"id": 0,
+					"sLen": 0,
+					"time": 292781.25,
+					"type": 0
+				},
+				{
+					"id": 2,
 					"sLen": 93.75,
 					"time": 292875,
 					"type": 0
 				},
 				{
-					"id": 2,
+					"id": 1,
 					"sLen": 0,
 					"time": 293062.5,
 					"type": 0
 				},
 				{
-					"id": 1,
+					"id": 2,
 					"sLen": 281.25,
-					"time": 293437.5,
+					"time": 293250,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 281.25,
+					"time": 293625,
 					"type": 0
 				},
 				{
 					"id": 1,
 					"sLen": 93.75,
-					"time": 293812.5,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 187.5,
 					"time": 294000,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 0,
+					"time": 294187.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 294281.25,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 93.75,
 					"time": 294375,
 					"type": 0
 				},
 				{
-					"id": 3,
-					"sLen": 93.75,
+					"id": 2,
+					"sLen": 0,
 					"time": 294562.5,
 					"type": 0
 				},
 				{
 					"id": 0,
-					"sLen": 281.25,
-					"time": 294937.5,
+					"sLen": 0,
+					"time": 294656.25,
 					"type": 0
 				},
 				{
-					"id": 2,
-					"sLen": 562.5,
-					"time": 295312.5,
+					"id": 3,
+					"sLen": 281.25,
+					"time": 294750,
 					"type": 0
 				},
 				{
 					"id": 0,
-					"sLen": 843.75,
-					"time": 296062.5,
+					"sLen": 281.25,
+					"time": 295125,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 562.5,
+					"sLen": 0,
+					"time": 295500,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 295687.5,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 295781.25,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 295875,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 296062.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 296156.25,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 296343.75,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 93.75,
+					"time": 296437.5,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 281.25,
+					"time": 296625,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 1312.5,
 					"time": 297000,
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"visible": true,
-			"type": 1,
 			"characters": [
 				"mrpyatorka"
 			],
+			"type": 1,
+			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.5,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.5
 		},
 		{
-			"notes": [
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 0,
-					"type": 0
-				}
-			],
-			"position": "girlfriend",
 			"strumScale": 1,
-			"visible": false,
-			"type": 2,
+			"position": "girlfriend",
+			"notes": [],
 			"characters": [
 				"nikto"
 			],
+			"type": 2,
+			"visible": false,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		}
 	],
-	"codenameChart": true,
 	"stage": "huila",
 	"noteTypes": []
 }

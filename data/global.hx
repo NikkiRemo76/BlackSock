@@ -52,13 +52,13 @@ function preStateSwitch()
     if (FlxG.save.data.watchedCutscene)
     {
         //Main.framerateSprite.codenameBuildField.text = "VS SONIC.EXE DEMO";
-        //window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('redRing'))));
+        window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('icon'))));
         window.title = windowTitle;
     }
     else
     {
         //Main.framerateSprite.codenameBuildField.text = "FUNK HILL ZONE DEMO";
-        //window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('ring'))));
+        window.setIcon(Image.fromBytes(Assets.getBytes(Paths.image('icon'))));
         window.title = windowTitleFake;
     }
 
