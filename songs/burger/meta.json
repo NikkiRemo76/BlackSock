@@ -1,15 +1,16 @@
 {
+	"beatsPerMeasure": 4,
 	"opponentModeAllowed": false,
-	"icon": "face",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 90,
 	"difficulties": [
 		"burger"
 	],
 	"parsedColor": -7179779,
-	"coopAllowed": false,
-	"name": "burger",
-	"stepsPerBeat": 4,
 	"displayName": "burger",
-	"beatsPerMeasure": 4,
-	"needsVoices": true,
-	"bpm": 160
+	"icon": "face",
+	"name": "burger",
+	"color": "#9271FD",
+	"customValues": {}
 }

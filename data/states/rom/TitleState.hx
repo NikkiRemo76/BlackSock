@@ -252,7 +252,7 @@ function update(elapsed:Float) {
 	                FlxTween.tween(statmenu, {alpha:1}, 5, {ease: FlxEase.quintOut});
                     transitioning = true;
 	        		//trace("m,dms,hdsjklljhvkdlhvgjkfdlvnjkfdojn");
-	        		FlxG.sound.play(Paths.sound("menu/enter"), 0.7);
+	        		FlxG.sound.play(Paths.sound("menu/new/enter"), 0.7);
 	        		//CoolUtil.playMenuSFX("menu/confirm");
 	        		new FlxTimer().start(1.4, (_) -> [
                     
@@ -330,7 +330,7 @@ function update(elapsed:Float) {
 	        FlxTween.tween(statmenu, {alpha:1}, 5, {ease: FlxEase.quintOut});
             transitioning = true;
 			//trace("m,dms,hdsjklljhvkdlhvgjkfdlvnjkfdojn");
-			FlxG.sound.play(Paths.sound("menu/enter"), 0.7);
+			FlxG.sound.play(Paths.sound("menu/new/enter"), 0.7);
 			//CoolUtil.playMenuSFX("menu/confirm");
 			new FlxTimer().start(1.4, (_) -> [
             

@@ -5,9 +5,10 @@
 //}
 import hxvlc.flixel.FlxVideoSprite;
 //import flixel.system.FlxPhysics;
-//introLength = 0;
+introLength = 8;
 var video = new FlxVideoSprite(-320, -180);
 
+introSounds = ['intros/burger/thre', 'intros/burger/two', "intros/burger/one", "intros/burger/burger"];
 
 //var aura = new CustomShader("Aura");
 

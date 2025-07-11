@@ -41,6 +41,7 @@ function postCreate() {
 	//stati.scrollFactor.set();
     stati.camera = camHUD;
 	stati.screenCenter();
+	
 }
 
 function update(elapsed:Float) {
