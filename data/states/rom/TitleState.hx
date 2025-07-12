@@ -6,6 +6,7 @@ import flixel.addons.display.FlxBackdrop;
 import flixel.effects.particles.FlxEmitter.FlxTypedEmitter;
 import funkin.options.OptionsMenu;
 import funkin.savedata.FunkinSave;
+import Sys;
 
 var camBG:FlxCamera = new FlxCamera();
 var camMenu:FlxCamera = new FlxCamera();
@@ -198,6 +199,22 @@ function create() {
         camBG.addShader(whait);
         camMenu.addShader(whait);
         //camUI.addShader(whait);
+    }else if(curWacky =='Friend'){
+        Conductor.changeBPM(180);
+        gray = new CustomShader('gray');
+        FlxG.sound.playMusic(Paths.music('friend'), 0, true);
+
+        ctm = new FlxSprite(149, 23);
+        ctm.frames = Paths.getSparrowAtlas('menus/title/texts/cum');
+        ctm.animation.addByPrefix('idle', 'ctm', 24, true);
+        ctm.animation.play('idle');
+        ctm.updateHitbox();
+        ctm.screenCenter();
+        ctm.y += 150;
+        ctm.antialiasing = false;
+        ctm.alpha = 0;
+        //introText.blend = BlendMode.LIGHTEN;
+        uiAssets.add(ctm);
     }
 
     textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi), Sani4ka ya Punkul, B3br1z, NikkiRemo, ', 60, true);
@@ -271,6 +288,25 @@ function postCreate() {
     uiAssets.add(options);
 
     //trace(FlxG.save.data.songFinished100);
+}
+
+function stepHit(curStep:Int) {
+    if(curWacky =='Friend'){
+        switch(curStep){
+            case 120:
+                FlxTween.tween(camMenu, {zoom: 5}, 50);
+                FlxTween.tween(camBG, {zoom: 5}, 50);
+                camBG.addShader(gray);
+                camMenu.addShader(gray);
+            case 220:
+                FlxTween.tween(ctm, {alpha:0.5, x: ctm.x + 75}, 1, {ease: FlxEase.quintOut});
+            case 270:
+                FlxTween.tween(ctm, {alpha:1, x: ctm.x + 75}, 1, {ease: FlxEase.quintOut});
+            case 300:
+                Sys.exit(0);
+        }
+    }
+    
 }
 
 function update(elapsed:Float) {

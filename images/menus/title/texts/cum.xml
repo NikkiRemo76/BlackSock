@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cum.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ctm0000" x="0" y="0" width="331" height="99"/>
+	<SubTexture name="ctm0001" x="0" y="0" width="331" height="99"/>
+	<SubTexture name="ctm0002" x="0" y="0" width="331" height="99"/>
+	<SubTexture name="ctm0003" x="0" y="0" width="331" height="99"/>
+	<SubTexture name="ctm0004" x="0" y="0" width="331" height="99"/>
+	<SubTexture name="ctm0005" x="0" y="99" width="331" height="99"/>
+	<SubTexture name="ctm0006" x="0" y="198" width="331" height="99"/>
+	<SubTexture name="ctm0007" x="0" y="297" width="331" height="99"/>
+	<SubTexture name="ctm0008" x="0" y="297" width="331" height="99"/>
+	<SubTexture name="ctm0009" x="0" y="198" width="331" height="99"/>
+	<SubTexture name="ctm0010" x="0" y="99" width="331" height="99"/>
+</TextureAtlas>
