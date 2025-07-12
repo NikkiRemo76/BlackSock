@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="stars.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="stars0000" x="11" y="11" width="640" height="480"/>
+	<SubTexture name="stars0001" x="11" y="11" width="640" height="480"/>
+	<SubTexture name="stars0002" x="11" y="11" width="640" height="480"/>
+	<SubTexture name="stars0003" x="662" y="11" width="640" height="480"/>
+	<SubTexture name="stars0004" x="662" y="11" width="640" height="480"/>
+	<SubTexture name="stars0005" x="662" y="11" width="640" height="480"/>
+	<SubTexture name="stars0006" x="1313" y="11" width="640" height="480"/>
+	<SubTexture name="stars0007" x="1313" y="11" width="640" height="480"/>
+	<SubTexture name="stars0008" x="1313" y="11" width="640" height="480"/>
+	<SubTexture name="stars0009" x="1964" y="11" width="640" height="480"/>
+	<SubTexture name="stars0010" x="1964" y="11" width="640" height="480"/>
+	<SubTexture name="stars0011" x="1964" y="11" width="640" height="480"/>
+	<SubTexture name="stars0012" x="2615" y="11" width="640" height="480"/>
+	<SubTexture name="stars0013" x="2615" y="11" width="640" height="480"/>
+	<SubTexture name="stars0014" x="2615" y="11" width="640" height="480"/>
+	<SubTexture name="stars0015" x="3266" y="11" width="640" height="480"/>
+	<SubTexture name="stars0016" x="3266" y="11" width="640" height="480"/>
+	<SubTexture name="stars0017" x="3266" y="11" width="640" height="480"/>
+	<SubTexture name="stars0018" x="11" y="502" width="640" height="480"/>
+	<SubTexture name="stars0019" x="11" y="502" width="640" height="480"/>
+	<SubTexture name="stars0020" x="11" y="502" width="640" height="480"/>
+	<SubTexture name="stars0021" x="662" y="502" width="640" height="480"/>
+	<SubTexture name="stars0022" x="662" y="502" width="640" height="480"/>
+	<SubTexture name="stars0023" x="662" y="502" width="640" height="480"/>
+	<SubTexture name="stars0024" x="1313" y="502" width="640" height="480"/>
+	<SubTexture name="stars0025" x="1313" y="502" width="640" height="480"/>
+	<SubTexture name="stars0026" x="1313" y="502" width="640" height="480"/>
+	<SubTexture name="stars0027" x="1964" y="502" width="640" height="480"/>
+	<SubTexture name="stars0028" x="1964" y="502" width="640" height="480"/>
+	<SubTexture name="stars0029" x="1964" y="502" width="640" height="480"/>
+	<SubTexture name="stars0030" x="2615" y="502" width="640" height="480"/>
+	<SubTexture name="stars0031" x="2615" y="502" width="640" height="480"/>
+	<SubTexture name="stars0032" x="2615" y="502" width="640" height="480"/>
+	<SubTexture name="stars0033" x="3266" y="502" width="640" height="480"/>
+	<SubTexture name="stars0034" x="3266" y="502" width="640" height="480"/>
+	<SubTexture name="stars0035" x="3266" y="502" width="640" height="480"/>
+	<SubTexture name="stars0036" x="11" y="993" width="640" height="480"/>
+	<SubTexture name="stars0037" x="11" y="993" width="640" height="480"/>
+	<SubTexture name="stars0038" x="11" y="993" width="640" height="480"/>
+	<SubTexture name="stars0039" x="662" y="993" width="640" height="480"/>
+	<SubTexture name="stars0040" x="662" y="993" width="640" height="480"/>
+	<SubTexture name="stars0041" x="662" y="993" width="640" height="480"/>
+	<SubTexture name="stars0042" x="1313" y="993" width="640" height="480"/>
+	<SubTexture name="stars0043" x="1313" y="993" width="640" height="480"/>
+	<SubTexture name="stars0044" x="1313" y="993" width="640" height="480"/>
+	<SubTexture name="stars0045" x="1964" y="993" width="640" height="480"/>
+	<SubTexture name="stars0046" x="1964" y="993" width="640" height="480"/>
+	<SubTexture name="stars0047" x="1964" y="993" width="640" height="480"/>
+	<SubTexture name="stars0048" x="2615" y="993" width="640" height="480"/>
+	<SubTexture name="stars0049" x="2615" y="993" width="640" height="480"/>
+	<SubTexture name="stars0050" x="2615" y="993" width="640" height="480"/>
+	<SubTexture name="stars0051" x="3266" y="993" width="640" height="480"/>
+	<SubTexture name="stars0052" x="3266" y="993" width="640" height="480"/>
+	<SubTexture name="stars0053" x="3266" y="993" width="640" height="480"/>
+	<SubTexture name="stars0054" x="11" y="1484" width="640" height="480"/>
+	<SubTexture name="stars0055" x="11" y="1484" width="640" height="480"/>
+	<SubTexture name="stars0056" x="11" y="1484" width="640" height="480"/>
+</TextureAtlas>

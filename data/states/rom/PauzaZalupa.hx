@@ -39,21 +39,23 @@ function create(event) {
 	glitch = new CustomShader('anotherGlitchShader');
     pauseCam.addShader(glitch);
 
-	glitch.vertJerkOpt     = 0.2;
-	glitch.vertMovementOpt = 0.5;
-	glitch.bottomStaticOpt = 0.3;
-	glitch.scalinesOpt     = 0.1;
-	glitch.rgbOffsetOpt    = 0.2;
-	glitch.horzFuzzOpt     = 0.1;
+	glitch.vertJerkOpt     = 0.0;
+	glitch.vertMovementOpt = 0.0;
+	glitch.bottomStaticOpt = 0.0;
+	glitch.scalinesOpt     = 0.0;
+	glitch.rgbOffsetOpt    = 0.0;
+	glitch.horzFuzzOpt     = 0.0;
+
+	FlxTween.tween(glitch, {vertJerkOpt: 0.2, vertMovementOpt: 0.5, bottomStaticOpt: 0.3, scalinesOpt: 0.5, rgbOffsetOpt: 0.2, horzFuzzOpt: 0.2}, 1, {ease: FlxEase.backOut});
 
 	grpMenuShit = new FlxTypedGroup();
 	add(grpMenuShit);
 
     var i:Float = 2;
 	for(e in menuItems) {
-		text = new FlxText(320, (22 * 2) + (i * 9 * 6) + 300, 0, e, 8, false);
+		text = new FlxText(320, (22 * 2) + (i * 9 * 6) + 280, 0, e, 8, false);
         //FlxTween.tween(text, {x: 350}, .5, {ease: FlxEase.backOut});
-        text.setFormat(Paths.font("1papyrus.ttf"), 150, FlxColor.WHITE, FlxText.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+        text.setFormat(Paths.font("joystix monospace.otf"), 150, FlxColor.WHITE, FlxText.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		confText(text);
 		grpMenuShit.add(text);
 		texts.push(text);
@@ -110,7 +112,7 @@ function update(elapsed) {
     glitch.iTime = time;
 
 	var curText = texts[curSelected];
-	hand.setPosition(curText.x - 30, curText.y + (text.height - hand.height) - 15);
+	hand.setPosition(curText.x - 30, curText.y + (text.height - hand.height) - 8);
 	//hand.x -= hand.x % 6;
 	//hand.y -= hand.y % 6;
 
@@ -147,6 +149,6 @@ function changeSelection(change){
 
 	if (curSelected < 0) curSelected = menuItems.length - 1;
 	if (curSelected >= menuItems.length) curSelected = 0;
-	trace(curSelected);
-	trace(menuItems.length);
+	//trace(curSelected);
+	//trace(menuItems.length);
 }

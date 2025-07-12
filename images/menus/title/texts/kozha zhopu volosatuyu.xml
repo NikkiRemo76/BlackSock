@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kozha zhopu volosatuyu.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="kozha zhopu volosatuyu0000" x="0" y="0" width="863" height="98"/>
+	<SubTexture name="kozha zhopu volosatuyu0001" x="0" y="0" width="863" height="98"/>
+	<SubTexture name="kozha zhopu volosatuyu0002" x="0" y="98" width="863" height="98"/>
+	<SubTexture name="kozha zhopu volosatuyu0003" x="0" y="98" width="863" height="98"/>
+	<SubTexture name="kozha zhopu volosatuyu0004" x="0" y="196" width="863" height="98"/>
+	<SubTexture name="kozha zhopu volosatuyu0005" x="0" y="196" width="863" height="98"/>
+	<SubTexture name="kozha zhopu volosatuyu0006" x="0" y="294" width="863" height="98"/>
+	<SubTexture name="kozha zhopu volosatuyu0007" x="0" y="294" width="863" height="98"/>
+	<SubTexture name="kozha zhopu volosatuyu0008" x="0" y="392" width="863" height="98"/>
+	<SubTexture name="kozha zhopu volosatuyu0009" x="0" y="392" width="863" height="98"/>
+</TextureAtlas>

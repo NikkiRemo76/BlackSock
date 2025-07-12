@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Estetika nosochka.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Estetika nosochka0000" x="0" y="0" width="500" height="77"/>
+	<SubTexture name="Estetika nosochka0001" x="500" y="0" width="500" height="77"/>
+	<SubTexture name="Estetika nosochka0002" x="0" y="77" width="500" height="77"/>
+	<SubTexture name="Estetika nosochka0003" x="500" y="77" width="500" height="77"/>
+	<SubTexture name="Estetika nosochka0004" x="0" y="154" width="500" height="77"/>
+	<SubTexture name="Estetika nosochka0005" x="500" y="154" width="500" height="77"/>
+	<SubTexture name="Estetika nosochka0006" x="0" y="231" width="500" height="77"/>
+	<SubTexture name="Estetika nosochka0007" x="500" y="231" width="500" height="77"/>
+</TextureAtlas>

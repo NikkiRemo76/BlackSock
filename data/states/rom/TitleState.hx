@@ -10,6 +10,7 @@ import funkin.savedata.FunkinSave;
 var camBG:FlxCamera = new FlxCamera();
 var camMenu:FlxCamera = new FlxCamera();
 var camUI:FlxCamera = new FlxCamera();
+var camES:FlxCamera = new FlxCamera();
 
 var random:FlxRandom = new FlxRandom();
 
@@ -33,6 +34,9 @@ function create() {
     FlxG.cameras.add(camMenu, false);
     camMenu.bgColor = new FlxColor(0x00000000);
 
+    FlxG.cameras.add(camES, false);
+    camES.bgColor = new FlxColor(0x00000000);
+
     FlxG.cameras.add(camUI, false);
     camUI.bgColor = new FlxColor(0x00000000);
 
@@ -43,6 +47,10 @@ function create() {
     bgAssets = new FlxGroup();
 	add(bgAssets);
     bgAssets.cameras = [camBG];
+
+    esAssets = new FlxGroup();
+	add(esAssets);
+    esAssets.cameras = [camES];
 
     uiAssets = new FlxGroup();
 	add(uiAssets);
@@ -141,9 +149,58 @@ function create() {
         menuAssets.add(mas);
         FlxTween.tween(mas, {alpha:0}, 5, {ease: FlxEase.quintOut});
         FlxG.sound.play(Paths.sound("masteeeeerd"), 0.7);
+    }else if(curWacky =='pedick'){
+        FlxG.sound.play(Paths.sound("jordan"), 0.7);
+    }else if(curWacky =='Estetika nosochka'){
+        FlxG.sound.playMusic(Paths.music('estetika'), 0, true);
+        FlxG.sound.play(Paths.sound("estetik"), 0.7);
+
+        stars = new FlxSprite(FlxG.width / 2 - 50, FlxG.height / 2 - 100);
+        stars.frames = Paths.getSparrowAtlas('menus/title/estet/stars');
+        stars.animation.addByPrefix('idle', "stars", 24, true);
+        stars.animation.play('idle');
+        stars.scale.set(2, 2);
+        stars.updateHitbox();
+        stars.screenCenter();
+        stars.visible = true;
+        esAssets.add(stars);
+
+        mujik = new FlxSprite(FlxG.width / 2 - 50, FlxG.height / 2 - 100);
+        mujik.frames = Paths.getSparrowAtlas('menus/title/estet/estetmujik');
+        mujik.animation.addByPrefix('idle', "mujik", 24, true);
+        mujik.animation.play('idle');
+        mujik.scale.set(0.8, 0.8);
+        mujik.updateHitbox();
+        mujik.screenCenter();
+        mujik.visible = true;
+        esAssets.add(mujik);
+
+        logo = new FlxSprite(FlxG.width / 2 - 50, FlxG.height / 2 - 100);
+        logo.frames = Paths.getSparrowAtlas('menus/title/estet/logo');
+        logo.animation.addByPrefix('idle', "logo", 24, true);
+        logo.animation.play('idle');
+        logo.scale.set(1, 1);
+        logo.updateHitbox();
+        logo.screenCenter();
+        logo.visible = true;
+        logo.y -= 150;
+        esAssets.add(logo);
+
+        whait = new CustomShader('bloom');
+        camES.addShader(whait);
+        camBG.addShader(whait);
+        camMenu.addShader(whait);
+        camUI.addShader(whait);
+    }else if(curWacky =='windings'){ 
+        FlxG.sound.play(Paths.sound("gast"), 0.7);
+        FlxG.sound.playMusic(Paths.music('gaster'), 0, true);
+        whait = new CustomShader('White');
+        camBG.addShader(whait);
+        camMenu.addShader(whait);
+        //camUI.addShader(whait);
     }
 
-    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi), Sani4ka ya Punkul, B3br1z, NikkiRemo, Ерих, ', 60, true);
+    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi), Sani4ka ya Punkul, B3br1z, NikkiRemo, ', 60, true);
     textCre.font = Paths.font("1papyrus.ttf");
     textCre.updateHitbox();
     textCre.visible = false;

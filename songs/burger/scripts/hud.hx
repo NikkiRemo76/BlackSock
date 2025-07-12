@@ -15,7 +15,7 @@ function postCreate(){
     iconP1.visible = false;
     iconP2.visible = false;
 
-    barBG = new FlxSprite(350, 50).loadGraphic(Paths.image('game/batareika/line'));
+    barBG = new FlxSprite(350, 60.5).loadGraphic(Paths.image('game/batareika/line'));
     barBG.camera = camHUD;
     barBG.updateHitbox();
     barBG.scale.set(2.5, 2.5);
@@ -26,9 +26,16 @@ function postCreate(){
     healthBar.camera = camHUD;
     healthBar.numDivisions = 50;
     healthBar.updateHitbox();
-    healthBar.x -= 4.4;
-    healthBar.y -= 5.5;
+    healthBar.x -= 4.5;
+    healthBar.y -= 5.6;
     healthBar.scale.set(barBG.scale.x, barBG.scale.y);
     add(healthBar);
 
+}
+function update(elapsed:Float) {
+    if (health < 0.3){
+        healthBar.color = 0xff0000;
+    }else{
+        healthBar.color = 0xffffff;
+    }
 }

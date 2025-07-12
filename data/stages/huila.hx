@@ -4,6 +4,9 @@
 //    ratioThing(1280, 720, true);
 //}
 import hxvlc.flixel.FlxVideoSprite;
+import openfl.display.BlendMode;
+
+import flixel.effects.particles.FlxEmitter.FlxTypedEmitter;
 //import flixel.system.FlxPhysics;
 introLength = 8;
 var video = new FlxVideoSprite(-320, -180);
@@ -61,6 +64,15 @@ function part1() {
     flor.visible = true;
     slender.visible = true;
     ded.visible = true;
+
+    particles.scale.set(0.8, 0.8);
+	particles.speed.set(250, 250);
+	particles.launchAngle.set(-90, -90);
+	particles.alpha.set(1, 1, 0, 0);
+	particles.angle.set(-180, 30);
+	particles.lifespan.set(4, 4);
+    particles.blend = null;
+	particles.start(false, 0.03);
 }
 function part2() {
     
@@ -131,6 +143,24 @@ function create() {
     video.play();
     video.camera = camCut;
     camCut.alpha = 0;
+
+    particles = new FlxTypedEmitter(-300, 1280);
+    particles.loadParticles(Paths.image("burgerOpti"), 500);
+	particles.scale.set(1.5, 1.5);
+	particles.speed.set(250, 250);
+	particles.launchAngle.set(-90, -90);
+	particles.alpha.set(1, 1, 0, 0);
+	particles.angle.set(-180, 30);
+	particles.width = FlxG.camera.width * 3;
+	particles.lifespan.set(5, 5);
+    particles.blend = BlendMode.LIGHTEN;
+    insert(members.indexOf(flor), particles);
+	particles.start(false, 0.03);
+
+    particles.color.set(
+            0x000000,   // Начальный цвет (красный)
+            0xffae00    // Конечный цвет (желтый)
+        );
 
     //if (FlxG.physics == null) {
     //    FlxG.physics = new flixel.system.FlxPhysics();

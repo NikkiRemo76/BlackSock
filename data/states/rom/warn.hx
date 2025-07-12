@@ -50,7 +50,7 @@ function update(elapsed:Float)
     
     if (controls.ACCEPT) { 
         press = false;
-        FlxG.sound.play(Paths.sound("menu/enter"), 1);
+        FlxG.sound.play(Paths.sound("menu/new/enter"), 1);
 		FlxG.camera.flash(FlxColor.WHITE, 1, function() {
 			FlxG.switchState(new ModState("rom/TitleState"));
 		});
