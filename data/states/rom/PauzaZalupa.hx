@@ -48,6 +48,24 @@ function create(event) {
 
 	FlxTween.tween(glitch, {vertJerkOpt: 0.2, vertMovementOpt: 0.5, bottomStaticOpt: 0.3, scalinesOpt: 0.5, rgbOffsetOpt: 0.2, horzFuzzOpt: 0.2}, 1, {ease: FlxEase.backOut});
 
+	trace(PlayState.SONG.meta.displayName);
+
+	if(PlayState.SONG.meta.displayName == 'burger'){
+		puseArt = new FlxSprite(0, 0);
+    	puseArt.loadGraphic(Paths.image('menus/pause/arts/' + PlayState.SONG.meta.displayName), false, 100, 100); // Замените на свой спрайт
+    	puseArt.scale.set(0.55, 0.55);
+    	puseArt.updateHitbox();
+    	puseArt.screenCenter();
+		puseArt.x += 120;
+		puseArt.y += 50;
+    	puseArt.visible = true;
+		if(curStep < 639){
+			puseArt.color = 0x000000;
+		}
+		add(puseArt);
+	}
+	
+
 	grpMenuShit = new FlxTypedGroup();
 	add(grpMenuShit);
 
