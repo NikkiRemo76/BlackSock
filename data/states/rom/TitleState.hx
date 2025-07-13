@@ -217,7 +217,7 @@ function create() {
         uiAssets.add(ctm);
     }
 
-    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi), Sani4ka ya Punkul, B3br1z, NikkiRemo, ', 60, true);
+    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi), Sani4ka ya Punkul, B3br1z, Shinigami, NikkiRemo, ', 60, true);
     textCre.font = Paths.font("1papyrus.ttf");
     textCre.updateHitbox();
     textCre.visible = false;
