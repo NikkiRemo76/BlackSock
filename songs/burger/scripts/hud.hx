@@ -11,7 +11,7 @@ var shits:Int = 0;
 var scoreTxtTween:FlxTween;
 
 function postCreate(){
-    for(i in [healthBar, healthBarBG, scoreTxt, missesTxt, accuracyTxt]) remove(i);
+    for(i in [healthBar, healthBarBG, scoreTxt, accuracyTxt]) remove(i);
     iconP1.visible = false;
     iconP2.visible = false;
 
