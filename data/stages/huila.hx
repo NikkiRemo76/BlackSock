@@ -119,6 +119,7 @@ function babkaScreamer() {
 }
 
 function create() {
+    hasGameOver = true;
     stat.visible = false;
     runn.visible = false;
     flor.visible = false;

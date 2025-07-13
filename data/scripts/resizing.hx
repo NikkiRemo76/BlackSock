@@ -4,7 +4,7 @@ import funkin.backend.utils.ShaderResizeFix;
 import flixel.system.scaleModes.RatioScaleMode;
 
 public function ratioThing(width:Int,height:Int,?skip:Bool = false){
-	camHUD.fade(FlxColor.BLACK, 0);
+	//camHUD.fade(FlxColor.BLACK, 0);
 	final winYRatio: Float = (1080 / Capabilities.screenResolutionY);
 	final winY = height * winYRatio;
 	final winX = width * winYRatio;
