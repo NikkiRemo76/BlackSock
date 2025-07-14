@@ -21,7 +21,7 @@ function create() {
     menu.scrollFactor.set(0.5, 0.5);
     add(menu);
 
-    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi) - Музыка\nSani4ka ya Punkul - Чарт\nB3br1z - Спрайты\nShinigami - Арт\nNikkiRemo - Код\n\n\nСпасибо что сыграли в Демо\nBlack Sock team', 60, true);
+    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi) - Музыка\nSani4ka ya Punkul - Чарт\nB3br1z - Спрайты\nShinigami - Арт\nNikkiRemo - Код\nAhelichFB - 3 Часа чарта который не используется в моде\n\n\nСпасибо что сыграли в Демо\nBlack Sock team', 60, true);
     textCre.setFormat(Paths.font("1papyrus.ttf"), 50);
     textCre.alignment = 'center';
     textCre.updateHitbox();
