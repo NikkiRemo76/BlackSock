@@ -23,4 +23,7 @@ function update(elapsed:Float) {
     if(video.bitmap.bitmapData != null && start){
         collFunk();
     }
+    if(controls.ACCEPT || controls.BACK){
+        FlxG.switchState(new FreeplayState());
+    }
 }

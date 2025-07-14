@@ -15,7 +15,7 @@ var camES:FlxCamera = new FlxCamera();
 
 var random:FlxRandom = new FlxRandom();
 
-var curWacky:Array<String> = [];
+public var curWacky:Array<String> = [];
 var transitioning:Bool = true;
 
 var code:Int = 0;
@@ -119,6 +119,7 @@ function create() {
     uiAssets.add(statmenu);
 
     curWacky = FlxG.random.getObject(CoolUtil.coolTextFile(Paths.txt("logoTexts")));
+    FlxG.save.data.curWackyfile = curWacky;
 
     trace(curWacky);
     introText = new FlxSprite(149, 23);
@@ -139,6 +140,41 @@ function create() {
         }
     transitioning = false
     FlxTween.tween(title, {alpha:1}, 1.4, {ease: FlxEase.quintOut})]);
+
+    
+    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi), Sani4ka ya Punkul, B3br1z, Shinigami, NikkiRemo, ', 60, true);
+    textCre.font = Paths.font("1papyrus.ttf");
+    textCre.updateHitbox();
+    textCre.visible = false;
+	uiAssets.add(textCre);
+
+    creditsButn = new FlxSprite();
+    creditsButn.makeGraphic(FlxG.camera.width, 100, FlxColor.BLACK);
+    creditsButn.updateHitbox();
+    creditsButn.screenCenter();
+    creditsButn.y -= 320;
+    creditsButn.alpha = 0.0000000001;
+    menuAssets.add(creditsButn);
+    if(FunkinSave.getSongHighscore('burger', 'burger').score == 0){
+        creditsButn.y = 9999999999;
+    }
+
+    backDrop2 = new FlxBackdrop(textCre.pixels, 1,0);
+    backDrop2.scale.set(0.8, 0.8);
+    backDrop2.velocity.x = 50;
+    backDrop2.color = 0x7a7a7a;
+    bgAssets.add(backDrop2);
+    if(FunkinSave.getSongHighscore('burger', 'burger').score == 0){
+        backDrop2.y = 9999999999;
+    }
+
+    backDrop = new FlxBackdrop(textCre.pixels, 1,0);
+    backDrop.scale.set(1, 1);
+    backDrop.velocity.x = -100;
+    menuAssets.add(backDrop);
+    if(FunkinSave.getSongHighscore('burger', 'burger').score == 0){
+        backDrop.y = 9999999999;
+    }
 
     if(curWacky =='masteeeeerd'){
         mas = new FlxSprite(FlxG.width / 2 - 50, FlxG.height / 2 - 100);
@@ -199,6 +235,7 @@ function create() {
         camBG.addShader(whait);
         camMenu.addShader(whait);
         //camUI.addShader(whait);
+
     }else if(curWacky =='Friend'){
         Conductor.changeBPM(180);
         gray = new CustomShader('gray');
@@ -217,45 +254,22 @@ function create() {
         uiAssets.add(ctm);
     }
 
-    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi), Sani4ka ya Punkul, B3br1z, Shinigami, NikkiRemo, ', 60, true);
-    textCre.font = Paths.font("1papyrus.ttf");
-    textCre.updateHitbox();
-    textCre.visible = false;
-	uiAssets.add(textCre);
-
-    backDrop2 = new FlxBackdrop(textCre.pixels, 1,0);
-    backDrop2.scale.set(0.8, 0.8);
-    backDrop2.velocity.x = 50;
-    backDrop2.color = 0x7a7a7a;
-    bgAssets.add(backDrop2);
-    if(FunkinSave.getSongHighscore('burger', 'burger').score == 0){
-        backDrop2.y = 9999999999;
-    }
-
-    backDrop = new FlxBackdrop(textCre.pixels, 1,0);
-    backDrop.scale.set(1, 1);
-    backDrop.velocity.x = -100;
-    menuAssets.add(backDrop);
-    if(FunkinSave.getSongHighscore('burger', 'burger').score == 0){
-        backDrop.y = 9999999999;
-    }
-
     particles = new FlxTypedEmitter(-300, 1280);
     particles.loadParticles(Paths.image("menus/title/texture"), 500);
 	particles.scale.set(0.2, 0.2);
 	particles.speed.set(250, 250);
-	particles.launchAngle.set(-90, -90);
+	particles.launchAngle.set(-90,-90);
 	particles.alpha.set(1, 1, 0, 0);
 	particles.angle.set(-180, 30);
 	particles.width = FlxG.camera.width * 3;
-	particles.lifespan.set(5, 5);
+	particles.lifespan.set(6, 4);
     particles.blend = BlendMode.LIGHTEN;
 	menuAssets.add(particles);
 	particles.start(false, 0.03);
 
     particles.color.set(
-            0xff0000,   // Начальный цвет (красный)
-            0xffae00    // Конечный цвет (желтый)
+            0xff7b00,   // Начальный цвет (красный)
+            0xff0000    // Конечный цвет (желтый)
         );
 
     fg = new FlxSprite(149, 23);
@@ -297,12 +311,13 @@ function stepHit(curStep:Int) {
                 FlxTween.tween(camMenu, {zoom: 5}, 50);
                 FlxTween.tween(camBG, {zoom: 5}, 50);
                 camBG.addShader(gray);
+                camUI.addShader(gray);
                 camMenu.addShader(gray);
             case 220:
                 FlxTween.tween(ctm, {alpha:0.5, x: ctm.x + 75}, 1, {ease: FlxEase.quintOut});
             case 270:
                 FlxTween.tween(ctm, {alpha:1, x: ctm.x + 75}, 1, {ease: FlxEase.quintOut});
-            case 300:
+            case 310:
                 Sys.exit(0);
         }
     }
@@ -361,6 +376,12 @@ function update(elapsed:Float) {
 	        	    }
                     //FlxG.switchState(new ModState('rom/Loader'))]);
                     FlxG.switchState(new PlayState())]);
+                }
+            }
+        
+            if (FlxG.mouse.overlaps(creditsButn)){
+                if(FlxG.mouse.justPressed){
+                    FlxG.switchState(new ModState('rom/CreditsStateConcept'));
                 }
             }
 

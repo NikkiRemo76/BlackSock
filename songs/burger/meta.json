@@ -1,16 +1,1 @@
-{
-	"beatsPerMeasure": 4,
-	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"bpm": 90,
-	"difficulties": [
-		"burger"
-	],
-	"parsedColor": -7179779,
-	"displayName": "burger",
-	"icon": "face",
-	"name": "burger",
-	"color": "#9271FD",
-	"customValues": {}
-}
+{"opponentModeAllowed":false,"difficulties":["burger","test1","test2"],"icon":"face","parsedColor":-7179779,"coopAllowed":false,"name":"burger","color":"#9271FD","customValues":{},"stepsPerBeat":4,"displayName":"burger","beatsPerMeasure":4,"bpm":90}
