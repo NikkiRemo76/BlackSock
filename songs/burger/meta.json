@@ -1,1 +1,22 @@
-{"opponentModeAllowed":false,"difficulties":["burger","test1","test2"],"icon":"face","parsedColor":-7179779,"coopAllowed":false,"name":"burger","color":"#9271FD","customValues":{},"stepsPerBeat":4,"displayName":"burger","beatsPerMeasure":4,"bpm":90}
+{
+	"color": "#9271FD",
+	"customValues": {
+		"composer": "MC.Yug_i (aka.yugiguyi)",
+		"chart": "Sani4ka ya Punkul",
+		"art": "B3br1z ft. MC.Yug_i (aka.yugiguyi)",
+		"code": "NikkiRemo"
+	},
+	"opponentModeAllowed": false,
+	"icon": "face",
+	"difficulties": [
+		"burger",
+		"test1",
+		"old"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "burger",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 160
+}

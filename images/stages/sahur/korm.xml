@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="korm.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bb0000" x="11" y="11" width="897" height="696" frameX="0" frameY="-52" frameWidth="897" frameHeight="748"/>
+	<SubTexture name="bb0001" x="11" y="11" width="897" height="696" frameX="0" frameY="-52" frameWidth="897" frameHeight="748"/>
+	<SubTexture name="bb0002" x="919" y="11" width="859" height="748" frameX="-14" frameY="0" frameWidth="897" frameHeight="748"/>
+</TextureAtlas>

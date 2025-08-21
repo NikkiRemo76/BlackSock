@@ -21,23 +21,6 @@ function create() {
     menu.scrollFactor.set(0.5, 0.5);
     add(menu);
 
-    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi) - Музыка\nSani4ka ya Punkul - Чарт\nB3br1z - Спрайты\nShinigami - Арт\nNikkiRemo - Код\nAhelichFB - 3 Часа чарта который\nНЕ\nиспользуется в моде\n\n\nСпасибо что сыграли в Демо\nBlack Sock', 60, true);
-    textCre.setFormat(Paths.font("1papyrus.ttf"), 50);
-    textCre.alignment = 'center';
-    textCre.updateHitbox();
-    textCre.screenCenter();
-    //textCre.borderSize = 1.25;
-    textCre.y = 900;
-	add(textCre);
-
-    logo = new FlxSprite(0, 0);
-    logo.loadGraphic(Paths.image('menus/title/logoCompres'), false, 100, 100); // Замените на свой спрайт
-    logo.scale.set(0.6, 0.6);
-    logo.updateHitbox();
-    logo.screenCenter();
-    logo.visible = true;
-	add(logo);
-
     particles = new FlxTypedEmitter(-300, 1280);
     particles.loadParticles(Paths.image("menus/title/texture"), 500);
 	particles.scale.set(0.2, 0.2);
@@ -55,13 +38,41 @@ function create() {
             0xff7b00,   // Начальный цвет (красный)
             0xff0000    // Конечный цвет (желтый)
     );
+
+    bgB = new FlxSprite(-700, 0);
+    bgB.makeGraphic(1400, 1400, FlxColor.BLACK);
+    add(bgB);
+    bgB.scale.set(3, 3);
+    bgB.scrollFactor.set(0,0);
+    bgB.alpha = 0;
+    //bgB.blend = BlendMode.SUBTRACT;
+
+    textCre = new FlxText(0, 0, 0, 'MC.Yug_i (aka.yugiguyi) - Музыка\nSani4ka ya Punkul - Чарт\nB3br1z - Спрайты\nShinigami - Арт\nNikkiRemo - Код\nAhelichFB - 3 Часа чарта который\nНЕ\nиспользуется в моде\n\n\nСпасибо что сыграли в Демо\nBlack Sock', 60, true);
+    textCre.setFormat(Paths.font("1papyrus.ttf"), 50);
+    textCre.alignment = 'right';
+    textCre.updateHitbox();
+    textCre.screenCenter();
+    //textCre.borderSize = 1.25;
+    textCre.y = 900;
+    textCre.x = 450;
+	add(textCre);
+
+    logo = new FlxSprite(0, 0);
+    logo.loadGraphic(Paths.image('menus/title/logoCompres'), false, 100, 100); // Замените на свой спрайт
+    logo.scale.set(0.6, 0.6);
+    logo.updateHitbox();
+    logo.screenCenter();
+    logo.visible = true;
+	add(logo);
+
     FlxG.sound.music.fadeOut(30, 0, 0);
 }
 
 function update(elapsed:Float) {
+    bgB.alpha += 0.0001;
     textCre.y -= 0.2;
     if(textCre.y < 720){
-        logo.y -= 0.2;
+        FlxTween.tween(logo, {x: 0, 'scale.x': 0.5, 'scale.y': 0.5}, 1.4, {ease: FlxEase.quintOut});
     }
     if(controls.ACCEPT || controls.BACK || textCre.y< -720){
         FlxG.switchState(new FreeplayState());

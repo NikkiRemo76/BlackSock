@@ -23,7 +23,7 @@ static var optionsSelectedSomethin:Bool = false;
 
 static var redirectStates:Map<FlxState, String> = [
     BetaWarningState => "rom/warn",
-    TitleState => "rom/TitleState",
+    TitleState => "rom/TitleSta",
     MainMenuState => "rom/TitleState",
     StoryMenuState => "rom/TitleState",
     FreeplayState => "rom/TitleState",
@@ -62,8 +62,8 @@ function preStateSwitch()
         window.title = windowTitleFake;
     }
 
-    Main.framerateSprite.codenameBuildField.y =  Main.framerateSprite.memoryCounter.y;
-    Main.framerateSprite.memoryCounter.visible = false;
+    //Main.framerateSprite.codenameBuildField.y =  Main.framerateSprite.memoryCounter.y;
+    //Main.framerateSprite.memoryCounter.visible = true;
 
     FlxG.camera.bgColor = 0x00000000;
     FlxG.mouse.visible = true;

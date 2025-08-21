@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rur.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="run0000" x="11" y="11" width="513" height="396" frameX="-9" frameY="-16" frameWidth="522" frameHeight="445"/>
+	<SubTexture name="run0001" x="11" y="11" width="513" height="396" frameX="-9" frameY="-16" frameWidth="522" frameHeight="445"/>
+	<SubTexture name="run0002" x="535" y="11" width="510" height="349" frameX="-6" frameY="-10" frameWidth="522" frameHeight="445"/>
+	<SubTexture name="run0003" x="535" y="11" width="510" height="349" frameX="-6" frameY="-10" frameWidth="522" frameHeight="445"/>
+	<SubTexture name="run0004" x="1056" y="11" width="506" height="441" frameX="-4" frameY="-4" frameWidth="522" frameHeight="445"/>
+	<SubTexture name="run0005" x="1056" y="11" width="506" height="441" frameX="-4" frameY="-4" frameWidth="522" frameHeight="445"/>
+	<SubTexture name="run0006" x="11" y="463" width="497" height="359" frameX="-8" frameY="-2" frameWidth="522" frameHeight="445"/>
+	<SubTexture name="run0007" x="11" y="463" width="497" height="359" frameX="-8" frameY="-2" frameWidth="522" frameHeight="445"/>
+	<SubTexture name="run0008" x="519" y="463" width="499" height="433" frameX="0" frameY="0" frameWidth="522" frameHeight="445"/>
+</TextureAtlas>

@@ -22,7 +22,6 @@ var code:Int = 0;
 
 function create() {
     FlxG.sound.playMusic(Paths.music('freakyMenu'), 0, true);
-    Conductor.changeBPM(166);
 
 	if (FlxG.sound.music != null && FlxG.sound.music.volume == 0) {
 		FlxG.sound.music.fadeIn(5, 0, 0.7);
@@ -134,11 +133,11 @@ function create() {
     uiAssets.add(introText);
 
     new FlxTimer().start(2, (_) -> 
-    [FlxTween.tween(introText, {alpha:0}, 1.4, {ease: FlxEase.quintOut})
+    [FlxTween.tween(introText, {alpha:0}, 1.4, {ease: FlxEase.quintOut}),
         if(FlxG.save.data.songFinished100){
             onSongFinished();
-        }
-    transitioning = false
+        },
+    transitioning = false,
     FlxTween.tween(title, {alpha:1}, 1.4, {ease: FlxEase.quintOut})]);
 
     
@@ -364,8 +363,8 @@ function update(elapsed:Float) {
 	        		//CoolUtil.playMenuSFX("menu/confirm");
 	        		new FlxTimer().start(1.4, (_) -> [
                     
-                    PlayState.loadSong('burger', 'burger')
-                    PlayState.isStoryMode = true
+                    PlayState.loadSong('burger', 'burger'),
+                    PlayState.isStoryMode = true,
 	        	    PlayState.storyWeek = {
 	        	    	name: 'burger',
 	        	    	id: '',
@@ -373,7 +372,7 @@ function update(elapsed:Float) {
 	        	    	chars: [null, null, null],
 	        	    	songs: [],
 	        	    	difficulties: ['burger']
-	        	    }
+	        	    },
                     //FlxG.switchState(new ModState('rom/Loader'))]);
                     FlxG.switchState(new PlayState())]);
                 }
@@ -448,8 +447,8 @@ function update(elapsed:Float) {
 			//CoolUtil.playMenuSFX("menu/confirm");
 			new FlxTimer().start(1.4, (_) -> [
             
-            PlayState.loadSong('burger', 'burger')
-            PlayState.isStoryMode = true
+            PlayState.loadSong('burger', 'burger'),
+            PlayState.isStoryMode = true,
 		    PlayState.storyWeek = {
 		    	name: 'burger',
 		    	id: '',
@@ -457,7 +456,7 @@ function update(elapsed:Float) {
 		    	chars: [null, null, null],
 		    	songs: [],
 		    	difficulties: ['burger']
-		    }
+		    },
             //FlxG.switchState(new ModState('rom/Loader'))]);
             FlxG.switchState(new PlayState())]);
 		};

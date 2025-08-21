@@ -15,7 +15,7 @@ function collFunk() {
     start = false;
     FlxG.save.data.songFinished100 = false;
     new FlxTimer().start(50, (_) -> 
-    [FlxG.switchState(new TitleState())
+    [FlxG.switchState(new TitleState()),
     FlxG.sound.playMusic(null, 0, true)]);
 }
 function update(elapsed:Float) {

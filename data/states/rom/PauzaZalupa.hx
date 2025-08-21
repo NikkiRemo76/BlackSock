@@ -111,6 +111,14 @@ function create(event) {
     logo.visible = true;
 	add(logo);
 
+	infoTxt= new FlxText(430, 25, 0, 'Composers: ' + PlayState.SONG.meta.customValues.composer + '\nChart:' + PlayState.SONG.meta.customValues.chart + '\nArt:' + PlayState.SONG.meta.customValues.art + '\nCode:' + PlayState.SONG.meta.customValues.code, 8);
+	infoTxt.scrollFactor.set();
+	infoTxt.setFormat(Paths.font("joystix monospace.otf"), 150, FlxColor.WHITE, FlxText.LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+	infoTxt.scale.set(0.12, 0.12);
+	infoTxt.alignment = 'right';
+	infoTxt.updateHitbox();
+	add(infoTxt);
+
 	cameras = [pauseCam];
 }
 

@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" antialiasing="false" y="300" sprite="tung rung" camx="30" icon="sahur" scale="2.5" camy="-110">
+	<anim loop="true" name="idle" anim="idle"/>
+
+	<anim x="30" name="singDOWN" anim="down"/>
+
+	<anim x="-20" name="singRIGHT" anim="right" y="25"/>
+
+	<anim x="65" name="singLEFT" anim="left" y="30"/>
+
+	<anim x="160" name="singUP" anim="up" y="100"/>
+</character>

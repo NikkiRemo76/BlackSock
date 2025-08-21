@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="eaaa" antialiasing="false" icon="pizdun">
+	<anim name="idle" anim="pizdun"/>
+</character>
