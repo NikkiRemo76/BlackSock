@@ -85,17 +85,6 @@
 		},
 		{
 			"params": [
-				0,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"time": 54620.6896551724,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
 				false,
 				-1,
 				16,
@@ -103,6 +92,22 @@
 			],
 			"time": 54620.6896551724,
 			"name": "Camera Flash"
+		},
+		{
+			"params": [
+				"tung",
+				"1"
+			],
+			"time": 54620.6896551724,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"tung",
+				"2"
+			],
+			"time": 93931.0344827586,
+			"name": "HScript Call"
 		}
 	],
 	"strumLines": [
@@ -1486,11 +1491,20 @@
 				}
 			],
 			"position": "boyfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
 			"visible": true,
 			"type": 1,
 			"characters": [
-				"bf"
-			]
+				"bf",
+				"bfRun"
+			],
+			"strumPos": [
+				0,
+				50
+			],
+			"vocalsSuffix": "",
+			"strumLinePos": 0.75
 		},
 		{
 			"keyCount": 4,

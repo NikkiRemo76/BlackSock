@@ -23,7 +23,7 @@ static var optionsSelectedSomethin:Bool = false;
 
 static var redirectStates:Map<FlxState, String> = [
     BetaWarningState => "rom/warn",
-    TitleState => "rom/TitleSta",
+    TitleState => "rom/TitleState",
     MainMenuState => "rom/TitleState",
     StoryMenuState => "rom/TitleState",
     FreeplayState => "rom/TitleState",

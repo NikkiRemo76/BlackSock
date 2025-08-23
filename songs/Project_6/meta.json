@@ -1,0 +1,20 @@
+{
+	"color": "#FFFFFF",
+	"customValues": {
+		"chart": "Sani4ka ya Punkul",
+		"composer": "MC.Yug_i (aka.yugiguyi)",
+		"code": "NikkiRemo",
+		"art": "B3br1z ft. MC.Yug_i (aka.yugiguyi)"
+	},
+	"opponentModeAllowed": true,
+	"icon": "face",
+	"difficulties": [
+		"bomber"
+	],
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Project_6",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 137
+}

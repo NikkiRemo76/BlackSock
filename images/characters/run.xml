@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="run.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idling0000" x="11" y="11" width="272" height="289" frameX="-11" frameY="-13" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0001" x="11" y="11" width="272" height="289" frameX="-11" frameY="-13" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0002" x="294" y="11" width="276" height="292" frameX="-6" frameY="-10" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0003" x="294" y="11" width="276" height="292" frameX="-6" frameY="-10" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0004" x="581" y="11" width="277" height="300" frameX="-2" frameY="-2" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0005" x="581" y="11" width="277" height="300" frameX="-2" frameY="-2" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0006" x="869" y="11" width="277" height="301" frameX="-1" frameY="-1" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0007" x="869" y="11" width="277" height="301" frameX="-1" frameY="-1" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0008" x="1157" y="11" width="277" height="302" frameX="0" frameY="0" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0009" x="1157" y="11" width="277" height="302" frameX="0" frameY="0" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0010" x="1157" y="11" width="277" height="302" frameX="0" frameY="0" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0011" x="1157" y="11" width="277" height="302" frameX="0" frameY="0" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0012" x="1157" y="11" width="277" height="302" frameX="0" frameY="0" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0013" x="1157" y="11" width="277" height="302" frameX="0" frameY="0" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0014" x="1445" y="11" width="275" height="300" frameX="-7" frameY="-2" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="idling0015" x="1445" y="11" width="275" height="300" frameX="-7" frameY="-2" frameWidth="283" frameHeight="302"/>
+	<SubTexture name="runing0000" x="1731" y="11" width="242" height="294" frameX="-46" frameY="0" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0001" x="1731" y="11" width="242" height="294" frameX="-46" frameY="0" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0002" x="11" y="324" width="245" height="296" frameX="-44" frameY="-1" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0003" x="11" y="324" width="245" height="296" frameX="-44" frameY="-1" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0004" x="267" y="324" width="245" height="279" frameX="-43" frameY="-13" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0005" x="267" y="324" width="245" height="279" frameX="-43" frameY="-13" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0006" x="523" y="324" width="263" height="276" frameX="-25" frameY="-10" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0007" x="523" y="324" width="263" height="276" frameX="-25" frameY="-10" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0008" x="797" y="324" width="287" height="282" frameX="0" frameY="-1" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0009" x="797" y="324" width="287" height="282" frameX="0" frameY="-1" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0010" x="1095" y="324" width="283" height="284" frameX="0" frameY="0" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0011" x="1095" y="324" width="283" height="284" frameX="0" frameY="0" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0012" x="1389" y="324" width="257" height="283" frameX="-24" frameY="-4" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0013" x="1389" y="324" width="257" height="283" frameX="-24" frameY="-4" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0014" x="1657" y="324" width="252" height="290" frameX="-27" frameY="-11" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0015" x="1657" y="324" width="252" height="290" frameX="-27" frameY="-11" frameWidth="289" frameHeight="301"/>
+	<SubTexture name="runing0016" x="11" y="631" width="253" height="281" frameX="-32" frameY="-12" frameWidth="289" frameHeight="301"/>
+</TextureAtlas>

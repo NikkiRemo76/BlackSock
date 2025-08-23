@@ -426,15 +426,15 @@ function update(elapsed:Float) {
 				code == 0;
             }
 			else if (code == 5)
+			{
+                FlxG.sound.play(Paths.sound('buk/satro'));
+				new FlxTimer().start(1.6, function(tmr:FlxTimer)
 				{
-                    FlxG.sound.play(Paths.sound('buk/satro'));
-					new FlxTimer().start(1.6, function(tmr:FlxTimer)
-					{
-				    	transitioning = true;
-				    	FlxG.switchState(new ModState('rom/satro9mins'));
-					});
+			    	transitioning = true;
+			    	FlxG.switchState(new ModState('rom/satro9mins'));
+				});
     
-				}
+			}
 
     if (pressedEnter || pressedSpace) {
 		if (!transitioning){

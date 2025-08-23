@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-20" antialiasing="false" camx="110" sprite="ivanzolo" y="20" camy="60" scale="2.5">
+	<anim anim="idle" name="idle"/>
+
+	<anim x="-50" y="-120" anim="down" name="singDOWN"/>
+
+	<anim x="-160" y="-105" anim="right" name="singRIGHT"/>
+
+	<anim x="5" y="-20" anim="left" name="singLEFT"/>
+
+	<anim x="-30" y="35" anim="up" name="singUP"/>
+</character>

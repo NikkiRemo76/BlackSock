@@ -1,20 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character x="-50" y="380" camx="-100" scale="1.8" camy="80" flipX="true" isPlayer="true">
+<character x="-50" y="380" scale="1.8" antialiasing="false" flipX="true" camx="-100" camy="80" isPlayer="true" icon="bfdog" color="#9AD6E7">
 	<anim name="idle" anim="idle"/>
-
-	<anim x="-43" name="singDOWN" anim="down" y="-40"/>
-
-	<anim x="-47" name="singRIGHT" anim="right" y="-36"/>
-
-	<anim x="-10" name="singLEFT" anim="left" y="-25"/>
-
-	<anim x="-30" name="singUP" anim="up" y="-5"/>
-
-	<anim x="-20" name="singUPmiss" anim="miss" y="17"/>
-
-	<anim x="-20" name="singLEFTmiss" anim="miss" y="17"/>
-
-	<anim x="-20" name="singRIGHTmiss" anim="miss" y="17"/>
-
-	<anim x="-20" name="singDOWNmiss" anim="miss" y="17"/>
+	<anim name="singDOWN" anim="down" x="-43" y="-40"/>
+	<anim name="singRIGHT" anim="right" x="-47" y="-36"/>
+	<anim name="singLEFT" anim="left" x="-10" y="-25"/>
+	<anim name="singUP" anim="up" x="-30" y="-5"/>
+	<anim name="singUPmiss" anim="miss" x="-20" y="17"/>
+	<anim name="singLEFTmiss" anim="miss" x="-20" y="17"/>
+	<anim name="singRIGHTmiss" anim="miss" x="-20" y="17"/>
+	<anim name="singDOWNmiss" anim="miss" x="-20" y="17"/>
 </character>

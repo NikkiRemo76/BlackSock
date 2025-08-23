@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" antialiasing="false" icon="mrPyatorkaEnd" sprite="pytorka (2)" y="420" scale="1.5" isPlayer="true" flipX="true">
+	<anim anim="idle" name="idle"/>
+
+	<anim x="14" y="-70" anim="down" name="singDOWN"/>
+
+	<anim x="-5" y="20" anim="right" name="singRIGHT"/>
+
+	<anim x="1" y="37" anim="left" name="singLEFT"/>
+
+	<anim x="-2" y="40" anim="up" name="singUP"/>
+</character>

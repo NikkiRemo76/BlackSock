@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-50" y="380" sprite="run" scale="1.8" flipX="true" isPlayer="true" icon="bfdog" color="#9AD6E7">
+	<anim name="idle" anim="idling"/>
+	<anim name="singDOWN" anim="runing" loop="true"/>
+	<anim name="singRIGHT" anim="runing" loop="true"/>
+	<anim name="singLEFT" anim="runing" loop="true"/>
+	<anim name="singUP" anim="runing" loop="true"/>
+</character>

@@ -1,17 +1,23 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="stages/sahur/" name="TungTung" zoom="1">
-
-    <sprite x="2200" y="200" alpha="1" scale="1.5" type="loop" sprite="rur" name="slender">
-        <!-- your sprites anims here (use the "Sprite Animation" Snippet) -->
-        <anim name="idle" anim="run" loop="true"/>
-    </sprite>
-
-    <sprite x="0" y="200" alpha="1" scale="1" type="loop" sprite="korm" name="kushat">
-        <!-- your sprites anims here (use the "Sprite Animation" Snippet) -->
-        <anim name="idle" anim="bb" loop="true"/>
-    </sprite>
+	<sprite x="2200" sprite="rur" y="200" type="beat" scale="1.5" name="slender"/>
+	<sprite x="-1300" scroll="1.2" sprite="korm" scale="0.6" name="kushat"/>
+	<sprite antialiasing="false" x="183" scroll="0.9" sprite="goblin" y="156" name="goblin"/>
+	<sprite type="none" x="20000" sprite="end" name="endSprite"/>
+	<sprite x="6813" scroll="0.9" sprite="6" y="120" type="none" name="sprite_7"/>
+	<sprite x="4026" y="190" type="none" angle="-62.49" name="sprite_8" sprite="9k" scroll="0.8" scalex="4.19" scaley="4.97"/>
+	<sprite x="3392" scroll="0.7" sprite="78955138" y="460" type="none" scaley="1.66" name="sprite_9"/>
+	<sprite x="8015" y="29" type="none" angle="26.49" name="sprite_10" sprite="6788915954" scroll="0.6" skewx="50" scaley="0.97"/>
+	<sprite x="4871.80748224933" scroll="0.5" sprite="attachmen_t" y="468.817370576232" type="none" scalex="14.82" scaley="2.62" name="sprite_11"/>
+	<sprite x="12081" scroll="1.1" sprite="grin" y="244" type="none" scalex="0.4" angle="93.11" name="sprite_12"/>
+	<sprite x="5233" y="97" type="none" angle="-0.85" name="sprite_13" sprite="harlamov" scroll="1.2" scalex="1.1" scaley="0.96"/>
+	<sprite x="14127" scroll="1.3" sprite="hui" y="343" type="none" scalex="2.17" scaley="1.81" name="sprite_14"/>
+	<sprite x="15991" scroll="1.4" sprite="huje" y="154" type="none" scalex="2.02" scaley="1.08" name="sprite_15"/>
+	<sprite x="11361.74" y="260.999709954843" type="none" angle="19.75" name="sprite_16" sprite="image" scroll="1.5" scalex="1.57278145695364" scaley="1.14515151515152" skewy="-0.479988398193714"/>
+	<sprite x="12901.0964502121" sprite="kot" y="313.843254844372" type="none" scalex="0.359560841720037" angle="-0.0807659760004213" scaley="0.287037037037038" name="sprite_17"/>
+	<sprite x="18985.9190468908" sprite="c569b4f8104c96a760be3eb9d8ce28ea" y="316.913761262464" type="none" scalex="4.7605260712886" scaley="3.30107824243062" name="sprite_18"/>
 	<girlfriend/>
 	<dad x="-409" y="125"/>
-	<boyfriend  x="1123" y="125"/>
-	<char x="1361" y="128" name="character_3"/>
+	<boyfriend x="850" y="125"/>
+    <char x="1361" y="128" name="character_3"/>
 </stage>
