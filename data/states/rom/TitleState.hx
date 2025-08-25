@@ -59,8 +59,11 @@ function create() {
     FlxG.camera = camBG;
 
     heatShader = new CustomShader('heatShader');
-    camBG.addShader(heatShader);
-    camMenu.addShader(heatShader);
+    if(FlxG.save.data.turningShaders){
+        camBG.addShader(heatShader);
+        camMenu.addShader(heatShader);
+    }
+    
 
     menu = new FlxSprite(149, 23);
 	menu.frames = Paths.getSparrowAtlas('menus/title/testSparow');
@@ -309,9 +312,12 @@ function stepHit(curStep:Int) {
             case 120:
                 FlxTween.tween(camMenu, {zoom: 5}, 50);
                 FlxTween.tween(camBG, {zoom: 5}, 50);
-                camBG.addShader(gray);
-                camUI.addShader(gray);
-                camMenu.addShader(gray);
+                if(FlxG.save.data.turningShaders){
+                    camBG.addShader(gray);
+                    camUI.addShader(gray);
+                    camMenu.addShader(gray);
+                }
+                
             case 220:
                 FlxTween.tween(ctm, {alpha:0.5, x: ctm.x + 75}, 1, {ease: FlxEase.quintOut});
             case 270:
@@ -334,9 +340,10 @@ function update(elapsed:Float) {
     camBG.scroll.x = FlxMath.lerp(camBG.scroll.x, (FlxG.mouse.screenX-(FlxG.width/2)) * 0.015, (1/30)*240*elapsed);
 	camBG.scroll.y = FlxMath.lerp(camBG.scroll.y, (FlxG.mouse.screenY-6-(FlxG.height/2)) * 0.015, (1/30)*240*elapsed);
 
-	if (FlxG.keys.justPressed.SEVEN) {
+    if(FlxG.save.data.debugMode && FlxG.keys.justPressed.SEVEN){
 		openSubState(new EditorPicker());
-	}
+	    
+    }
 
 	if (FlxG.keys.justPressed.TAB) {
 		openSubState(new ModSwitchMenu());

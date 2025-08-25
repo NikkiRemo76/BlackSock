@@ -1,0 +1,15 @@
+<!DOCTYPE codename-mod-options>
+<!-- TEMPLATE FOR CUSTOM OPTIONS!!! -->
+<menu name="BLACKSOCK OPTIONS" desc="настройки для этой конченой хуйни">
+	<checkbox id="twitchMod" name="Twitch mode" desc="Вырезает осужденку и всякую такую хуйню"/>
+	<checkbox id="debugMode" name="Debug mode" desc="Включает дебаг меню в титульнике"/>
+	<menu name="Graphics Settings" desc="suck my dick">
+		<checkbox id="turningShaders" name="Shaders" desc="Включает или выключает шейдеры в моде"/>
+	</menu>
+	<number id="numberExample" name="Number example" min="0" max="10" change="1"/>
+	<choice id="choiceExample" name="Choice Example">
+		<value name="Disabled" value="disabled"/>
+		<value name="This only" value="thisOnly"/>
+		<value name="All" value="all"/>
+	</choice>
+</menu>

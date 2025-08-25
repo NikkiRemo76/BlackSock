@@ -2,9 +2,12 @@ glitchA = new CustomShader('Aura');
 redpal = new CustomShader('Red');
 glitchShaderA = new CustomShader('GlitchShaderA');
 //camHUD.addShader(glitchA);
-camGame.addShader(glitchA);
-camGame.addShader(redpal);
-camGame.addShader(glitchShaderA);
+if(FlxG.save.data.turningShaders){
+    camGame.addShader(glitchA);
+    camGame.addShader(redpal);
+    camGame.addShader(glitchShaderA);
+}
+
 //camHUD.addShader(glitchShaderA);
 glitchShaderA.glitchAmount = 0.0001;
 //jpeg.u_alpha = 0;

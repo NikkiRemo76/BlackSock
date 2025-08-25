@@ -37,7 +37,9 @@ function create(event) {
     pauseCam.alpha = 0;
     FlxTween.tween(pauseCam, {alpha: 1, zoom: 1}, .5, {ease: FlxEase.cubeOut});
 	glitch = new CustomShader('anotherGlitchShader');
-    pauseCam.addShader(glitch);
+	if(FlxG.save.data.turningShaders){
+        pauseCam.addShader(glitch);
+    }
 
 	glitch.vertJerkOpt     = 0.0;
 	glitch.vertMovementOpt = 0.0;

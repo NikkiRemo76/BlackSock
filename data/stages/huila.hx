@@ -77,7 +77,10 @@ function part1() {
 function part2() {
     
     FlxTween.tween(ded, {y: -200}, 1, {ease: FlxEase.backOut});
-    stat.shader = jpeg;
+    if(FlxG.save.data.turningShaders){
+        stat.shader = jpeg;
+    }
+    
 }
 function end() {
     FlxTween.tween(camCut, {alpha: 0}, 20);

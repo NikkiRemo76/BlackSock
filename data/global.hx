@@ -68,6 +68,16 @@ function preStateSwitch()
     FlxG.camera.bgColor = 0x00000000;
     FlxG.mouse.visible = true;
 
+    if(FlxG.save.data.debugMode == null){
+        FlxG.save.data.debugMode = false;
+    }
+    if(FlxG.save.data.twitchMod == null){
+        FlxG.save.data.twitchMod = false;
+    }
+    if(FlxG.save.data.turningShaders == null){
+        FlxG.save.data.twitchMod = true;
+    }
+
     for (redirectState in redirectStates.keys()) 
         if (Std.isOfType(FlxG.game._requestedState, redirectState)) 
             FlxG.game._requestedState = new ModState(redirectStates.get(redirectState));

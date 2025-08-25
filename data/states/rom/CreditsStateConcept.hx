@@ -5,7 +5,10 @@ import flixel.text.FlxTextBorderStyle;
 function create() {
     if(FlxG.save.data.curWackyfile == 'windings'){
         heatShader = new CustomShader('White');
-        FlxG.camera.addShader(heatShader);
+        if(FlxG.save.data.turningShaders){
+            FlxG.camera.addShader(heatShader);
+        }
+        
     }
 
     trace(FlxG.save.data.curWackyfile);

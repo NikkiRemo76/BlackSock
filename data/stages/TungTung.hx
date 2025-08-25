@@ -29,7 +29,10 @@ function postCreate() {
     //strumLines.members[1].characters[1].y += 100;
 
     //camGame.addShader(wave);
-    camHUD.addShader(wave);
+    if(FlxG.save.data.turningShaders){
+        camHUD.addShader(wave);
+    }
+    
     wave.frequency = 0;
     wave.amplitude = 0;
     goblin.animation.addByPrefix('ni', 'KRICHITSUCHKA0', 24, true);

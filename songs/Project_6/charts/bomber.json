@@ -120,9 +120,12 @@
 			"name": "Camera Movement"
 		}
 	],
+	"codenameChart": true,
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 1,
@@ -1938,7 +1941,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 1861.31386861322,
+					"sLen": 1861.31386861324,
 					"time": 129635.03649635,
 					"type": 0
 				},
@@ -2807,23 +2810,23 @@
 					"type": 0
 				}
 			],
+			"characters": [
+				"IvanEnd"
+			],
+			"type": 0,
 			"visible": true,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"vocalsSuffix": " (3)",
 			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"IvanEnd"
-			]
+			"vocalsSuffix": " (3)"
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 0,
@@ -5508,35 +5511,40 @@
 					"type": 0
 				}
 			],
+			"characters": [
+				"mrPyatorkaEnd"
+			],
+			"type": 1,
 			"visible": true,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"vocalsSuffix": " (1)",
 			"strumLinePos": 0.75,
-			"type": 1,
-			"characters": [
-				"mrPyatorkaEnd"
-			]
+			"vocalsSuffix": " (1)"
 		},
 		{
 			"keyCount": 4,
 			"notes": [],
-			"position": "girlfriend",
 			"visible": false,
+			"strumSpacing": 1,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25,
 			"type": 2,
 			"characters": [
-				"gf"
+				"nikto"
 			]
 		}
 	],
-	"codenameChart": true,
 	"scrollSpeed": 3.5,
 	"chartVersion": "1.6.0",
-	"stage": "stage",
+	"stage": "Stage Name",
 	"noteTypes": []
 }

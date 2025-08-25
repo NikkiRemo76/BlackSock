@@ -37,7 +37,10 @@ function create() {
     add(txt4);
 
     heatShader = new CustomShader('heatShader');
-    FlxG.camera.addShader(heatShader);
+    if(FlxG.save.data.turningShaders){
+        FlxG.camera.addShader(heatShader);
+    }
+    
 }
 var press:Bool = true;
 var localTime:Float = 0;

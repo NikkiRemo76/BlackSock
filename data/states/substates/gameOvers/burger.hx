@@ -51,8 +51,10 @@ function create() {
         canResrt = true
     ]);
 
+    if(FlxG.save.data.turningShaders){
+        video.shader = glitchShaderA;
+    }
     
-    video.shader = glitchShaderA;
     if(curStep < 639){
         glitchShaderA.glitchAmount = 99999999999;
     }else {

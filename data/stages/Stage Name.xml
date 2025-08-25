@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/e/" name="Stage Name" zoom="0.8">
+	<sprite x="-909.362470203342" scroll="0.6" sprite="bg" y="-680.180956237253" type="none" name="sprite_3"/>
+	<sprite x="-1029.81513966089" scroll="0.7" sprite="sun" y="-601.363027932178" type="none" name="sprite_4"/>
+	<sprite x="-953.817370503298" scroll="0.8" sprite="trees" y="-535.727171263552" type="none" name="sprite_5"/>
+	<sprite x="-929.78348590092" scroll="0.9" sprite="zolo" y="-559.10792884945" type="none" name="sprite_6"/>
+	<sprite x="-902.590880133204" sprite="ground" y="-593.616575613933" type="none" name="sprite_7"/>
+	<girlfriend x="301" y="160"/>
+	<dad x="-37"/>
+	<boyfriend x="942"/>
+</stage>
